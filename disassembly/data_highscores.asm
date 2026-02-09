@@ -17,2511 +17,2514 @@ b0_end:
 
 ; BLOCK 'b1' (start 0x62b8 end 0x6c0c)
 b1_start:
-	defb 030h		;62b8
-	defb 030h		;62b9
-	defb 030h		;62ba
-	defb 032h		;62bb
-	defb 030h		;62bc
-	defb 030h		;62bd
-	defb 020h		;62be
-	defb 035h		;62bf
-	defb 020h		;62c0
-	defb 041h		;62c1
-	defb 04ch		;62c2
-	defb 049h		;62c3
-	defb 056h		;62c4
-	defb 045h		;62c5
-	defb 020h		;62c6
-	defb 020h		;62c7
-	defb 020h		;62c8
-	defb 030h		;62c9
-	defb 030h		;62ca
-	defb 030h		;62cb
-	defb 031h		;62cc
-	defb 034h		;62cd
-	defb 030h		;62ce
-	defb 04bh		;62cf
-	defb 041h		;62d0
-	defb 054h		;62d1
-	defb 04fh		;62d2
-	defb 020h		;62d3
-	defb 020h		;62d4
-	defb 020h		;62d5
-	defb 020h		;62d6
-	defb 020h		;62d7
-	defb 020h		;62d8
-	defb 020h		;62d9
-	defb 030h		;62da
-	defb 030h		;62db
-	defb 030h		;62dc
-	defb 031h		;62dd
-	defb 033h		;62de
-	defb 030h		;62df
-	defb 044h		;62e0
-	defb 04fh		;62e1
-	defb 055h		;62e2
-	defb 047h		;62e3
-	defb 041h		;62e4
-	defb 04ch		;62e5
-	defb 020h		;62e6
-	defb 020h		;62e7
-	defb 020h		;62e8
-	defb 020h		;62e9
-	defb 020h		;62ea
-	defb 030h		;62eb
-	defb 030h		;62ec
-	defb 030h		;62ed
-	defb 031h		;62ee
-	defb 032h		;62ef
-	defb 030h		;62f0
-	defb 045h		;62f1
-	defb 04dh		;62f2
-	defb 050h		;62f3
-	defb 045h		;62f4
-	defb 052h		;62f5
-	defb 04fh		;62f6
-	defb 052h		;62f7
-	defb 020h		;62f8
-	defb 020h		;62f9
-	defb 020h		;62fa
-	defb 020h		;62fb
-	defb 030h		;62fc
-	defb 030h		;62fd
-	defb 030h		;62fe
-	defb 031h		;62ff
-	defb 031h		;6300
-	defb 030h		;6301
-	defb 044h		;6302
-	defb 059h		;6303
-	defb 04eh		;6304
-	defb 041h		;6305
-	defb 04dh		;6306
-	defb 04fh		;6307
-	defb 020h		;6308
-	defb 020h		;6309
-	defb 020h		;630a
-	defb 020h		;630b
-	defb 020h		;630c
-	defb 030h		;630d
-	defb 030h		;630e
-	defb 030h		;630f
-	defb 031h		;6310
-	defb 030h		;6311
-	defb 030h		;6312
-	defb 057h		;6313
-	defb 048h		;6314
-	defb 049h		;6315
-	defb 05ah		;6316
-	defb 020h		;6317
-	defb 020h		;6318
-	defb 020h		;6319
-	defb 020h		;631a
-	defb 020h		;631b
-	defb 020h		;631c
-	defb 020h		;631d
-	defb 030h		;631e
-	defb 030h		;631f
-	defb 030h		;6320
-	defb 030h		;6321
-	defb 039h		;6322
-	defb 030h		;6323
-	defb 047h		;6324
-	defb 041h		;6325
-	defb 046h		;6326
-	defb 046h		;6327
-	defb 020h		;6328
-	defb 044h		;6329
-	defb 04fh		;632a
-	defb 053h		;632b
-	defb 053h		;632c
-	defb 045h		;632d
-	defb 052h		;632e
-	defb 030h		;632f
-	defb 030h		;6330
-	defb 030h		;6331
-	defb 030h		;6332
-	defb 038h		;6333
-	defb 030h		;6334
-	defb 054h		;6335
-	defb 04fh		;6336
-	defb 05ah		;6337
-	defb 05ah		;6338
-	defb 059h		;6339
-	defb 020h		;633a
-	defb 020h		;633b
-	defb 020h		;633c
-	defb 020h		;633d
-	defb 020h		;633e
-	defb 020h		;633f
-	defb 030h		;6340
-	defb 030h		;6341
-	defb 030h		;6342
-	defb 030h		;6343
-	defb 037h		;6344
-	defb 030h		;6345
-	defb 053h		;6346
-	defb 050h		;6347
-	defb 049h		;6348
-	defb 044h		;6349
-	defb 045h		;634a
-	defb 052h		;634b
-	defb 020h		;634c
-	defb 020h		;634d
-	defb 020h		;634e
-	defb 020h		;634f
-	defb 020h		;6350
-	defb 030h		;6351
-	defb 030h		;6352
-	defb 030h		;6353
-	defb 030h		;6354
-	defb 036h		;6355
-	defb 030h		;6356
-	defb 043h		;6357
-	defb 052h		;6358
-	defb 041h		;6359
-	defb 05ah		;635a
-	defb 059h		;635b
-	defb 020h		;635c
-	defb 04ah		;635d
-	defb 020h		;635e
-	defb 020h		;635f
-	defb 020h		;6360
-	defb 020h		;6361
-	defb 030h		;6362
-	defb 030h		;6363
-	defb 030h		;6364
-	defb 030h		;6365
-	defb 035h		;6366
-	defb 030h		;6367
-	defb 044h		;6368
-	defb 049h		;6369
-	defb 044h		;636a
-	defb 044h		;636b
-	defb 059h		;636c
-	defb 020h		;636d
-	defb 059h		;636e
-	defb 045h		;636f
-	defb 04ch		;6370
-	defb 04ch		;6371
-	defb 041h		;6372
-	defb 030h		;6373
-	defb 030h		;6374
-	defb 030h		;6375
-	defb 030h		;6376
-	defb 034h		;6377
-	defb 030h		;6378
-	defb 043h		;6379
-	defb 055h		;637a
-	defb 053h		;637b
-	defb 054h		;637c
-	defb 041h		;637d
-	defb 052h		;637e
-	defb 044h		;637f
-	defb 020h		;6380
-	defb 020h		;6381
-	defb 020h		;6382
-	defb 020h		;6383
-	defb 030h		;6384
-	defb 030h		;6385
-	defb 030h		;6386
-	defb 030h		;6387
-	defb 033h		;6388
-	defb 030h		;6389
-	defb 042h		;638a
-	defb 04fh		;638b
-	defb 044h		;638c
-	defb 04bh		;638d
-	defb 049h		;638e
-	defb 04eh		;638f
-	defb 053h		;6390
-	defb 020h		;6391
-	defb 020h		;6392
-	defb 020h		;6393
-	defb 020h		;6394
-	defb 030h		;6395
-	defb 030h		;6396
-	defb 030h		;6397
-	defb 030h		;6398
-	defb 032h		;6399
-	defb 030h		;639a
-	defb 04bh		;639b
-	defb 049h		;639c
-	defb 045h		;639d
-	defb 052h		;639e
-	defb 020h		;639f
+; "000200 5 ALIVE   000140KATO       000130DOUGAL     000120EMPEROR"
+; "    000110DYNAMO     000100WHIZ       000090GAFF DOSSER000080TOZ"
+; ... (2388 chars total)
+	defb 030h		;62b8  '0'
+	defb 030h		;62b9  '0'
+	defb 030h		;62ba  '0'
+	defb 032h		;62bb  '2'
+	defb 030h		;62bc  '0'
+	defb 030h		;62bd  '0'
+	defb 020h		;62be  ' '
+	defb 035h		;62bf  '5'
+	defb 020h		;62c0  ' '
+	defb 041h		;62c1  'A'
+	defb 04ch		;62c2  'L'
+	defb 049h		;62c3  'I'
+	defb 056h		;62c4  'V'
+	defb 045h		;62c5  'E'
+	defb 020h		;62c6  ' '
+	defb 020h		;62c7  ' '
+	defb 020h		;62c8  ' '
+	defb 030h		;62c9  '0'
+	defb 030h		;62ca  '0'
+	defb 030h		;62cb  '0'
+	defb 031h		;62cc  '1'
+	defb 034h		;62cd  '4'
+	defb 030h		;62ce  '0'
+	defb 04bh		;62cf  'K'
+	defb 041h		;62d0  'A'
+	defb 054h		;62d1  'T'
+	defb 04fh		;62d2  'O'
+	defb 020h		;62d3  ' '
+	defb 020h		;62d4  ' '
+	defb 020h		;62d5  ' '
+	defb 020h		;62d6  ' '
+	defb 020h		;62d7  ' '
+	defb 020h		;62d8  ' '
+	defb 020h		;62d9  ' '
+	defb 030h		;62da  '0'
+	defb 030h		;62db  '0'
+	defb 030h		;62dc  '0'
+	defb 031h		;62dd  '1'
+	defb 033h		;62de  '3'
+	defb 030h		;62df  '0'
+	defb 044h		;62e0  'D'
+	defb 04fh		;62e1  'O'
+	defb 055h		;62e2  'U'
+	defb 047h		;62e3  'G'
+	defb 041h		;62e4  'A'
+	defb 04ch		;62e5  'L'
+	defb 020h		;62e6  ' '
+	defb 020h		;62e7  ' '
+	defb 020h		;62e8  ' '
+	defb 020h		;62e9  ' '
+	defb 020h		;62ea  ' '
+	defb 030h		;62eb  '0'
+	defb 030h		;62ec  '0'
+	defb 030h		;62ed  '0'
+	defb 031h		;62ee  '1'
+	defb 032h		;62ef  '2'
+	defb 030h		;62f0  '0'
+	defb 045h		;62f1  'E'
+	defb 04dh		;62f2  'M'
+	defb 050h		;62f3  'P'
+	defb 045h		;62f4  'E'
+	defb 052h		;62f5  'R'
+	defb 04fh		;62f6  'O'
+	defb 052h		;62f7  'R'
+	defb 020h		;62f8  ' '
+	defb 020h		;62f9  ' '
+	defb 020h		;62fa  ' '
+	defb 020h		;62fb  ' '
+	defb 030h		;62fc  '0'
+	defb 030h		;62fd  '0'
+	defb 030h		;62fe  '0'
+	defb 031h		;62ff  '1'
+	defb 031h		;6300  '1'
+	defb 030h		;6301  '0'
+	defb 044h		;6302  'D'
+	defb 059h		;6303  'Y'
+	defb 04eh		;6304  'N'
+	defb 041h		;6305  'A'
+	defb 04dh		;6306  'M'
+	defb 04fh		;6307  'O'
+	defb 020h		;6308  ' '
+	defb 020h		;6309  ' '
+	defb 020h		;630a  ' '
+	defb 020h		;630b  ' '
+	defb 020h		;630c  ' '
+	defb 030h		;630d  '0'
+	defb 030h		;630e  '0'
+	defb 030h		;630f  '0'
+	defb 031h		;6310  '1'
+	defb 030h		;6311  '0'
+	defb 030h		;6312  '0'
+	defb 057h		;6313  'W'
+	defb 048h		;6314  'H'
+	defb 049h		;6315  'I'
+	defb 05ah		;6316  'Z'
+	defb 020h		;6317  ' '
+	defb 020h		;6318  ' '
+	defb 020h		;6319  ' '
+	defb 020h		;631a  ' '
+	defb 020h		;631b  ' '
+	defb 020h		;631c  ' '
+	defb 020h		;631d  ' '
+	defb 030h		;631e  '0'
+	defb 030h		;631f  '0'
+	defb 030h		;6320  '0'
+	defb 030h		;6321  '0'
+	defb 039h		;6322  '9'
+	defb 030h		;6323  '0'
+	defb 047h		;6324  'G'
+	defb 041h		;6325  'A'
+	defb 046h		;6326  'F'
+	defb 046h		;6327  'F'
+	defb 020h		;6328  ' '
+	defb 044h		;6329  'D'
+	defb 04fh		;632a  'O'
+	defb 053h		;632b  'S'
+	defb 053h		;632c  'S'
+	defb 045h		;632d  'E'
+	defb 052h		;632e  'R'
+	defb 030h		;632f  '0'
+	defb 030h		;6330  '0'
+	defb 030h		;6331  '0'
+	defb 030h		;6332  '0'
+	defb 038h		;6333  '8'
+	defb 030h		;6334  '0'
+	defb 054h		;6335  'T'
+	defb 04fh		;6336  'O'
+	defb 05ah		;6337  'Z'
+	defb 05ah		;6338  'Z'
+	defb 059h		;6339  'Y'
+	defb 020h		;633a  ' '
+	defb 020h		;633b  ' '
+	defb 020h		;633c  ' '
+	defb 020h		;633d  ' '
+	defb 020h		;633e  ' '
+	defb 020h		;633f  ' '
+	defb 030h		;6340  '0'
+	defb 030h		;6341  '0'
+	defb 030h		;6342  '0'
+	defb 030h		;6343  '0'
+	defb 037h		;6344  '7'
+	defb 030h		;6345  '0'
+	defb 053h		;6346  'S'
+	defb 050h		;6347  'P'
+	defb 049h		;6348  'I'
+	defb 044h		;6349  'D'
+	defb 045h		;634a  'E'
+	defb 052h		;634b  'R'
+	defb 020h		;634c  ' '
+	defb 020h		;634d  ' '
+	defb 020h		;634e  ' '
+	defb 020h		;634f  ' '
+	defb 020h		;6350  ' '
+	defb 030h		;6351  '0'
+	defb 030h		;6352  '0'
+	defb 030h		;6353  '0'
+	defb 030h		;6354  '0'
+	defb 036h		;6355  '6'
+	defb 030h		;6356  '0'
+	defb 043h		;6357  'C'
+	defb 052h		;6358  'R'
+	defb 041h		;6359  'A'
+	defb 05ah		;635a  'Z'
+	defb 059h		;635b  'Y'
+	defb 020h		;635c  ' '
+	defb 04ah		;635d  'J'
+	defb 020h		;635e  ' '
+	defb 020h		;635f  ' '
+	defb 020h		;6360  ' '
+	defb 020h		;6361  ' '
+	defb 030h		;6362  '0'
+	defb 030h		;6363  '0'
+	defb 030h		;6364  '0'
+	defb 030h		;6365  '0'
+	defb 035h		;6366  '5'
+	defb 030h		;6367  '0'
+	defb 044h		;6368  'D'
+	defb 049h		;6369  'I'
+	defb 044h		;636a  'D'
+	defb 044h		;636b  'D'
+	defb 059h		;636c  'Y'
+	defb 020h		;636d  ' '
+	defb 059h		;636e  'Y'
+	defb 045h		;636f  'E'
+	defb 04ch		;6370  'L'
+	defb 04ch		;6371  'L'
+	defb 041h		;6372  'A'
+	defb 030h		;6373  '0'
+	defb 030h		;6374  '0'
+	defb 030h		;6375  '0'
+	defb 030h		;6376  '0'
+	defb 034h		;6377  '4'
+	defb 030h		;6378  '0'
+	defb 043h		;6379  'C'
+	defb 055h		;637a  'U'
+	defb 053h		;637b  'S'
+	defb 054h		;637c  'T'
+	defb 041h		;637d  'A'
+	defb 052h		;637e  'R'
+	defb 044h		;637f  'D'
+	defb 020h		;6380  ' '
+	defb 020h		;6381  ' '
+	defb 020h		;6382  ' '
+	defb 020h		;6383  ' '
+	defb 030h		;6384  '0'
+	defb 030h		;6385  '0'
+	defb 030h		;6386  '0'
+	defb 030h		;6387  '0'
+	defb 033h		;6388  '3'
+	defb 030h		;6389  '0'
+	defb 042h		;638a  'B'
+	defb 04fh		;638b  'O'
+	defb 044h		;638c  'D'
+	defb 04bh		;638d  'K'
+	defb 049h		;638e  'I'
+	defb 04eh		;638f  'N'
+	defb 053h		;6390  'S'
+	defb 020h		;6391  ' '
+	defb 020h		;6392  ' '
+	defb 020h		;6393  ' '
+	defb 020h		;6394  ' '
+	defb 030h		;6395  '0'
+	defb 030h		;6396  '0'
+	defb 030h		;6397  '0'
+	defb 030h		;6398  '0'
+	defb 032h		;6399  '2'
+	defb 030h		;639a  '0'
+	defb 04bh		;639b  'K'
+	defb 049h		;639c  'I'
+	defb 045h		;639d  'E'
+	defb 052h		;639e  'R'
+	defb 020h		;639f  ' '
 l63a0h:
-	defb 020h		;63a0
-	defb 020h		;63a1
-	defb 020h		;63a2
-	defb 020h		;63a3
-	defb 020h		;63a4
-	defb 020h		;63a5
-	defb 030h		;63a6
-	defb 030h		;63a7
-	defb 030h		;63a8
-	defb 030h		;63a9
-	defb 031h		;63aa
-	defb 030h		;63ab
-	defb 053h		;63ac
-	defb 048h		;63ad
-	defb 041h		;63ae
-	defb 044h		;63af
-	defb 04fh		;63b0
-	defb 057h		;63b1
-	defb 020h		;63b2
-	defb 020h		;63b3
-	defb 020h		;63b4
-	defb 020h		;63b5
-	defb 020h		;63b6
-	defb 030h		;63b7
-	defb 030h		;63b8
-	defb 031h		;63b9
-	defb 031h		;63ba
-	defb 035h		;63bb
-	defb 030h		;63bc
-	defb 020h		;63bd
-	defb 054h		;63be
-	defb 048h		;63bf
-	defb 045h		;63c0
-	defb 020h		;63c1
-	defb 043h		;63c2
-	defb 041h		;63c3
-	defb 054h		;63c4
-	defb 020h		;63c5
-	defb 020h		;63c6
-	defb 020h		;63c7
-	defb 030h		;63c8
-	defb 030h		;63c9
-	defb 030h		;63ca
-	defb 031h		;63cb
-	defb 034h		;63cc
-	defb 030h		;63cd
-	defb 041h		;63ce
-	defb 020h		;63cf
-	defb 042h		;63d0
-	defb 041h		;63d1
-	defb 04bh		;63d2
-	defb 045h		;63d3
-	defb 052h		;63d4
-	defb 020h		;63d5
-	defb 020h		;63d6
-	defb 020h		;63d7
-	defb 020h		;63d8
-	defb 030h		;63d9
-	defb 030h		;63da
-	defb 030h		;63db
-	defb 031h		;63dc
-	defb 033h		;63dd
-	defb 030h		;63de
-	defb 04dh		;63df
-	defb 045h		;63e0
-	defb 04ch		;63e1
-	defb 04ch		;63e2
-	defb 045h		;63e3
-	defb 020h		;63e4
-	defb 04dh		;63e5
-	defb 045h		;63e6
-	defb 04ch		;63e7
-	defb 04ch		;63e8
-	defb 020h		;63e9
-	defb 030h		;63ea
-	defb 030h		;63eb
-	defb 030h		;63ec
-	defb 031h		;63ed
-	defb 032h		;63ee
-	defb 030h		;63ef
-	defb 047h		;63f0
-	defb 04dh		;63f1
-	defb 020h		;63f2
-	defb 046h		;63f3
-	defb 04ch		;63f4
-	defb 041h		;63f5
-	defb 053h		;63f6
-	defb 048h		;63f7
-	defb 020h		;63f8
-	defb 020h		;63f9
-	defb 020h		;63fa
-	defb 030h		;63fb
-	defb 030h		;63fc
-	defb 030h		;63fd
-	defb 031h		;63fe
-	defb 031h		;63ff
-	defb 030h		;6400
-	defb 052h		;6401
-	defb 04fh		;6402
-	defb 058h		;6403
-	defb 041h		;6404
-	defb 04eh		;6405
-	defb 04eh		;6406
-	defb 045h		;6407
-	defb 020h		;6408
-	defb 020h		;6409
-	defb 020h		;640a
-	defb 020h		;640b
-	defb 030h		;640c
-	defb 030h		;640d
-	defb 030h		;640e
-	defb 031h		;640f
-	defb 030h		;6410
-	defb 030h		;6411
-	defb 054h		;6412
-	defb 04fh		;6413
-	defb 04dh		;6414
-	defb 04dh		;6415
-	defb 059h		;6416
-	defb 020h		;6417
-	defb 042h		;6418
-	defb 04fh		;6419
-	defb 059h		;641a
-	defb 020h		;641b
-	defb 020h		;641c
-	defb 030h		;641d
-	defb 030h		;641e
-	defb 030h		;641f
-	defb 030h		;6420
-	defb 039h		;6421
-	defb 030h		;6422
-	defb 052h		;6423
-	defb 055h		;6424
-	defb 04eh		;6425
-	defb 020h		;6426
-	defb 044h		;6427
-	defb 04dh		;6428
-	defb 043h		;6429
-	defb 020h		;642a
-	defb 020h		;642b
-	defb 020h		;642c
-	defb 020h		;642d
+	defb 020h		;63a0  ' '
+	defb 020h		;63a1  ' '
+	defb 020h		;63a2  ' '
+	defb 020h		;63a3  ' '
+	defb 020h		;63a4  ' '
+	defb 020h		;63a5  ' '
+	defb 030h		;63a6  '0'
+	defb 030h		;63a7  '0'
+	defb 030h		;63a8  '0'
+	defb 030h		;63a9  '0'
+	defb 031h		;63aa  '1'
+	defb 030h		;63ab  '0'
+	defb 053h		;63ac  'S'
+	defb 048h		;63ad  'H'
+	defb 041h		;63ae  'A'
+	defb 044h		;63af  'D'
+	defb 04fh		;63b0  'O'
+	defb 057h		;63b1  'W'
+	defb 020h		;63b2  ' '
+	defb 020h		;63b3  ' '
+	defb 020h		;63b4  ' '
+	defb 020h		;63b5  ' '
+	defb 020h		;63b6  ' '
+	defb 030h		;63b7  '0'
+	defb 030h		;63b8  '0'
+	defb 031h		;63b9  '1'
+	defb 031h		;63ba  '1'
+	defb 035h		;63bb  '5'
+	defb 030h		;63bc  '0'
+	defb 020h		;63bd  ' '
+	defb 054h		;63be  'T'
+	defb 048h		;63bf  'H'
+	defb 045h		;63c0  'E'
+	defb 020h		;63c1  ' '
+	defb 043h		;63c2  'C'
+	defb 041h		;63c3  'A'
+	defb 054h		;63c4  'T'
+	defb 020h		;63c5  ' '
+	defb 020h		;63c6  ' '
+	defb 020h		;63c7  ' '
+	defb 030h		;63c8  '0'
+	defb 030h		;63c9  '0'
+	defb 030h		;63ca  '0'
+	defb 031h		;63cb  '1'
+	defb 034h		;63cc  '4'
+	defb 030h		;63cd  '0'
+	defb 041h		;63ce  'A'
+	defb 020h		;63cf  ' '
+	defb 042h		;63d0  'B'
+	defb 041h		;63d1  'A'
+	defb 04bh		;63d2  'K'
+	defb 045h		;63d3  'E'
+	defb 052h		;63d4  'R'
+	defb 020h		;63d5  ' '
+	defb 020h		;63d6  ' '
+	defb 020h		;63d7  ' '
+	defb 020h		;63d8  ' '
+	defb 030h		;63d9  '0'
+	defb 030h		;63da  '0'
+	defb 030h		;63db  '0'
+	defb 031h		;63dc  '1'
+	defb 033h		;63dd  '3'
+	defb 030h		;63de  '0'
+	defb 04dh		;63df  'M'
+	defb 045h		;63e0  'E'
+	defb 04ch		;63e1  'L'
+	defb 04ch		;63e2  'L'
+	defb 045h		;63e3  'E'
+	defb 020h		;63e4  ' '
+	defb 04dh		;63e5  'M'
+	defb 045h		;63e6  'E'
+	defb 04ch		;63e7  'L'
+	defb 04ch		;63e8  'L'
+	defb 020h		;63e9  ' '
+	defb 030h		;63ea  '0'
+	defb 030h		;63eb  '0'
+	defb 030h		;63ec  '0'
+	defb 031h		;63ed  '1'
+	defb 032h		;63ee  '2'
+	defb 030h		;63ef  '0'
+	defb 047h		;63f0  'G'
+	defb 04dh		;63f1  'M'
+	defb 020h		;63f2  ' '
+	defb 046h		;63f3  'F'
+	defb 04ch		;63f4  'L'
+	defb 041h		;63f5  'A'
+	defb 053h		;63f6  'S'
+	defb 048h		;63f7  'H'
+	defb 020h		;63f8  ' '
+	defb 020h		;63f9  ' '
+	defb 020h		;63fa  ' '
+	defb 030h		;63fb  '0'
+	defb 030h		;63fc  '0'
+	defb 030h		;63fd  '0'
+	defb 031h		;63fe  '1'
+	defb 031h		;63ff  '1'
+	defb 030h		;6400  '0'
+	defb 052h		;6401  'R'
+	defb 04fh		;6402  'O'
+	defb 058h		;6403  'X'
+	defb 041h		;6404  'A'
+	defb 04eh		;6405  'N'
+	defb 04eh		;6406  'N'
+	defb 045h		;6407  'E'
+	defb 020h		;6408  ' '
+	defb 020h		;6409  ' '
+	defb 020h		;640a  ' '
+	defb 020h		;640b  ' '
+	defb 030h		;640c  '0'
+	defb 030h		;640d  '0'
+	defb 030h		;640e  '0'
+	defb 031h		;640f  '1'
+	defb 030h		;6410  '0'
+	defb 030h		;6411  '0'
+	defb 054h		;6412  'T'
+	defb 04fh		;6413  'O'
+	defb 04dh		;6414  'M'
+	defb 04dh		;6415  'M'
+	defb 059h		;6416  'Y'
+	defb 020h		;6417  ' '
+	defb 042h		;6418  'B'
+	defb 04fh		;6419  'O'
+	defb 059h		;641a  'Y'
+	defb 020h		;641b  ' '
+	defb 020h		;641c  ' '
+	defb 030h		;641d  '0'
+	defb 030h		;641e  '0'
+	defb 030h		;641f  '0'
+	defb 030h		;6420  '0'
+	defb 039h		;6421  '9'
+	defb 030h		;6422  '0'
+	defb 052h		;6423  'R'
+	defb 055h		;6424  'U'
+	defb 04eh		;6425  'N'
+	defb 020h		;6426  ' '
+	defb 044h		;6427  'D'
+	defb 04dh		;6428  'M'
+	defb 043h		;6429  'C'
+	defb 020h		;642a  ' '
+	defb 020h		;642b  ' '
+	defb 020h		;642c  ' '
+	defb 020h		;642d  ' '
 l642eh:
-	defb 030h		;642e
-	defb 030h		;642f
-	defb 030h		;6430
-	defb 030h		;6431
-	defb 038h		;6432
-	defb 030h		;6433
-	defb 043h		;6434
-	defb 041h		;6435
-	defb 050h		;6436
-	defb 054h		;6437
-	defb 020h		;6438
-	defb 020h		;6439
-	defb 052h		;643a
-	defb 04fh		;643b
-	defb 043h		;643c
-	defb 04bh		;643d
-	defb 020h		;643e
-	defb 030h		;643f
-	defb 030h		;6440
-	defb 030h		;6441
-	defb 030h		;6442
-	defb 037h		;6443
-	defb 030h		;6444
-	defb 048h		;6445
-	defb 020h		;6446
-	defb 048h		;6447
-	defb 041h		;6448
-	defb 04eh		;6449
-	defb 043h		;644a
-	defb 04fh		;644b
+	defb 030h		;642e  '0'
+	defb 030h		;642f  '0'
+	defb 030h		;6430  '0'
+	defb 030h		;6431  '0'
+	defb 038h		;6432  '8'
+	defb 030h		;6433  '0'
+	defb 043h		;6434  'C'
+	defb 041h		;6435  'A'
+	defb 050h		;6436  'P'
+	defb 054h		;6437  'T'
+	defb 020h		;6438  ' '
+	defb 020h		;6439  ' '
+	defb 052h		;643a  'R'
+	defb 04fh		;643b  'O'
+	defb 043h		;643c  'C'
+	defb 04bh		;643d  'K'
+	defb 020h		;643e  ' '
+	defb 030h		;643f  '0'
+	defb 030h		;6440  '0'
+	defb 030h		;6441  '0'
+	defb 030h		;6442  '0'
+	defb 037h		;6443  '7'
+	defb 030h		;6444  '0'
+	defb 048h		;6445  'H'
+	defb 020h		;6446  ' '
+	defb 048h		;6447  'H'
+	defb 041h		;6448  'A'
+	defb 04eh		;6449  'N'
+	defb 043h		;644a  'C'
+	defb 04fh		;644b  'O'
 HISCORE_TBL:
-	defb 043h		;644c
+	defb 043h		;644c  'C'
 l644dh:
-	defb 04bh		;644d
-	defb 020h		;644e
-	defb 020h		;644f
-	defb 030h		;6450
-	defb 030h		;6451
-	defb 030h		;6452
-	defb 030h		;6453
-	defb 036h		;6454
-	defb 030h		;6455
-	defb 04dh		;6456
-	defb 041h		;6457
-	defb 04eh		;6458
-	defb 054h		;6459
-	defb 052h		;645a
-	defb 04fh		;645b
-	defb 04eh		;645c
-	defb 049h		;645d
-	defb 058h		;645e
-	defb 020h		;645f
-	defb 020h		;6460
-	defb 030h		;6461
-	defb 030h		;6462
-	defb 030h		;6463
-	defb 030h		;6464
-	defb 035h		;6465
-	defb 030h		;6466
-	defb 047h		;6467
-	defb 020h		;6468
-	defb 04bh		;6469
-	defb 052h		;646a
-	defb 041h		;646b
-	defb 04eh		;646c
-	defb 05ah		;646d
-	defb 020h		;646e
+	defb 04bh		;644d  'K'
+	defb 020h		;644e  ' '
+	defb 020h		;644f  ' '
+	defb 030h		;6450  '0'
+	defb 030h		;6451  '0'
+	defb 030h		;6452  '0'
+	defb 030h		;6453  '0'
+	defb 036h		;6454  '6'
+	defb 030h		;6455  '0'
+	defb 04dh		;6456  'M'
+	defb 041h		;6457  'A'
+	defb 04eh		;6458  'N'
+	defb 054h		;6459  'T'
+	defb 052h		;645a  'R'
+	defb 04fh		;645b  'O'
+	defb 04eh		;645c  'N'
+	defb 049h		;645d  'I'
+	defb 058h		;645e  'X'
+	defb 020h		;645f  ' '
+	defb 020h		;6460  ' '
+	defb 030h		;6461  '0'
+	defb 030h		;6462  '0'
+	defb 030h		;6463  '0'
+	defb 030h		;6464  '0'
+	defb 035h		;6465  '5'
+	defb 030h		;6466  '0'
+	defb 047h		;6467  'G'
+	defb 020h		;6468  ' '
+	defb 04bh		;6469  'K'
+	defb 052h		;646a  'R'
+	defb 041h		;646b  'A'
+	defb 04eh		;646c  'N'
+	defb 05ah		;646d  'Z'
+	defb 020h		;646e  ' '
 l646fh:
-	defb 020h		;646f
-	defb 020h		;6470
-	defb 020h		;6471
-	defb 030h		;6472
-	defb 030h		;6473
+	defb 020h		;646f  ' '
+	defb 020h		;6470  ' '
+	defb 020h		;6471  ' '
+	defb 030h		;6472  '0'
+	defb 030h		;6473  '0'
 l6474h:
-	defb 030h		;6474
-	defb 030h		;6475
-	defb 034h		;6476
-	defb 030h		;6477
-	defb 048h		;6478
-	defb 041h		;6479
-	defb 053h		;647a
-	defb 048h		;647b
-	defb 049h		;647c
+	defb 030h		;6474  '0'
+	defb 030h		;6475  '0'
+	defb 034h		;6476  '4'
+	defb 030h		;6477  '0'
+	defb 048h		;6478  'H'
+	defb 041h		;6479  'A'
+	defb 053h		;647a  'S'
+	defb 048h		;647b  'H'
+	defb 049h		;647c  'I'
 l647dh:
-	defb 04dh		;647d
-	defb 020h		;647e
+	defb 04dh		;647d  'M'
+	defb 020h		;647e  ' '
 l647fh:
-	defb 020h		;647f
-	defb 020h		;6480
-	defb 020h		;6481
-	defb 020h		;6482
-	defb 030h		;6483
-	defb 030h		;6484
-	defb 030h		;6485
-	defb 030h		;6486
-	defb 033h		;6487
-	defb 030h		;6488
-	defb 04ah		;6489
-	defb 041h		;648a
-	defb 05ah		;648b
-	defb 05ah		;648c
-	defb 059h		;648d
-	defb 020h		;648e
-	defb 04ah		;648f
-	defb 041h		;6490
-	defb 059h		;6491
-	defb 020h		;6492
-	defb 020h		;6493
-	defb 030h		;6494
-	defb 030h		;6495
-	defb 030h		;6496
-	defb 030h		;6497
-	defb 032h		;6498
-	defb 030h		;6499
-	defb 057h		;649a
-	defb 052h		;649b
-	defb 045h		;649c
-	defb 043h		;649d
-	defb 04bh		;649e
-	defb 049h		;649f
-	defb 04eh		;64a0
-	defb 020h		;64a1
-	defb 043h		;64a2
-	defb 052h		;64a3
-	defb 055h		;64a4
+	defb 020h		;647f  ' '
+	defb 020h		;6480  ' '
+	defb 020h		;6481  ' '
+	defb 020h		;6482  ' '
+	defb 030h		;6483  '0'
+	defb 030h		;6484  '0'
+	defb 030h		;6485  '0'
+	defb 030h		;6486  '0'
+	defb 033h		;6487  '3'
+	defb 030h		;6488  '0'
+	defb 04ah		;6489  'J'
+	defb 041h		;648a  'A'
+	defb 05ah		;648b  'Z'
+	defb 05ah		;648c  'Z'
+	defb 059h		;648d  'Y'
+	defb 020h		;648e  ' '
+	defb 04ah		;648f  'J'
+	defb 041h		;6490  'A'
+	defb 059h		;6491  'Y'
+	defb 020h		;6492  ' '
+	defb 020h		;6493  ' '
+	defb 030h		;6494  '0'
+	defb 030h		;6495  '0'
+	defb 030h		;6496  '0'
+	defb 030h		;6497  '0'
+	defb 032h		;6498  '2'
+	defb 030h		;6499  '0'
+	defb 057h		;649a  'W'
+	defb 052h		;649b  'R'
+	defb 045h		;649c  'E'
+	defb 043h		;649d  'C'
+	defb 04bh		;649e  'K'
+	defb 049h		;649f  'I'
+	defb 04eh		;64a0  'N'
+	defb 020h		;64a1  ' '
+	defb 043h		;64a2  'C'
+	defb 052h		;64a3  'R'
+	defb 055h		;64a4  'U'
 l64a5h:
-	defb 030h		;64a5
-	defb 030h		;64a6
-	defb 030h		;64a7
-	defb 030h		;64a8
-	defb 031h		;64a9
-	defb 030h		;64aa
-	defb 053h		;64ab
-	defb 048h		;64ac
-	defb 041h		;64ad
-	defb 04eh		;64ae
-	defb 04eh		;64af
+	defb 030h		;64a5  '0'
+	defb 030h		;64a6  '0'
+	defb 030h		;64a7  '0'
+	defb 030h		;64a8  '0'
+	defb 031h		;64a9  '1'
+	defb 030h		;64aa  '0'
+	defb 053h		;64ab  'S'
+	defb 048h		;64ac  'H'
+	defb 041h		;64ad  'A'
+	defb 04eh		;64ae  'N'
+	defb 04eh		;64af  'N'
 l64b0h:
-	defb 04fh		;64b0
-	defb 04eh		;64b1
-	defb 020h		;64b2
-	defb 020h		;64b3
-	defb 020h		;64b4
-	defb 020h		;64b5
-	defb 030h		;64b6
-	defb 030h		;64b7
-	defb 030h		;64b8
-	defb 031h		;64b9
-	defb 035h		;64ba
-	defb 030h		;64bb
-	defb 042h		;64bc
-	defb 043h		;64bd
-	defb 030h		;64be
-	defb 038h		;64bf
-	defb 032h		;64c0
-	defb 033h		;64c1
-	defb 037h		;64c2
-	defb 037h		;64c3
-	defb 033h		;64c4
-	defb 035h		;64c5
-	defb 031h		;64c6
-	defb 030h		;64c7
-	defb 030h		;64c8
-	defb 030h		;64c9
-	defb 031h		;64ca
-	defb 034h		;64cb
-	defb 030h		;64cc
-	defb 037h		;64cd
-	defb 020h		;64ce
-	defb 038h		;64cf
-	defb 030h		;64d0
+	defb 04fh		;64b0  'O'
+	defb 04eh		;64b1  'N'
+	defb 020h		;64b2  ' '
+	defb 020h		;64b3  ' '
+	defb 020h		;64b4  ' '
+	defb 020h		;64b5  ' '
+	defb 030h		;64b6  '0'
+	defb 030h		;64b7  '0'
+	defb 030h		;64b8  '0'
+	defb 031h		;64b9  '1'
+	defb 035h		;64ba  '5'
+	defb 030h		;64bb  '0'
+	defb 042h		;64bc  'B'
+	defb 043h		;64bd  'C'
+	defb 030h		;64be  '0'
+	defb 038h		;64bf  '8'
+	defb 032h		;64c0  '2'
+	defb 033h		;64c1  '3'
+	defb 037h		;64c2  '7'
+	defb 037h		;64c3  '7'
+	defb 033h		;64c4  '3'
+	defb 035h		;64c5  '5'
+	defb 031h		;64c6  '1'
+	defb 030h		;64c7  '0'
+	defb 030h		;64c8  '0'
+	defb 030h		;64c9  '0'
+	defb 031h		;64ca  '1'
+	defb 034h		;64cb  '4'
+	defb 030h		;64cc  '0'
+	defb 037h		;64cd  '7'
+	defb 020h		;64ce  ' '
+	defb 038h		;64cf  '8'
+	defb 030h		;64d0  '0'
 l64d1h:
-	defb 031h		;64d1
-	defb 035h		;64d2
+	defb 031h		;64d1  '1'
+	defb 035h		;64d2  '5'
 l64d3h:
-	defb 034h		;64d3
-	defb 020h		;64d4
-	defb 032h		;64d5
-	defb 020h		;64d6
-	defb 020h		;64d7
-	defb 030h		;64d8
-	defb 030h		;64d9
-	defb 030h		;64da
-	defb 031h		;64db
+	defb 034h		;64d3  '4'
+	defb 020h		;64d4  ' '
+	defb 032h		;64d5  '2'
+	defb 020h		;64d6  ' '
+	defb 020h		;64d7  ' '
+	defb 030h		;64d8  '0'
+	defb 030h		;64d9  '0'
+	defb 030h		;64da  '0'
+	defb 031h		;64db  '1'
 l64dch:
-	defb 033h		;64dc
-	defb 030h		;64dd
-	defb 038h		;64de
-	defb 032h		;64df
-	defb 033h		;64e0
-	defb 020h		;64e1
+	defb 033h		;64dc  '3'
+	defb 030h		;64dd  '0'
+	defb 038h		;64de  '8'
+	defb 032h		;64df  '2'
+	defb 033h		;64e0  '3'
+	defb 020h		;64e1  ' '
 l64e2h:
-	defb 036h		;64e2
-	defb 039h		;64e3
-	defb 036h		;64e4
-	defb 020h		;64e5
-	defb 032h		;64e6
-	defb 020h		;64e7
-	defb 020h		;64e8
-	defb 030h		;64e9
-	defb 030h		;64ea
-	defb 030h		;64eb
-	defb 031h		;64ec
-	defb 032h		;64ed
-	defb 030h		;64ee
-	defb 043h		;64ef
-	defb 044h		;64f0
-	defb 04dh		;64f1
-	defb 04bh		;64f2
-	defb 020h		;64f3
+	defb 036h		;64e2  '6'
+	defb 039h		;64e3  '9'
+	defb 036h		;64e4  '6'
+	defb 020h		;64e5  ' '
+	defb 032h		;64e6  '2'
+	defb 020h		;64e7  ' '
+	defb 020h		;64e8  ' '
+	defb 030h		;64e9  '0'
+	defb 030h		;64ea  '0'
+	defb 030h		;64eb  '0'
+	defb 031h		;64ec  '1'
+	defb 032h		;64ed  '2'
+	defb 030h		;64ee  '0'
+	defb 043h		;64ef  'C'
+	defb 044h		;64f0  'D'
+	defb 04dh		;64f1  'M'
+	defb 04bh		;64f2  'K'
+	defb 020h		;64f3  ' '
 l64f4h:
-	defb 037h		;64f4
-	defb 031h		;64f5
-	defb 02fh		;64f6
-	defb 037h		;64f7
-	defb 032h		;64f8
-	defb 020h		;64f9
-	defb 030h		;64fa
-	defb 030h		;64fb
-	defb 030h		;64fc
-	defb 031h		;64fd
-	defb 031h		;64fe
-	defb 030h		;64ff
-	defb 043h		;6500
+	defb 037h		;64f4  '7'
+	defb 031h		;64f5  '1'
+	defb 02fh		;64f6  '/'
+	defb 037h		;64f7  '7'
+	defb 032h		;64f8  '2'
+	defb 020h		;64f9  ' '
+	defb 030h		;64fa  '0'
+	defb 030h		;64fb  '0'
+	defb 030h		;64fc  '0'
+	defb 031h		;64fd  '1'
+	defb 031h		;64fe  '1'
+	defb 030h		;64ff  '0'
+	defb 043h		;6500  'C'
 l6501h:
-	defb 044h		;6501
-	defb 050h		;6502
-	defb 020h		;6503
-	defb 037h		;6504
-	defb 034h		;6505
-	defb 036h		;6506
-	defb 030h		;6507
-	defb 034h		;6508
-	defb 032h		;6509
-	defb 032h		;650a
+	defb 044h		;6501  'D'
+	defb 050h		;6502  'P'
+	defb 020h		;6503  ' '
+	defb 037h		;6504  '7'
+	defb 034h		;6505  '4'
+	defb 036h		;6506  '6'
+	defb 030h		;6507  '0'
+	defb 034h		;6508  '4'
+	defb 032h		;6509  '2'
+	defb 032h		;650a  '2'
 l650bh:
-	defb 030h		;650b
+	defb 030h		;650b  '0'
 l650ch:
-	defb 030h		;650c
-	defb 030h		;650d
-	defb 031h		;650e
-	defb 030h		;650f
+	defb 030h		;650c  '0'
+	defb 030h		;650d  '0'
+	defb 031h		;650e  '1'
+	defb 030h		;650f  '0'
 l6510h:
-	defb 030h		;6510
-	defb 043h		;6511
-	defb 044h		;6512
-	defb 020h		;6513
-	defb 04dh		;6514
-	defb 055h		;6515
-	defb 054h		;6516
-	defb 045h		;6517
-	defb 04ch		;6518
-	defb 020h		;6519
-	defb 031h		;651a
-	defb 020h		;651b
-	defb 030h		;651c
-	defb 030h		;651d
-	defb 030h		;651e
-	defb 030h		;651f
-	defb 039h		;6520
-	defb 030h		;6521
-	defb 043h		;6522
-	defb 044h		;6523
-	defb 045h		;6524
-	defb 050h		;6525
-	defb 043h		;6526
-	defb 020h		;6527
-	defb 032h		;6528
-	defb 036h		;6529
-	defb 034h		;652a
-	defb 032h		;652b
+	defb 030h		;6510  '0'
+	defb 043h		;6511  'C'
+	defb 044h		;6512  'D'
+	defb 020h		;6513  ' '
+	defb 04dh		;6514  'M'
+	defb 055h		;6515  'U'
+	defb 054h		;6516  'T'
+	defb 045h		;6517  'E'
+	defb 04ch		;6518  'L'
+	defb 020h		;6519  ' '
+	defb 031h		;651a  '1'
+	defb 020h		;651b  ' '
+	defb 030h		;651c  '0'
+	defb 030h		;651d  '0'
+	defb 030h		;651e  '0'
+	defb 030h		;651f  '0'
+	defb 039h		;6520  '9'
+	defb 030h		;6521  '0'
+	defb 043h		;6522  'C'
+	defb 044h		;6523  'D'
+	defb 045h		;6524  'E'
+	defb 050h		;6525  'P'
+	defb 043h		;6526  'C'
+	defb 020h		;6527  ' '
+	defb 032h		;6528  '2'
+	defb 036h		;6529  '6'
+	defb 034h		;652a  '4'
+	defb 032h		;652b  '2'
 l652ch:
-	defb 030h		;652c
-	defb 030h		;652d
+	defb 030h		;652c  '0'
+	defb 030h		;652d  '0'
 l652eh:
-	defb 030h		;652e
-	defb 030h		;652f
-	defb 030h		;6530
-	defb 038h		;6531
-	defb 030h		;6532
-	defb 038h		;6533
-	defb 032h		;6534
-	defb 035h		;6535
-	defb 020h		;6536
-	defb 033h		;6537
-	defb 035h		;6538
+	defb 030h		;652e  '0'
+	defb 030h		;652f  '0'
+	defb 030h		;6530  '0'
+	defb 038h		;6531  '8'
+	defb 030h		;6532  '0'
+	defb 038h		;6533  '8'
+	defb 032h		;6534  '2'
+	defb 035h		;6535  '5'
+	defb 020h		;6536  ' '
+	defb 033h		;6537  '3'
+	defb 035h		;6538  '5'
 l6539h:
-	defb 034h		;6539
-	defb 020h		;653a
-	defb 032h		;653b
-	defb 020h		;653c
-	defb 020h		;653d
-	defb 030h		;653e
-	defb 030h		;653f
+	defb 034h		;6539  '4'
+	defb 020h		;653a  ' '
+	defb 032h		;653b  '2'
+	defb 020h		;653c  ' '
+	defb 020h		;653d  ' '
+	defb 030h		;653e  '0'
+	defb 030h		;653f  '0'
 l6540h:
-	defb 030h		;6540
-	defb 030h		;6541
-	defb 037h		;6542
+	defb 030h		;6540  '0'
+	defb 030h		;6541  '0'
+	defb 037h		;6542  '7'
 l6543h:
-	defb 030h		;6543
-	defb 043h		;6544
-	defb 044h		;6545
-	defb 050h		;6546
-	defb 037h		;6547
-	defb 034h		;6548
-	defb 036h		;6549
-	defb 030h		;654a
-	defb 030h		;654b
+	defb 030h		;6543  '0'
+	defb 043h		;6544  'C'
+	defb 044h		;6545  'D'
+	defb 050h		;6546  'P'
+	defb 037h		;6547  '7'
+	defb 034h		;6548  '4'
+	defb 036h		;6549  '6'
+	defb 030h		;654a  '0'
+	defb 030h		;654b  '0'
 l654ch:
-	defb 032h		;654c
+	defb 032h		;654c  '2'
 l654dh:
-	defb 020h		;654d
+	defb 020h		;654d  ' '
 l654eh:
-	defb 032h		;654e
+	defb 032h		;654e  '2'
 l654fh:
-	defb 030h		;654f
-	defb 030h		;6550
-	defb 030h		;6551
-	defb 030h		;6552
-	defb 036h		;6553
-	defb 030h		;6554
-	defb 038h		;6555
-	defb 032h		;6556
-	defb 037h		;6557
-	defb 032h		;6558
-	defb 033h		;6559
+	defb 030h		;654f  '0'
+	defb 030h		;6550  '0'
+	defb 030h		;6551  '0'
+	defb 030h		;6552  '0'
+	defb 036h		;6553  '6'
+	defb 030h		;6554  '0'
+	defb 038h		;6555  '8'
+	defb 032h		;6556  '2'
+	defb 037h		;6557  '7'
+	defb 032h		;6558  '2'
+	defb 033h		;6559  '3'
 l655ah:
-	defb 031h		;655a
-	defb 020h		;655b
-	defb 032h		;655c
-	defb 031h		;655d
-	defb 030h		;655e
-	defb 020h		;655f
+	defb 031h		;655a  '1'
+	defb 020h		;655b  ' '
+	defb 032h		;655c  '2'
+	defb 031h		;655d  '1'
+	defb 030h		;655e  '0'
+	defb 020h		;655f  ' '
 l6560h:
-	defb 030h		;6560
-	defb 030h		;6561
+	defb 030h		;6560  '0'
+	defb 030h		;6561  '0'
 l6562h:
-	defb 030h		;6562
-	defb 030h		;6563
-	defb 035h		;6564
-	defb 030h		;6565
+	defb 030h		;6562  '0'
+	defb 030h		;6563  '0'
+	defb 035h		;6564  '5'
+	defb 030h		;6565  '0'
 l6566h:
-	defb 043h		;6566
-	defb 044h		;6567
-	defb 050h		;6568
-	defb 020h		;6569
-	defb 037h		;656a
-	defb 034h		;656b
-	defb 036h		;656c
+	defb 043h		;6566  'C'
+	defb 044h		;6567  'D'
+	defb 050h		;6568  'P'
+	defb 020h		;6569  ' '
+	defb 037h		;656a  '7'
+	defb 034h		;656b  '4'
+	defb 036h		;656c  '6'
 l656dh:
-	defb 033h		;656d
-	defb 034h		;656e
-	defb 032h		;656f
-	defb 032h		;6570
-	defb 030h		;6571
-	defb 030h		;6572
-	defb 030h		;6573
+	defb 033h		;656d  '3'
+	defb 034h		;656e  '4'
+	defb 032h		;656f  '2'
+	defb 032h		;6570  '2'
+	defb 030h		;6571  '0'
+	defb 030h		;6572  '0'
+	defb 030h		;6573  '0'
 l6574h:
-	defb 030h		;6574
-	defb 034h		;6575
-	defb 030h		;6576
-	defb 043h		;6577
+	defb 030h		;6574  '0'
+	defb 034h		;6575  '4'
+	defb 030h		;6576  '0'
+	defb 043h		;6577  'C'
 l6578h:
-	defb 044h		;6578
-	defb 043h		;6579
-	defb 042h		;657a
+	defb 044h		;6578  'D'
+	defb 043h		;6579  'C'
+	defb 042h		;657a  'B'
 l657bh:
-	defb 053h		;657b
-	defb 020h		;657c
-	defb 037h		;657d
-	defb 030h		;657e
-	defb 032h		;657f
-	defb 034h		;6580
+	defb 053h		;657b  'S'
+	defb 020h		;657c  ' '
+	defb 037h		;657d  '7'
+	defb 030h		;657e  '0'
+	defb 032h		;657f  '2'
+	defb 034h		;6580  '4'
 l6581h:
-	defb 036h		;6581
+	defb 036h		;6581  '6'
 l6582h:
-	defb 030h		;6582
-	defb 030h		;6583
-	defb 030h		;6584
-	defb 030h		;6585
-	defb 033h		;6586
-	defb 030h		;6587
-	defb 04fh		;6588
-	defb 053h		;6589
-	defb 056h		;658a
-	defb 043h		;658b
-	defb 044h		;658c
-	defb 020h		;658d
+	defb 030h		;6582  '0'
+	defb 030h		;6583  '0'
+	defb 030h		;6584  '0'
+	defb 030h		;6585  '0'
+	defb 033h		;6586  '3'
+	defb 030h		;6587  '0'
+	defb 04fh		;6588  'O'
+	defb 053h		;6589  'S'
+	defb 056h		;658a  'V'
+	defb 043h		;658b  'C'
+	defb 044h		;658c  'D'
+	defb 020h		;658d  ' '
 l658eh:
-	defb 032h		;658e
-	defb 031h		;658f
-	defb 036h		;6590
-	defb 035h		;6591
-	defb 033h		;6592
-	defb 030h		;6593
-	defb 030h		;6594
+	defb 032h		;658e  '2'
+	defb 031h		;658f  '1'
+	defb 036h		;6590  '6'
+	defb 035h		;6591  '5'
+	defb 033h		;6592  '3'
+	defb 030h		;6593  '0'
+	defb 030h		;6594  '0'
 l6595h:
-	defb 030h		;6595
-	defb 030h		;6596
-	defb 032h		;6597
-	defb 030h		;6598
+	defb 030h		;6595  '0'
+	defb 030h		;6596  '0'
+	defb 032h		;6597  '2'
+	defb 030h		;6598  '0'
 l6599h:
-	defb 036h		;6599
-	defb 031h		;659a
-	defb 030h		;659b
-	defb 020h		;659c
-	defb 033h		;659d
-	defb 039h		;659e
-	defb 030h		;659f
+	defb 036h		;6599  '6'
+	defb 031h		;659a  '1'
+	defb 030h		;659b  '0'
+	defb 020h		;659c  ' '
+	defb 033h		;659d  '3'
+	defb 039h		;659e  '9'
+	defb 030h		;659f  '0'
 l65a0h:
-	defb 020h		;65a0
-	defb 032h		;65a1
-	defb 032h		;65a2
-	defb 032h		;65a3
-	defb 030h		;65a4
-	defb 030h		;65a5
-	defb 030h		;65a6
-	defb 030h		;65a7
-	defb 031h		;65a8
-	defb 030h		;65a9
-	defb 043h		;65aa
-	defb 044h		;65ab
+	defb 020h		;65a0  ' '
+	defb 032h		;65a1  '2'
+	defb 032h		;65a2  '2'
+	defb 032h		;65a3  '2'
+	defb 030h		;65a4  '0'
+	defb 030h		;65a5  '0'
+	defb 030h		;65a6  '0'
+	defb 030h		;65a7  '0'
+	defb 031h		;65a8  '1'
+	defb 030h		;65a9  '0'
+	defb 043h		;65aa  'C'
+	defb 044h		;65ab  'D'
 l65ach:
-	defb 045h		;65ac
-	defb 050h		;65ad
-	defb 043h		;65ae
-	defb 020h		;65af
-	defb 038h		;65b0
-	defb 035h		;65b1
-	defb 039h		;65b2
+	defb 045h		;65ac  'E'
+	defb 050h		;65ad  'P'
+	defb 043h		;65ae  'C'
+	defb 020h		;65af  ' '
+	defb 038h		;65b0  '8'
+	defb 035h		;65b1  '5'
+	defb 039h		;65b2  '9'
 l65b3h:
-	defb 033h		;65b3
-	defb 030h		;65b4
+	defb 033h		;65b3  '3'
+	defb 030h		;65b4  '0'
 l65b5h:
-	defb 030h		;65b5
-	defb 030h		;65b6
-	defb 030h		;65b7
-	defb 031h		;65b8
-	defb 035h		;65b9
-	defb 030h		;65ba
-	defb 020h		;65bb
-	defb 043h		;65bc
+	defb 030h		;65b5  '0'
+	defb 030h		;65b6  '0'
+	defb 030h		;65b7  '0'
+	defb 031h		;65b8  '1'
+	defb 035h		;65b9  '5'
+	defb 030h		;65ba  '0'
+	defb 020h		;65bb  ' '
+	defb 043h		;65bc  'C'
 l65bdh:
-	defb 04ch		;65bd
-	defb 049h		;65be
-	defb 056h		;65bf
-	defb 045h		;65c0
-	defb 020h		;65c1
-	defb 020h		;65c2
-	defb 020h		;65c3
-	defb 020h		;65c4
+	defb 04ch		;65bd  'L'
+	defb 049h		;65be  'I'
+	defb 056h		;65bf  'V'
+	defb 045h		;65c0  'E'
+	defb 020h		;65c1  ' '
+	defb 020h		;65c2  ' '
+	defb 020h		;65c3  ' '
+	defb 020h		;65c4  ' '
 l65c5h:
-	defb 020h		;65c5
-	defb 030h		;65c6
-	defb 030h		;65c7
-	defb 030h		;65c8
-	defb 031h		;65c9
-	defb 034h		;65ca
-	defb 030h		;65cb
-	defb 04dh		;65cc
-	defb 041h		;65cd
-	defb 05ah		;65ce
-	defb 020h		;65cf
-	defb 020h		;65d0
-	defb 020h		;65d1
-	defb 020h		;65d2
+	defb 020h		;65c5  ' '
+	defb 030h		;65c6  '0'
+	defb 030h		;65c7  '0'
+	defb 030h		;65c8  '0'
+	defb 031h		;65c9  '1'
+	defb 034h		;65ca  '4'
+	defb 030h		;65cb  '0'
+	defb 04dh		;65cc  'M'
+	defb 041h		;65cd  'A'
+	defb 05ah		;65ce  'Z'
+	defb 020h		;65cf  ' '
+	defb 020h		;65d0  ' '
+	defb 020h		;65d1  ' '
+	defb 020h		;65d2  ' '
 l65d3h:
-	defb 020h		;65d3
-	defb 020h		;65d4
-	defb 020h		;65d5
+	defb 020h		;65d3  ' '
+	defb 020h		;65d4  ' '
+	defb 020h		;65d5  ' '
 l65d6h:
-	defb 020h		;65d6
-	defb 030h		;65d7
-	defb 030h		;65d8
+	defb 020h		;65d6  ' '
+	defb 030h		;65d7  '0'
+	defb 030h		;65d8  '0'
 l65d9h:
-	defb 030h		;65d9
+	defb 030h		;65d9  '0'
 l65dah:
-	defb 031h		;65da
+	defb 031h		;65da  '1'
 l65dbh:
-	defb 033h		;65db
-	defb 030h		;65dc
+	defb 033h		;65db  '3'
+	defb 030h		;65dc  '0'
 l65ddh:
-	defb 04eh		;65dd
-	defb 049h		;65de
+	defb 04eh		;65dd  'N'
+	defb 049h		;65de  'I'
 l65dfh:
-	defb 043h		;65df
+	defb 043h		;65df  'C'
 l65e0h:
-	defb 04bh		;65e0
-	defb 020h		;65e1
-	defb 032h		;65e2
+	defb 04bh		;65e0  'K'
+	defb 020h		;65e1  ' '
+	defb 032h		;65e2  '2'
 l65e3h:
-	defb 030h		;65e3
-	defb 035h		;65e4
-	defb 047h		;65e5
-	defb 054h		;65e6
-	defb 049h		;65e7
-	defb 030h		;65e8
-	defb 030h		;65e9
-	defb 030h		;65ea
-	defb 031h		;65eb
-	defb 032h		;65ec
-	defb 030h		;65ed
-	defb 052h		;65ee
-	defb 04fh		;65ef
-	defb 042h		;65f0
-	defb 020h		;65f1
-	defb 045h		;65f2
-	defb 04ch		;65f3
-	defb 020h		;65f4
-	defb 042h		;65f5
-	defb 04fh		;65f6
-	defb 053h		;65f7
-	defb 053h		;65f8
-	defb 030h		;65f9
-	defb 030h		;65fa
-	defb 030h		;65fb
-	defb 031h		;65fc
-	defb 031h		;65fd
-	defb 030h		;65fe
-	defb 052h		;65ff
-	defb 04fh		;6600
-	defb 044h		;6601
-	defb 045h		;6602
-	defb 052h		;6603
-	defb 049h		;6604
-	defb 043h		;6605
-	defb 04bh		;6606
-	defb 020h		;6607
-	defb 020h		;6608
-	defb 020h		;6609
-	defb 030h		;660a
-	defb 030h		;660b
-	defb 030h		;660c
-	defb 031h		;660d
-	defb 030h		;660e
-	defb 030h		;660f
-	defb 052h		;6610
-	defb 04fh		;6611
-	defb 043h		;6612
-	defb 04bh		;6613
-	defb 045h		;6614
-	defb 054h		;6615
-	defb 020h		;6616
-	defb 052h		;6617
-	defb 04fh		;6618
-	defb 04eh		;6619
-	defb 020h		;661a
-	defb 030h		;661b
+	defb 030h		;65e3  '0'
+	defb 035h		;65e4  '5'
+	defb 047h		;65e5  'G'
+	defb 054h		;65e6  'T'
+	defb 049h		;65e7  'I'
+	defb 030h		;65e8  '0'
+	defb 030h		;65e9  '0'
+	defb 030h		;65ea  '0'
+	defb 031h		;65eb  '1'
+	defb 032h		;65ec  '2'
+	defb 030h		;65ed  '0'
+	defb 052h		;65ee  'R'
+	defb 04fh		;65ef  'O'
+	defb 042h		;65f0  'B'
+	defb 020h		;65f1  ' '
+	defb 045h		;65f2  'E'
+	defb 04ch		;65f3  'L'
+	defb 020h		;65f4  ' '
+	defb 042h		;65f5  'B'
+	defb 04fh		;65f6  'O'
+	defb 053h		;65f7  'S'
+	defb 053h		;65f8  'S'
+	defb 030h		;65f9  '0'
+	defb 030h		;65fa  '0'
+	defb 030h		;65fb  '0'
+	defb 031h		;65fc  '1'
+	defb 031h		;65fd  '1'
+	defb 030h		;65fe  '0'
+	defb 052h		;65ff  'R'
+	defb 04fh		;6600  'O'
+	defb 044h		;6601  'D'
+	defb 045h		;6602  'E'
+	defb 052h		;6603  'R'
+	defb 049h		;6604  'I'
+	defb 043h		;6605  'C'
+	defb 04bh		;6606  'K'
+	defb 020h		;6607  ' '
+	defb 020h		;6608  ' '
+	defb 020h		;6609  ' '
+	defb 030h		;660a  '0'
+	defb 030h		;660b  '0'
+	defb 030h		;660c  '0'
+	defb 031h		;660d  '1'
+	defb 030h		;660e  '0'
+	defb 030h		;660f  '0'
+	defb 052h		;6610  'R'
+	defb 04fh		;6611  'O'
+	defb 043h		;6612  'C'
+	defb 04bh		;6613  'K'
+	defb 045h		;6614  'E'
+	defb 054h		;6615  'T'
+	defb 020h		;6616  ' '
+	defb 052h		;6617  'R'
+	defb 04fh		;6618  'O'
+	defb 04eh		;6619  'N'
+	defb 020h		;661a  ' '
+	defb 030h		;661b  '0'
 l661ch:
-	defb 030h		;661c
-	defb 030h		;661d
-	defb 030h		;661e
-	defb 039h		;661f
-	defb 030h		;6620
-	defb 054h		;6621
-	defb 049h		;6622
-	defb 04dh		;6623
-	defb 020h		;6624
-	defb 04ch		;6625
-	defb 045h		;6626
-	defb 020h		;6627
-	defb 041h		;6628
-	defb 052h		;6629
-	defb 054h		;662a
-	defb 020h		;662b
+	defb 030h		;661c  '0'
+	defb 030h		;661d  '0'
+	defb 030h		;661e  '0'
+	defb 039h		;661f  '9'
+	defb 030h		;6620  '0'
+	defb 054h		;6621  'T'
+	defb 049h		;6622  'I'
+	defb 04dh		;6623  'M'
+	defb 020h		;6624  ' '
+	defb 04ch		;6625  'L'
+	defb 045h		;6626  'E'
+	defb 020h		;6627  ' '
+	defb 041h		;6628  'A'
+	defb 052h		;6629  'R'
+	defb 054h		;662a  'T'
+	defb 020h		;662b  ' '
 l662ch:
-	defb 030h		;662c
-	defb 030h		;662d
-	defb 030h		;662e
+	defb 030h		;662c  '0'
+	defb 030h		;662d  '0'
+	defb 030h		;662e  '0'
 l662fh:
-	defb 030h		;662f
+	defb 030h		;662f  '0'
 sub_6630h:
-	defb 038h		;6630
-	defb 030h		;6631
-	defb 04dh		;6632
-	defb 049h		;6633
-	defb 04bh		;6634
-	defb 045h		;6635
-	defb 020h		;6636
-	defb 021h		;6637
-	defb 020h		;6638
-	defb 04ah		;6639
-	defb 041h		;663a
-	defb 04eh		;663b
-	defb 045h		;663c
-	defb 030h		;663d
-	defb 030h		;663e
-	defb 030h		;663f
-	defb 030h		;6640
-	defb 037h		;6641
-	defb 030h		;6642
-	defb 04dh		;6643
-	defb 049h		;6644
-	defb 04bh		;6645
-	defb 045h		;6646
-	defb 020h		;6647
-	defb 045h		;6648
-	defb 048h		;6649
-	defb 020h		;664a
-	defb 020h		;664b
+	defb 038h		;6630  '8'
+	defb 030h		;6631  '0'
+	defb 04dh		;6632  'M'
+	defb 049h		;6633  'I'
+	defb 04bh		;6634  'K'
+	defb 045h		;6635  'E'
+	defb 020h		;6636  ' '
+	defb 021h		;6637  '!'
+	defb 020h		;6638  ' '
+	defb 04ah		;6639  'J'
+	defb 041h		;663a  'A'
+	defb 04eh		;663b  'N'
+	defb 045h		;663c  'E'
+	defb 030h		;663d  '0'
+	defb 030h		;663e  '0'
+	defb 030h		;663f  '0'
+	defb 030h		;6640  '0'
+	defb 037h		;6641  '7'
+	defb 030h		;6642  '0'
+	defb 04dh		;6643  'M'
+	defb 049h		;6644  'I'
+	defb 04bh		;6645  'K'
+	defb 045h		;6646  'E'
+	defb 020h		;6647  ' '
+	defb 045h		;6648  'E'
+	defb 048h		;6649  'H'
+	defb 020h		;664a  ' '
+	defb 020h		;664b  ' '
 sub_664ch:
-	defb 020h		;664c
-	defb 020h		;664d
-	defb 030h		;664e
-	defb 030h		;664f
-	defb 030h		;6650
-	defb 030h		;6651
-	defb 036h		;6652
-	defb 030h		;6653
-	defb 054h		;6654
-	defb 049h		;6655
-	defb 04dh		;6656
-	defb 020h		;6657
-	defb 048h		;6658
-	defb 045h		;6659
-	defb 049h		;665a
-	defb 04eh		;665b
-	defb 05ah		;665c
-	defb 020h		;665d
-	defb 020h		;665e
-	defb 030h		;665f
-	defb 030h		;6660
-	defb 030h		;6661
-	defb 030h		;6662
-	defb 035h		;6663
-	defb 030h		;6664
-	defb 041h		;6665
-	defb 04eh		;6666
-	defb 047h		;6667
-	defb 049h		;6668
-	defb 045h		;6669
-	defb 020h		;666a
+	defb 020h		;664c  ' '
+	defb 020h		;664d  ' '
+	defb 030h		;664e  '0'
+	defb 030h		;664f  '0'
+	defb 030h		;6650  '0'
+	defb 030h		;6651  '0'
+	defb 036h		;6652  '6'
+	defb 030h		;6653  '0'
+	defb 054h		;6654  'T'
+	defb 049h		;6655  'I'
+	defb 04dh		;6656  'M'
+	defb 020h		;6657  ' '
+	defb 048h		;6658  'H'
+	defb 045h		;6659  'E'
+	defb 049h		;665a  'I'
+	defb 04eh		;665b  'N'
+	defb 05ah		;665c  'Z'
+	defb 020h		;665d  ' '
+	defb 020h		;665e  ' '
+	defb 030h		;665f  '0'
+	defb 030h		;6660  '0'
+	defb 030h		;6661  '0'
+	defb 030h		;6662  '0'
+	defb 035h		;6663  '5'
+	defb 030h		;6664  '0'
+	defb 041h		;6665  'A'
+	defb 04eh		;6666  'N'
+	defb 047h		;6667  'G'
+	defb 049h		;6668  'I'
+	defb 045h		;6669  'E'
+	defb 020h		;666a  ' '
 l666bh:
-	defb 020h		;666b
-	defb 020h		;666c
-	defb 020h		;666d
-	defb 020h		;666e
-	defb 020h		;666f
-	defb 030h		;6670
+	defb 020h		;666b  ' '
+	defb 020h		;666c  ' '
+	defb 020h		;666d  ' '
+	defb 020h		;666e  ' '
+	defb 020h		;666f  ' '
+	defb 030h		;6670  '0'
 l6671h:
-	defb 030h		;6671
-	defb 030h		;6672
-	defb 030h		;6673
-	defb 034h		;6674
-	defb 030h		;6675
-	defb 04ah		;6676
-	defb 04fh		;6677
-	defb 020h		;6678
-	defb 020h		;6679
-	defb 020h		;667a
-	defb 020h		;667b
-	defb 020h		;667c
-	defb 020h		;667d
-	defb 020h		;667e
-	defb 020h		;667f
-	defb 020h		;6680
-	defb 030h		;6681
-	defb 030h		;6682
-	defb 030h		;6683
-	defb 030h		;6684
-	defb 033h		;6685
-	defb 030h		;6686
-	defb 04ah		;6687
-	defb 055h		;6688
-	defb 04ch		;6689
-	defb 049h		;668a
-	defb 041h		;668b
+	defb 030h		;6671  '0'
+	defb 030h		;6672  '0'
+	defb 030h		;6673  '0'
+	defb 034h		;6674  '4'
+	defb 030h		;6675  '0'
+	defb 04ah		;6676  'J'
+	defb 04fh		;6677  'O'
+	defb 020h		;6678  ' '
+	defb 020h		;6679  ' '
+	defb 020h		;667a  ' '
+	defb 020h		;667b  ' '
+	defb 020h		;667c  ' '
+	defb 020h		;667d  ' '
+	defb 020h		;667e  ' '
+	defb 020h		;667f  ' '
+	defb 020h		;6680  ' '
+	defb 030h		;6681  '0'
+	defb 030h		;6682  '0'
+	defb 030h		;6683  '0'
+	defb 030h		;6684  '0'
+	defb 033h		;6685  '3'
+	defb 030h		;6686  '0'
+	defb 04ah		;6687  'J'
+	defb 055h		;6688  'U'
+	defb 04ch		;6689  'L'
+	defb 049h		;668a  'I'
+	defb 041h		;668b  'A'
 GFX_PATTERN_TBL:
-	defb 04eh		;668c
-	defb 020h		;668d
-	defb 054h		;668e
-	defb 04fh		;668f
-	defb 041h		;6690
-	defb 044h		;6691
-	defb 030h		;6692
-	defb 030h		;6693
-	defb 030h		;6694
-	defb 030h		;6695
-	defb 032h		;6696
-	defb 030h		;6697
-	defb 054h		;6698
-	defb 048h		;6699
-	defb 045h		;669a
-	defb 020h		;669b
-	defb 043h		;669c
-	defb 04ch		;669d
-	defb 045h		;669e
-	defb 041h		;669f
-	defb 04eh		;66a0
-	defb 045h		;66a1
-	defb 052h		;66a2
-	defb 030h		;66a3
-	defb 030h		;66a4
-	defb 030h		;66a5
-	defb 030h		;66a6
-	defb 031h		;66a7
-	defb 030h		;66a8
-	defb 053h		;66a9
-	defb 049h		;66aa
-	defb 04dh		;66ab
-	defb 04fh		;66ac
+	defb 04eh		;668c  'N'
+	defb 020h		;668d  ' '
+	defb 054h		;668e  'T'
+	defb 04fh		;668f  'O'
+	defb 041h		;6690  'A'
+	defb 044h		;6691  'D'
+	defb 030h		;6692  '0'
+	defb 030h		;6693  '0'
+	defb 030h		;6694  '0'
+	defb 030h		;6695  '0'
+	defb 032h		;6696  '2'
+	defb 030h		;6697  '0'
+	defb 054h		;6698  'T'
+	defb 048h		;6699  'H'
+	defb 045h		;669a  'E'
+	defb 020h		;669b  ' '
+	defb 043h		;669c  'C'
+	defb 04ch		;669d  'L'
+	defb 045h		;669e  'E'
+	defb 041h		;669f  'A'
+	defb 04eh		;66a0  'N'
+	defb 045h		;66a1  'E'
+	defb 052h		;66a2  'R'
+	defb 030h		;66a3  '0'
+	defb 030h		;66a4  '0'
+	defb 030h		;66a5  '0'
+	defb 030h		;66a6  '0'
+	defb 031h		;66a7  '1'
+	defb 030h		;66a8  '0'
+	defb 053h		;66a9  'S'
+	defb 049h		;66aa  'I'
+	defb 04dh		;66ab  'M'
+	defb 04fh		;66ac  'O'
 l66adh:
-	defb 04eh		;66ad
+	defb 04eh		;66ad  'N'
 l66aeh:
-	defb 020h		;66ae
-	defb 020h		;66af
-	defb 020h		;66b0
-	defb 020h		;66b1
-	defb 020h		;66b2
+	defb 020h		;66ae  ' '
+	defb 020h		;66af  ' '
+	defb 020h		;66b0  ' '
+	defb 020h		;66b1  ' '
+	defb 020h		;66b2  ' '
 l66b3h:
-	defb 020h		;66b3
-	defb 030h		;66b4
-	defb 030h		;66b5
-	defb 030h		;66b6
-	defb 031h		;66b7
-	defb 035h		;66b8
-	defb 030h		;66b9
-	defb 020h		;66ba
-	defb 043h		;66bb
-	defb 04ch		;66bc
-	defb 049h		;66bd
-	defb 056h		;66be
-	defb 045h		;66bf
-	defb 020h		;66c0
-	defb 020h		;66c1
-	defb 020h		;66c2
-	defb 020h		;66c3
-	defb 020h		;66c4
-	defb 030h		;66c5
-	defb 030h		;66c6
-	defb 030h		;66c7
-	defb 031h		;66c8
-	defb 034h		;66c9
-	defb 030h		;66ca
-	defb 04eh		;66cb
+	defb 020h		;66b3  ' '
+	defb 030h		;66b4  '0'
+	defb 030h		;66b5  '0'
+	defb 030h		;66b6  '0'
+	defb 031h		;66b7  '1'
+	defb 035h		;66b8  '5'
+	defb 030h		;66b9  '0'
+	defb 020h		;66ba  ' '
+	defb 043h		;66bb  'C'
+	defb 04ch		;66bc  'L'
+	defb 049h		;66bd  'I'
+	defb 056h		;66be  'V'
+	defb 045h		;66bf  'E'
+	defb 020h		;66c0  ' '
+	defb 020h		;66c1  ' '
+	defb 020h		;66c2  ' '
+	defb 020h		;66c3  ' '
+	defb 020h		;66c4  ' '
+	defb 030h		;66c5  '0'
+	defb 030h		;66c6  '0'
+	defb 030h		;66c7  '0'
+	defb 031h		;66c8  '1'
+	defb 034h		;66c9  '4'
+	defb 030h		;66ca  '0'
+	defb 04eh		;66cb  'N'
 l66cch:
-	defb 049h		;66cc
-	defb 04eh		;66cd
-	defb 04ah		;66ce
-	defb 041h		;66cf
-	defb 020h		;66d0
-	defb 020h		;66d1
-	defb 020h		;66d2
-	defb 020h		;66d3
-	defb 020h		;66d4
-	defb 020h		;66d5
-	defb 030h		;66d6
-	defb 030h		;66d7
-	defb 030h		;66d8
-	defb 031h		;66d9
-	defb 033h		;66da
-	defb 030h		;66db
-	defb 052h		;66dc
-	defb 049h		;66dd
-	defb 043h		;66de
-	defb 048h		;66df
-	defb 020h		;66e0
-	defb 020h		;66e1
-	defb 020h		;66e2
-	defb 020h		;66e3
-	defb 020h		;66e4
-	defb 020h		;66e5
-	defb 020h		;66e6
-	defb 030h		;66e7
-	defb 030h		;66e8
-	defb 030h		;66e9
-	defb 031h		;66ea
-	defb 032h		;66eb
-	defb 030h		;66ec
+	defb 049h		;66cc  'I'
+	defb 04eh		;66cd  'N'
+	defb 04ah		;66ce  'J'
+	defb 041h		;66cf  'A'
+	defb 020h		;66d0  ' '
+	defb 020h		;66d1  ' '
+	defb 020h		;66d2  ' '
+	defb 020h		;66d3  ' '
+	defb 020h		;66d4  ' '
+	defb 020h		;66d5  ' '
+	defb 030h		;66d6  '0'
+	defb 030h		;66d7  '0'
+	defb 030h		;66d8  '0'
+	defb 031h		;66d9  '1'
+	defb 033h		;66da  '3'
+	defb 030h		;66db  '0'
+	defb 052h		;66dc  'R'
+	defb 049h		;66dd  'I'
+	defb 043h		;66de  'C'
+	defb 048h		;66df  'H'
+	defb 020h		;66e0  ' '
+	defb 020h		;66e1  ' '
+	defb 020h		;66e2  ' '
+	defb 020h		;66e3  ' '
+	defb 020h		;66e4  ' '
+	defb 020h		;66e5  ' '
+	defb 020h		;66e6  ' '
+	defb 030h		;66e7  '0'
+	defb 030h		;66e8  '0'
+	defb 030h		;66e9  '0'
+	defb 031h		;66ea  '1'
+	defb 032h		;66eb  '2'
+	defb 030h		;66ec  '0'
 l66edh:
-	defb 044h		;66ed
+	defb 044h		;66ed  'D'
 l66eeh:
-	defb 041h		;66ee
-	defb 056h		;66ef
-	defb 045h		;66f0
-	defb 020h		;66f1
-	defb 041h		;66f2
-	defb 052h		;66f3
-	defb 04dh		;66f4
-	defb 053h		;66f5
-	defb 020h		;66f6
-	defb 020h		;66f7
+	defb 041h		;66ee  'A'
+	defb 056h		;66ef  'V'
+	defb 045h		;66f0  'E'
+	defb 020h		;66f1  ' '
+	defb 041h		;66f2  'A'
+	defb 052h		;66f3  'R'
+	defb 04dh		;66f4  'M'
+	defb 053h		;66f5  'S'
+	defb 020h		;66f6  ' '
+	defb 020h		;66f7  ' '
 l66f8h:
-	defb 030h		;66f8
-	defb 030h		;66f9
-	defb 030h		;66fa
-	defb 031h		;66fb
-	defb 031h		;66fc
-	defb 030h		;66fd
-	defb 054h		;66fe
-	defb 052h		;66ff
-	defb 045h		;6700
-	defb 056h		;6701
-	defb 04fh		;6702
-	defb 052h		;6703
-	defb 020h		;6704
-	defb 020h		;6705
-	defb 020h		;6706
-	defb 020h		;6707
-	defb 020h		;6708
-	defb 030h		;6709
-	defb 030h		;670a
-	defb 030h		;670b
-	defb 031h		;670c
-	defb 030h		;670d
+	defb 030h		;66f8  '0'
+	defb 030h		;66f9  '0'
+	defb 030h		;66fa  '0'
+	defb 031h		;66fb  '1'
+	defb 031h		;66fc  '1'
+	defb 030h		;66fd  '0'
+	defb 054h		;66fe  'T'
+	defb 052h		;66ff  'R'
+	defb 045h		;6700  'E'
+	defb 056h		;6701  'V'
+	defb 04fh		;6702  'O'
+	defb 052h		;6703  'R'
+	defb 020h		;6704  ' '
+	defb 020h		;6705  ' '
+	defb 020h		;6706  ' '
+	defb 020h		;6707  ' '
+	defb 020h		;6708  ' '
+	defb 030h		;6709  '0'
+	defb 030h		;670a  '0'
+	defb 030h		;670b  '0'
+	defb 031h		;670c  '1'
+	defb 030h		;670d  '0'
 l670eh:
-	defb 030h		;670e
-	defb 048h		;670f
-	defb 045h		;6710
-	defb 04ch		;6711
-	defb 04fh		;6712
-	defb 049h		;6713
-	defb 053h		;6714
-	defb 045h		;6715
-	defb 020h		;6716
-	defb 020h		;6717
-	defb 020h		;6718
-	defb 020h		;6719
-	defb 030h		;671a
-	defb 030h		;671b
-	defb 030h		;671c
-	defb 030h		;671d
-	defb 039h		;671e
-	defb 030h		;671f
-	defb 054h		;6720
-	defb 04fh		;6721
-	defb 04dh		;6722
-	defb 020h		;6723
-	defb 020h		;6724
-	defb 020h		;6725
-	defb 020h		;6726
-	defb 020h		;6727
-	defb 020h		;6728
-	defb 020h		;6729
-	defb 020h		;672a
-	defb 030h		;672b
-	defb 030h		;672c
-	defb 030h		;672d
-	defb 030h		;672e
-	defb 038h		;672f
-	defb 030h		;6730
+	defb 030h		;670e  '0'
+	defb 048h		;670f  'H'
+	defb 045h		;6710  'E'
+	defb 04ch		;6711  'L'
+	defb 04fh		;6712  'O'
+	defb 049h		;6713  'I'
+	defb 053h		;6714  'S'
+	defb 045h		;6715  'E'
+	defb 020h		;6716  ' '
+	defb 020h		;6717  ' '
+	defb 020h		;6718  ' '
+	defb 020h		;6719  ' '
+	defb 030h		;671a  '0'
+	defb 030h		;671b  '0'
+	defb 030h		;671c  '0'
+	defb 030h		;671d  '0'
+	defb 039h		;671e  '9'
+	defb 030h		;671f  '0'
+	defb 054h		;6720  'T'
+	defb 04fh		;6721  'O'
+	defb 04dh		;6722  'M'
+	defb 020h		;6723  ' '
+	defb 020h		;6724  ' '
+	defb 020h		;6725  ' '
+	defb 020h		;6726  ' '
+	defb 020h		;6727  ' '
+	defb 020h		;6728  ' '
+	defb 020h		;6729  ' '
+	defb 020h		;672a  ' '
+	defb 030h		;672b  '0'
+	defb 030h		;672c  '0'
+	defb 030h		;672d  '0'
+	defb 030h		;672e  '0'
+	defb 038h		;672f  '8'
+	defb 030h		;6730  '0'
 l6731h:
-	defb 04fh		;6731
-	defb 057h		;6732
-	defb 045h		;6733
-	defb 04eh		;6734
-	defb 020h		;6735
-	defb 020h		;6736
-	defb 020h		;6737
-	defb 020h		;6738
-	defb 020h		;6739
-	defb 020h		;673a
-	defb 020h		;673b
-	defb 030h		;673c
+	defb 04fh		;6731  'O'
+	defb 057h		;6732  'W'
+	defb 045h		;6733  'E'
+	defb 04eh		;6734  'N'
+	defb 020h		;6735  ' '
+	defb 020h		;6736  ' '
+	defb 020h		;6737  ' '
+	defb 020h		;6738  ' '
+	defb 020h		;6739  ' '
+	defb 020h		;673a  ' '
+	defb 020h		;673b  ' '
+	defb 030h		;673c  '0'
 l673dh:
-	defb 030h		;673d
-	defb 030h		;673e
+	defb 030h		;673d  '0'
+	defb 030h		;673e  '0'
 l673fh:
-	defb 030h		;673f
-	defb 037h		;6740
-	defb 030h		;6741
-	defb 050h		;6742
-	defb 048h		;6743
-	defb 049h		;6744
-	defb 04ch		;6745
+	defb 030h		;673f  '0'
+	defb 037h		;6740  '7'
+	defb 030h		;6741  '0'
+	defb 050h		;6742  'P'
+	defb 048h		;6743  'H'
+	defb 049h		;6744  'I'
+	defb 04ch		;6745  'L'
 l6746h:
-	defb 04ch		;6746
-	defb 020h		;6747
-	defb 020h		;6748
-	defb 020h		;6749
-	defb 020h		;674a
-	defb 020h		;674b
-	defb 020h		;674c
-	defb 030h		;674d
+	defb 04ch		;6746  'L'
+	defb 020h		;6747  ' '
+	defb 020h		;6748  ' '
+	defb 020h		;6749  ' '
+	defb 020h		;674a  ' '
+	defb 020h		;674b  ' '
+	defb 020h		;674c  ' '
+	defb 030h		;674d  '0'
 l674eh:
-	defb 030h		;674e
-	defb 030h		;674f
-	defb 030h		;6750
-	defb 036h		;6751
-	defb 030h		;6752
-	defb 043h		;6753
-	defb 041h		;6754
-	defb 052h		;6755
-	defb 04fh		;6756
-	defb 04ch		;6757
-	defb 049h		;6758
-	defb 04eh		;6759
-	defb 045h		;675a
-	defb 020h		;675b
-	defb 020h		;675c
-	defb 020h		;675d
-	defb 030h		;675e
-	defb 030h		;675f
-	defb 030h		;6760
-	defb 030h		;6761
-	defb 035h		;6762
-	defb 030h		;6763
-	defb 048h		;6764
-	defb 045h		;6765
-	defb 04ch		;6766
-	defb 045h		;6767
-	defb 04eh		;6768
-	defb 020h		;6769
-	defb 050h		;676a
-	defb 020h		;676b
-	defb 020h		;676c
-	defb 020h		;676d
-	defb 020h		;676e
-	defb 030h		;676f
-	defb 030h		;6770
-	defb 030h		;6771
-	defb 030h		;6772
-	defb 034h		;6773
-	defb 030h		;6774
-	defb 046h		;6775
-	defb 052h		;6776
-	defb 041h		;6777
-	defb 04eh		;6778
-	defb 020h		;6779
-	defb 020h		;677a
-	defb 020h		;677b
-	defb 020h		;677c
+	defb 030h		;674e  '0'
+	defb 030h		;674f  '0'
+	defb 030h		;6750  '0'
+	defb 036h		;6751  '6'
+	defb 030h		;6752  '0'
+	defb 043h		;6753  'C'
+	defb 041h		;6754  'A'
+	defb 052h		;6755  'R'
+	defb 04fh		;6756  'O'
+	defb 04ch		;6757  'L'
+	defb 049h		;6758  'I'
+	defb 04eh		;6759  'N'
+	defb 045h		;675a  'E'
+	defb 020h		;675b  ' '
+	defb 020h		;675c  ' '
+	defb 020h		;675d  ' '
+	defb 030h		;675e  '0'
+	defb 030h		;675f  '0'
+	defb 030h		;6760  '0'
+	defb 030h		;6761  '0'
+	defb 035h		;6762  '5'
+	defb 030h		;6763  '0'
+	defb 048h		;6764  'H'
+	defb 045h		;6765  'E'
+	defb 04ch		;6766  'L'
+	defb 045h		;6767  'E'
+	defb 04eh		;6768  'N'
+	defb 020h		;6769  ' '
+	defb 050h		;676a  'P'
+	defb 020h		;676b  ' '
+	defb 020h		;676c  ' '
+	defb 020h		;676d  ' '
+	defb 020h		;676e  ' '
+	defb 030h		;676f  '0'
+	defb 030h		;6770  '0'
+	defb 030h		;6771  '0'
+	defb 030h		;6772  '0'
+	defb 034h		;6773  '4'
+	defb 030h		;6774  '0'
+	defb 046h		;6775  'F'
+	defb 052h		;6776  'R'
+	defb 041h		;6777  'A'
+	defb 04eh		;6778  'N'
+	defb 020h		;6779  ' '
+	defb 020h		;677a  ' '
+	defb 020h		;677b  ' '
+	defb 020h		;677c  ' '
 l677dh:
-	defb 020h		;677d
-	defb 020h		;677e
-	defb 020h		;677f
-	defb 030h		;6780
-	defb 030h		;6781
-	defb 030h		;6782
-	defb 030h		;6783
-	defb 033h		;6784
-	defb 030h		;6785
-	defb 053h		;6786
-	defb 054h		;6787
-	defb 045h		;6788
-	defb 056h		;6789
-	defb 045h		;678a
-	defb 020h		;678b
-	defb 048h		;678c
+	defb 020h		;677d  ' '
+	defb 020h		;677e  ' '
+	defb 020h		;677f  ' '
+	defb 030h		;6780  '0'
+	defb 030h		;6781  '0'
+	defb 030h		;6782  '0'
+	defb 030h		;6783  '0'
+	defb 033h		;6784  '3'
+	defb 030h		;6785  '0'
+	defb 053h		;6786  'S'
+	defb 054h		;6787  'T'
+	defb 045h		;6788  'E'
+	defb 056h		;6789  'V'
+	defb 045h		;678a  'E'
+	defb 020h		;678b  ' '
+	defb 048h		;678c  'H'
 l678dh:
-	defb 020h		;678d
-	defb 020h		;678e
+	defb 020h		;678d  ' '
+	defb 020h		;678e  ' '
 l678fh:
-	defb 020h		;678f
-	defb 020h		;6790
-	defb 030h		;6791
+	defb 020h		;678f  ' '
+	defb 020h		;6790  ' '
+	defb 030h		;6791  '0'
 l6792h:
-	defb 030h		;6792
+	defb 030h		;6792  '0'
 l6793h:
-	defb 030h		;6793
-	defb 030h		;6794
-	defb 032h		;6795
-	defb 030h		;6796
-	defb 05ah		;6797
-	defb 04fh		;6798
-	defb 04eh		;6799
-	defb 04bh		;679a
+	defb 030h		;6793  '0'
+	defb 030h		;6794  '0'
+	defb 032h		;6795  '2'
+	defb 030h		;6796  '0'
+	defb 05ah		;6797  'Z'
+	defb 04fh		;6798  'O'
+	defb 04eh		;6799  'N'
+	defb 04bh		;679a  'K'
 l679bh:
-	defb 020h		;679b
-	defb 020h		;679c
-	defb 020h		;679d
+	defb 020h		;679b  ' '
+	defb 020h		;679c  ' '
+	defb 020h		;679d  ' '
 l679eh:
-	defb 020h		;679e
+	defb 020h		;679e  ' '
 l679fh:
-	defb 020h		;679f
-	defb 020h		;67a0
-	defb 020h		;67a1
-	defb 030h		;67a2
-	defb 030h		;67a3
-	defb 030h		;67a4
-	defb 030h		;67a5
-	defb 031h		;67a6
-	defb 030h		;67a7
-	defb 042h		;67a8
-	defb 049h		;67a9
-	defb 04eh		;67aa
-	defb 020h		;67ab
-	defb 042h		;67ac
+	defb 020h		;679f  ' '
+	defb 020h		;67a0  ' '
+	defb 020h		;67a1  ' '
+	defb 030h		;67a2  '0'
+	defb 030h		;67a3  '0'
+	defb 030h		;67a4  '0'
+	defb 030h		;67a5  '0'
+	defb 031h		;67a6  '1'
+	defb 030h		;67a7  '0'
+	defb 042h		;67a8  'B'
+	defb 049h		;67a9  'I'
+	defb 04eh		;67aa  'N'
+	defb 020h		;67ab  ' '
+	defb 042h		;67ac  'B'
 l67adh:
-	defb 04fh		;67ad
-	defb 059h		;67ae
-	defb 020h		;67af
-	defb 042h		;67b0
-	defb 045h		;67b1
-	defb 04eh		;67b2
-	defb 030h		;67b3
-	defb 030h		;67b4
-	defb 030h		;67b5
+	defb 04fh		;67ad  'O'
+	defb 059h		;67ae  'Y'
+	defb 020h		;67af  ' '
+	defb 042h		;67b0  'B'
+	defb 045h		;67b1  'E'
+	defb 04eh		;67b2  'N'
+	defb 030h		;67b3  '0'
+	defb 030h		;67b4  '0'
+	defb 030h		;67b5  '0'
 l67b6h:
-	defb 032h		;67b6
-	defb 035h		;67b7
-	defb 030h		;67b8
-	defb 043h		;67b9
-	defb 04ch		;67ba
-	defb 049h		;67bb
-	defb 056h		;67bc
-	defb 045h		;67bd
-	defb 020h		;67be
-	defb 020h		;67bf
-	defb 020h		;67c0
-	defb 020h		;67c1
-	defb 020h		;67c2
-	defb 020h		;67c3
-	defb 030h		;67c4
-	defb 030h		;67c5
-	defb 030h		;67c6
-	defb 032h		;67c7
-	defb 034h		;67c8
-	defb 030h		;67c9
-	defb 052h		;67ca
-	defb 049h		;67cb
-	defb 043h		;67cc
-	defb 048h		;67cd
-	defb 020h		;67ce
-	defb 020h		;67cf
-	defb 020h		;67d0
-	defb 020h		;67d1
-	defb 020h		;67d2
+	defb 032h		;67b6  '2'
+	defb 035h		;67b7  '5'
+	defb 030h		;67b8  '0'
+	defb 043h		;67b9  'C'
+	defb 04ch		;67ba  'L'
+	defb 049h		;67bb  'I'
+	defb 056h		;67bc  'V'
+	defb 045h		;67bd  'E'
+	defb 020h		;67be  ' '
+	defb 020h		;67bf  ' '
+	defb 020h		;67c0  ' '
+	defb 020h		;67c1  ' '
+	defb 020h		;67c2  ' '
+	defb 020h		;67c3  ' '
+	defb 030h		;67c4  '0'
+	defb 030h		;67c5  '0'
+	defb 030h		;67c6  '0'
+	defb 032h		;67c7  '2'
+	defb 034h		;67c8  '4'
+	defb 030h		;67c9  '0'
+	defb 052h		;67ca  'R'
+	defb 049h		;67cb  'I'
+	defb 043h		;67cc  'C'
+	defb 048h		;67cd  'H'
+	defb 020h		;67ce  ' '
+	defb 020h		;67cf  ' '
+	defb 020h		;67d0  ' '
+	defb 020h		;67d1  ' '
+	defb 020h		;67d2  ' '
 l67d3h:
-	defb 020h		;67d3
-	defb 020h		;67d4
-	defb 030h		;67d5
-	defb 030h		;67d6
-	defb 030h		;67d7
+	defb 020h		;67d3  ' '
+	defb 020h		;67d4  ' '
+	defb 030h		;67d5  '0'
+	defb 030h		;67d6  '0'
+	defb 030h		;67d7  '0'
 l67d8h:
-	defb 031h		;67d8
-	defb 033h		;67d9
-	defb 030h		;67da
-	defb 051h		;67db
-	defb 055h		;67dc
+	defb 031h		;67d8  '1'
+	defb 033h		;67d9  '3'
+	defb 030h		;67da  '0'
+	defb 051h		;67db  'Q'
+	defb 055h		;67dc  'U'
 l67ddh:
-	defb 041h		;67dd
-	defb 04eh		;67de
-	defb 047h		;67df
-	defb 04fh		;67e0
-	defb 020h		;67e1
-	defb 020h		;67e2
-	defb 020h		;67e3
-	defb 020h		;67e4
-	defb 020h		;67e5
-	defb 030h		;67e6
-	defb 030h		;67e7
-	defb 030h		;67e8
-	defb 031h		;67e9
-	defb 032h		;67ea
-	defb 030h		;67eb
-	defb 043h		;67ec
-	defb 041h		;67ed
-	defb 050h		;67ee
-	defb 054h		;67ef
+	defb 041h		;67dd  'A'
+	defb 04eh		;67de  'N'
+	defb 047h		;67df  'G'
+	defb 04fh		;67e0  'O'
+	defb 020h		;67e1  ' '
+	defb 020h		;67e2  ' '
+	defb 020h		;67e3  ' '
+	defb 020h		;67e4  ' '
+	defb 020h		;67e5  ' '
+	defb 030h		;67e6  '0'
+	defb 030h		;67e7  '0'
+	defb 030h		;67e8  '0'
+	defb 031h		;67e9  '1'
+	defb 032h		;67ea  '2'
+	defb 030h		;67eb  '0'
+	defb 043h		;67ec  'C'
+	defb 041h		;67ed  'A'
+	defb 050h		;67ee  'P'
+	defb 054h		;67ef  'T'
 l67f0h:
-	defb 049h		;67f0
-	defb 04eh		;67f1
-	defb 020h		;67f2
+	defb 049h		;67f0  'I'
+	defb 04eh		;67f1  'N'
+	defb 020h		;67f2  ' '
 l67f3h:
-	defb 046h		;67f3
-	defb 04ch		;67f4
+	defb 046h		;67f3  'F'
+	defb 04ch		;67f4  'L'
 l67f5h:
-	defb 041h		;67f5
-	defb 042h		;67f6
-	defb 030h		;67f7
-	defb 030h		;67f8
-	defb 030h		;67f9
-	defb 031h		;67fa
-	defb 031h		;67fb
-	defb 030h		;67fc
-	defb 04bh		;67fd
-	defb 045h		;67fe
-	defb 056h		;67ff
-	defb 020h		;6800
-	defb 020h		;6801
-	defb 020h		;6802
-	defb 020h		;6803
-	defb 020h		;6804
-	defb 020h		;6805
-	defb 020h		;6806
-	defb 020h		;6807
-	defb 030h		;6808
-	defb 030h		;6809
-	defb 030h		;680a
-	defb 031h		;680b
-	defb 030h		;680c
-	defb 030h		;680d
-	defb 052h		;680e
-	defb 04fh		;680f
+	defb 041h		;67f5  'A'
+	defb 042h		;67f6  'B'
+	defb 030h		;67f7  '0'
+	defb 030h		;67f8  '0'
+	defb 030h		;67f9  '0'
+	defb 031h		;67fa  '1'
+	defb 031h		;67fb  '1'
+	defb 030h		;67fc  '0'
+	defb 04bh		;67fd  'K'
+	defb 045h		;67fe  'E'
+	defb 056h		;67ff  'V'
+	defb 020h		;6800  ' '
+	defb 020h		;6801  ' '
+	defb 020h		;6802  ' '
+	defb 020h		;6803  ' '
+	defb 020h		;6804  ' '
+	defb 020h		;6805  ' '
+	defb 020h		;6806  ' '
+	defb 020h		;6807  ' '
+	defb 030h		;6808  '0'
+	defb 030h		;6809  '0'
+	defb 030h		;680a  '0'
+	defb 031h		;680b  '1'
+	defb 030h		;680c  '0'
+	defb 030h		;680d  '0'
+	defb 052h		;680e  'R'
+	defb 04fh		;680f  'O'
 l6810h:
-	defb 044h		;6810
-	defb 04eh		;6811
-	defb 045h		;6812
-	defb 059h		;6813
-	defb 020h		;6814
-	defb 020h		;6815
+	defb 044h		;6810  'D'
+	defb 04eh		;6811  'N'
+	defb 045h		;6812  'E'
+	defb 059h		;6813  'Y'
+	defb 020h		;6814  ' '
+	defb 020h		;6815  ' '
 l6816h:
-	defb 020h		;6816
-	defb 020h		;6817
-	defb 020h		;6818
-	defb 030h		;6819
-	defb 030h		;681a
-	defb 030h		;681b
-	defb 030h		;681c
-	defb 039h		;681d
-	defb 030h		;681e
-	defb 053h		;681f
+	defb 020h		;6816  ' '
+	defb 020h		;6817  ' '
+	defb 020h		;6818  ' '
+	defb 030h		;6819  '0'
+	defb 030h		;681a  '0'
+	defb 030h		;681b  '0'
+	defb 030h		;681c  '0'
+	defb 039h		;681d  '9'
+	defb 030h		;681e  '0'
+	defb 053h		;681f  'S'
 l6820h:
-	defb 054h		;6820
-	defb 045h		;6821
-	defb 056h		;6822
-	defb 045h		;6823
+	defb 054h		;6820  'T'
+	defb 045h		;6821  'E'
+	defb 056h		;6822  'V'
+	defb 045h		;6823  'E'
 l6824h:
-	defb 020h		;6824
-	defb 054h		;6825
-	defb 020h		;6826
-	defb 020h		;6827
-	defb 020h		;6828
-	defb 020h		;6829
-	defb 030h		;682a
-	defb 030h		;682b
-	defb 030h		;682c
-	defb 030h		;682d
-	defb 038h		;682e
-	defb 030h		;682f
-	defb 047h		;6830
-	defb 045h		;6831
-	defb 04fh		;6832
-	defb 046h		;6833
-	defb 046h		;6834
-	defb 020h		;6835
-	defb 050h		;6836
-	defb 020h		;6837
-	defb 020h		;6838
-	defb 020h		;6839
-	defb 020h		;683a
-	defb 030h		;683b
-	defb 030h		;683c
-	defb 030h		;683d
-	defb 030h		;683e
-	defb 037h		;683f
-	defb 030h		;6840
-	defb 052h		;6841
-	defb 04fh		;6842
-	defb 042h		;6843
-	defb 049h		;6844
-	defb 04eh		;6845
-	defb 020h		;6846
-	defb 043h		;6847
-	defb 020h		;6848
-	defb 020h		;6849
-	defb 020h		;684a
-	defb 020h		;684b
-	defb 030h		;684c
-	defb 030h		;684d
-	defb 030h		;684e
-	defb 030h		;684f
-	defb 036h		;6850
-	defb 030h		;6851
-	defb 056h		;6852
-	defb 041h		;6853
-	defb 04ch		;6854
-	defb 020h		;6855
-	defb 020h		;6856
-	defb 020h		;6857
-	defb 020h		;6858
-	defb 020h		;6859
-	defb 020h		;685a
-	defb 020h		;685b
-	defb 020h		;685c
-	defb 030h		;685d
-	defb 030h		;685e
-	defb 030h		;685f
-	defb 030h		;6860
-	defb 035h		;6861
-	defb 030h		;6862
-	defb 04ch		;6863
-	defb 049h		;6864
-	defb 04eh		;6865
-	defb 044h		;6866
-	defb 041h		;6867
-	defb 020h		;6868
-	defb 020h		;6869
-	defb 020h		;686a
-	defb 020h		;686b
-	defb 020h		;686c
-	defb 020h		;686d
-	defb 030h		;686e
-	defb 030h		;686f
-	defb 030h		;6870
-	defb 030h		;6871
-	defb 034h		;6872
-	defb 030h		;6873
-	defb 050h		;6874
-	defb 045h		;6875
-	defb 04eh		;6876
-	defb 04eh		;6877
-	defb 059h		;6878
-	defb 020h		;6879
-	defb 020h		;687a
-	defb 020h		;687b
-	defb 020h		;687c
-	defb 020h		;687d
-	defb 020h		;687e
-	defb 030h		;687f
-	defb 030h		;6880
-	defb 030h		;6881
-	defb 030h		;6882
-	defb 033h		;6883
-	defb 030h		;6884
-	defb 04dh		;6885
-	defb 049h		;6886
-	defb 043h		;6887
-	defb 04bh		;6888
-	defb 020h		;6889
-	defb 020h		;688a
-	defb 020h		;688b
-	defb 020h		;688c
-	defb 020h		;688d
-	defb 020h		;688e
-	defb 020h		;688f
-	defb 030h		;6890
-	defb 030h		;6891
-	defb 030h		;6892
-	defb 030h		;6893
-	defb 032h		;6894
-	defb 030h		;6895
-	defb 043h		;6896
-	defb 048h		;6897
-	defb 052h		;6898
-	defb 049h		;6899
-	defb 053h		;689a
-	defb 020h		;689b
-	defb 020h		;689c
+	defb 020h		;6824  ' '
+	defb 054h		;6825  'T'
+	defb 020h		;6826  ' '
+	defb 020h		;6827  ' '
+	defb 020h		;6828  ' '
+	defb 020h		;6829  ' '
+	defb 030h		;682a  '0'
+	defb 030h		;682b  '0'
+	defb 030h		;682c  '0'
+	defb 030h		;682d  '0'
+	defb 038h		;682e  '8'
+	defb 030h		;682f  '0'
+	defb 047h		;6830  'G'
+	defb 045h		;6831  'E'
+	defb 04fh		;6832  'O'
+	defb 046h		;6833  'F'
+	defb 046h		;6834  'F'
+	defb 020h		;6835  ' '
+	defb 050h		;6836  'P'
+	defb 020h		;6837  ' '
+	defb 020h		;6838  ' '
+	defb 020h		;6839  ' '
+	defb 020h		;683a  ' '
+	defb 030h		;683b  '0'
+	defb 030h		;683c  '0'
+	defb 030h		;683d  '0'
+	defb 030h		;683e  '0'
+	defb 037h		;683f  '7'
+	defb 030h		;6840  '0'
+	defb 052h		;6841  'R'
+	defb 04fh		;6842  'O'
+	defb 042h		;6843  'B'
+	defb 049h		;6844  'I'
+	defb 04eh		;6845  'N'
+	defb 020h		;6846  ' '
+	defb 043h		;6847  'C'
+	defb 020h		;6848  ' '
+	defb 020h		;6849  ' '
+	defb 020h		;684a  ' '
+	defb 020h		;684b  ' '
+	defb 030h		;684c  '0'
+	defb 030h		;684d  '0'
+	defb 030h		;684e  '0'
+	defb 030h		;684f  '0'
+	defb 036h		;6850  '6'
+	defb 030h		;6851  '0'
+	defb 056h		;6852  'V'
+	defb 041h		;6853  'A'
+	defb 04ch		;6854  'L'
+	defb 020h		;6855  ' '
+	defb 020h		;6856  ' '
+	defb 020h		;6857  ' '
+	defb 020h		;6858  ' '
+	defb 020h		;6859  ' '
+	defb 020h		;685a  ' '
+	defb 020h		;685b  ' '
+	defb 020h		;685c  ' '
+	defb 030h		;685d  '0'
+	defb 030h		;685e  '0'
+	defb 030h		;685f  '0'
+	defb 030h		;6860  '0'
+	defb 035h		;6861  '5'
+	defb 030h		;6862  '0'
+	defb 04ch		;6863  'L'
+	defb 049h		;6864  'I'
+	defb 04eh		;6865  'N'
+	defb 044h		;6866  'D'
+	defb 041h		;6867  'A'
+	defb 020h		;6868  ' '
+	defb 020h		;6869  ' '
+	defb 020h		;686a  ' '
+	defb 020h		;686b  ' '
+	defb 020h		;686c  ' '
+	defb 020h		;686d  ' '
+	defb 030h		;686e  '0'
+	defb 030h		;686f  '0'
+	defb 030h		;6870  '0'
+	defb 030h		;6871  '0'
+	defb 034h		;6872  '4'
+	defb 030h		;6873  '0'
+	defb 050h		;6874  'P'
+	defb 045h		;6875  'E'
+	defb 04eh		;6876  'N'
+	defb 04eh		;6877  'N'
+	defb 059h		;6878  'Y'
+	defb 020h		;6879  ' '
+	defb 020h		;687a  ' '
+	defb 020h		;687b  ' '
+	defb 020h		;687c  ' '
+	defb 020h		;687d  ' '
+	defb 020h		;687e  ' '
+	defb 030h		;687f  '0'
+	defb 030h		;6880  '0'
+	defb 030h		;6881  '0'
+	defb 030h		;6882  '0'
+	defb 033h		;6883  '3'
+	defb 030h		;6884  '0'
+	defb 04dh		;6885  'M'
+	defb 049h		;6886  'I'
+	defb 043h		;6887  'C'
+	defb 04bh		;6888  'K'
+	defb 020h		;6889  ' '
+	defb 020h		;688a  ' '
+	defb 020h		;688b  ' '
+	defb 020h		;688c  ' '
+	defb 020h		;688d  ' '
+	defb 020h		;688e  ' '
+	defb 020h		;688f  ' '
+	defb 030h		;6890  '0'
+	defb 030h		;6891  '0'
+	defb 030h		;6892  '0'
+	defb 030h		;6893  '0'
+	defb 032h		;6894  '2'
+	defb 030h		;6895  '0'
+	defb 043h		;6896  'C'
+	defb 048h		;6897  'H'
+	defb 052h		;6898  'R'
+	defb 049h		;6899  'I'
+	defb 053h		;689a  'S'
+	defb 020h		;689b  ' '
+	defb 020h		;689c  ' '
 l689dh:
-	defb 020h		;689d
-	defb 020h		;689e
-	defb 020h		;689f
-	defb 020h		;68a0
-	defb 030h		;68a1
-	defb 030h		;68a2
-	defb 030h		;68a3
-	defb 030h		;68a4
-	defb 031h		;68a5
-	defb 030h		;68a6
-	defb 048h		;68a7
-	defb 04fh		;68a8
-	defb 04ch		;68a9
-	defb 04ch		;68aa
+	defb 020h		;689d  ' '
+	defb 020h		;689e  ' '
+	defb 020h		;689f  ' '
+	defb 020h		;68a0  ' '
+	defb 030h		;68a1  '0'
+	defb 030h		;68a2  '0'
+	defb 030h		;68a3  '0'
+	defb 030h		;68a4  '0'
+	defb 031h		;68a5  '1'
+	defb 030h		;68a6  '0'
+	defb 048h		;68a7  'H'
+	defb 04fh		;68a8  'O'
+	defb 04ch		;68a9  'L'
+	defb 04ch		;68aa  'L'
 l68abh:
-	defb 059h		;68ab
-	defb 020h		;68ac
-	defb 020h		;68ad
-	defb 020h		;68ae
-	defb 020h		;68af
-	defb 020h		;68b0
-	defb 020h		;68b1
-	defb 030h		;68b2
-	defb 030h		;68b3
-	defb 030h		;68b4
-	defb 031h		;68b5
-	defb 035h		;68b6
-	defb 030h		;68b7
-	defb 020h		;68b8
-	defb 044h		;68b9
-	defb 055h		;68ba
-	defb 052h		;68bb
-	defb 045h		;68bc
-	defb 04ch		;68bd
-	defb 04ch		;68be
-	defb 020h		;68bf
-	defb 020h		;68c0
-	defb 020h		;68c1
-	defb 020h		;68c2
-	defb 030h		;68c3
-	defb 030h		;68c4
-	defb 030h		;68c5
-	defb 031h		;68c6
-	defb 034h		;68c7
-	defb 030h		;68c8
-	defb 020h		;68c9
-	defb 044h		;68ca
-	defb 055h		;68cb
+	defb 059h		;68ab  'Y'
+	defb 020h		;68ac  ' '
+	defb 020h		;68ad  ' '
+	defb 020h		;68ae  ' '
+	defb 020h		;68af  ' '
+	defb 020h		;68b0  ' '
+	defb 020h		;68b1  ' '
+	defb 030h		;68b2  '0'
+	defb 030h		;68b3  '0'
+	defb 030h		;68b4  '0'
+	defb 031h		;68b5  '1'
+	defb 035h		;68b6  '5'
+	defb 030h		;68b7  '0'
+	defb 020h		;68b8  ' '
+	defb 044h		;68b9  'D'
+	defb 055h		;68ba  'U'
+	defb 052h		;68bb  'R'
+	defb 045h		;68bc  'E'
+	defb 04ch		;68bd  'L'
+	defb 04ch		;68be  'L'
+	defb 020h		;68bf  ' '
+	defb 020h		;68c0  ' '
+	defb 020h		;68c1  ' '
+	defb 020h		;68c2  ' '
+	defb 030h		;68c3  '0'
+	defb 030h		;68c4  '0'
+	defb 030h		;68c5  '0'
+	defb 031h		;68c6  '1'
+	defb 034h		;68c7  '4'
+	defb 030h		;68c8  '0'
+	defb 020h		;68c9  ' '
+	defb 044h		;68ca  'D'
+	defb 055h		;68cb  'U'
 l68cch:
-	defb 052h		;68cc
-	defb 045h		;68cd
-	defb 04ch		;68ce
-	defb 04ch		;68cf
-	defb 020h		;68d0
-	defb 020h		;68d1
-	defb 020h		;68d2
-	defb 020h		;68d3
-	defb 030h		;68d4
-	defb 030h		;68d5
-	defb 030h		;68d6
-	defb 031h		;68d7
-	defb 033h		;68d8
-	defb 030h		;68d9
-	defb 020h		;68da
-	defb 044h		;68db
-	defb 055h		;68dc
-	defb 052h		;68dd
-	defb 045h		;68de
-	defb 04ch		;68df
-	defb 04ch		;68e0
-	defb 020h		;68e1
-	defb 020h		;68e2
-	defb 020h		;68e3
-	defb 020h		;68e4
-	defb 030h		;68e5
-	defb 030h		;68e6
-	defb 030h		;68e7
-	defb 031h		;68e8
-	defb 032h		;68e9
-	defb 030h		;68ea
-	defb 020h		;68eb
-	defb 044h		;68ec
+	defb 052h		;68cc  'R'
+	defb 045h		;68cd  'E'
+	defb 04ch		;68ce  'L'
+	defb 04ch		;68cf  'L'
+	defb 020h		;68d0  ' '
+	defb 020h		;68d1  ' '
+	defb 020h		;68d2  ' '
+	defb 020h		;68d3  ' '
+	defb 030h		;68d4  '0'
+	defb 030h		;68d5  '0'
+	defb 030h		;68d6  '0'
+	defb 031h		;68d7  '1'
+	defb 033h		;68d8  '3'
+	defb 030h		;68d9  '0'
+	defb 020h		;68da  ' '
+	defb 044h		;68db  'D'
+	defb 055h		;68dc  'U'
+	defb 052h		;68dd  'R'
+	defb 045h		;68de  'E'
+	defb 04ch		;68df  'L'
+	defb 04ch		;68e0  'L'
+	defb 020h		;68e1  ' '
+	defb 020h		;68e2  ' '
+	defb 020h		;68e3  ' '
+	defb 020h		;68e4  ' '
+	defb 030h		;68e5  '0'
+	defb 030h		;68e6  '0'
+	defb 030h		;68e7  '0'
+	defb 031h		;68e8  '1'
+	defb 032h		;68e9  '2'
+	defb 030h		;68ea  '0'
+	defb 020h		;68eb  ' '
+	defb 044h		;68ec  'D'
 l68edh:
-	defb 055h		;68ed
-	defb 052h		;68ee
-	defb 045h		;68ef
-	defb 04ch		;68f0
-	defb 04ch		;68f1
+	defb 055h		;68ed  'U'
+	defb 052h		;68ee  'R'
+	defb 045h		;68ef  'E'
+	defb 04ch		;68f0  'L'
+	defb 04ch		;68f1  'L'
 l68f2h:
-	defb 020h		;68f2
-	defb 020h		;68f3
-	defb 020h		;68f4
-	defb 020h		;68f5
-	defb 030h		;68f6
-	defb 030h		;68f7
-	defb 030h		;68f8
-	defb 031h		;68f9
-	defb 031h		;68fa
-	defb 030h		;68fb
-	defb 020h		;68fc
-	defb 044h		;68fd
-	defb 055h		;68fe
-	defb 052h		;68ff
-	defb 045h		;6900
-	defb 04ch		;6901
-	defb 04ch		;6902
-	defb 020h		;6903
-	defb 020h		;6904
-	defb 020h		;6905
-	defb 020h		;6906
-	defb 030h		;6907
-	defb 030h		;6908
-	defb 030h		;6909
-	defb 031h		;690a
-	defb 030h		;690b
+	defb 020h		;68f2  ' '
+	defb 020h		;68f3  ' '
+	defb 020h		;68f4  ' '
+	defb 020h		;68f5  ' '
+	defb 030h		;68f6  '0'
+	defb 030h		;68f7  '0'
+	defb 030h		;68f8  '0'
+	defb 031h		;68f9  '1'
+	defb 031h		;68fa  '1'
+	defb 030h		;68fb  '0'
+	defb 020h		;68fc  ' '
+	defb 044h		;68fd  'D'
+	defb 055h		;68fe  'U'
+	defb 052h		;68ff  'R'
+	defb 045h		;6900  'E'
+	defb 04ch		;6901  'L'
+	defb 04ch		;6902  'L'
+	defb 020h		;6903  ' '
+	defb 020h		;6904  ' '
+	defb 020h		;6905  ' '
+	defb 020h		;6906  ' '
+	defb 030h		;6907  '0'
+	defb 030h		;6908  '0'
+	defb 030h		;6909  '0'
+	defb 031h		;690a  '1'
+	defb 030h		;690b  '0'
 l690ch:
-	defb 030h		;690c
-	defb 020h		;690d
-	defb 044h		;690e
-	defb 055h		;690f
-	defb 052h		;6910
+	defb 030h		;690c  '0'
+	defb 020h		;690d  ' '
+	defb 044h		;690e  'D'
+	defb 055h		;690f  'U'
+	defb 052h		;6910  'R'
 l6911h:
-	defb 045h		;6911
-	defb 04ch		;6912
-	defb 04ch		;6913
-	defb 020h		;6914
-	defb 020h		;6915
-	defb 020h		;6916
-	defb 020h		;6917
-	defb 030h		;6918
-	defb 030h		;6919
-	defb 030h		;691a
-	defb 030h		;691b
-	defb 039h		;691c
-	defb 030h		;691d
-	defb 020h		;691e
-	defb 044h		;691f
-	defb 055h		;6920
-	defb 052h		;6921
-	defb 045h		;6922
-	defb 04ch		;6923
-	defb 04ch		;6924
-	defb 020h		;6925
-	defb 020h		;6926
-	defb 020h		;6927
-	defb 020h		;6928
-	defb 030h		;6929
-	defb 030h		;692a
-	defb 030h		;692b
+	defb 045h		;6911  'E'
+	defb 04ch		;6912  'L'
+	defb 04ch		;6913  'L'
+	defb 020h		;6914  ' '
+	defb 020h		;6915  ' '
+	defb 020h		;6916  ' '
+	defb 020h		;6917  ' '
+	defb 030h		;6918  '0'
+	defb 030h		;6919  '0'
+	defb 030h		;691a  '0'
+	defb 030h		;691b  '0'
+	defb 039h		;691c  '9'
+	defb 030h		;691d  '0'
+	defb 020h		;691e  ' '
+	defb 044h		;691f  'D'
+	defb 055h		;6920  'U'
+	defb 052h		;6921  'R'
+	defb 045h		;6922  'E'
+	defb 04ch		;6923  'L'
+	defb 04ch		;6924  'L'
+	defb 020h		;6925  ' '
+	defb 020h		;6926  ' '
+	defb 020h		;6927  ' '
+	defb 020h		;6928  ' '
+	defb 030h		;6929  '0'
+	defb 030h		;692a  '0'
+	defb 030h		;692b  '0'
 l692ch:
-	defb 030h		;692c
-	defb 038h		;692d
-	defb 030h		;692e
-	defb 020h		;692f
-	defb 044h		;6930
+	defb 030h		;692c  '0'
+	defb 038h		;692d  '8'
+	defb 030h		;692e  '0'
+	defb 020h		;692f  ' '
+	defb 044h		;6930  'D'
 l6931h:
-	defb 055h		;6931
-	defb 052h		;6932
-	defb 045h		;6933
-	defb 04ch		;6934
-	defb 04ch		;6935
-	defb 020h		;6936
-	defb 020h		;6937
-	defb 020h		;6938
-	defb 020h		;6939
-	defb 030h		;693a
-	defb 030h		;693b
-	defb 030h		;693c
-	defb 030h		;693d
-	defb 037h		;693e
-	defb 030h		;693f
-	defb 020h		;6940
-	defb 044h		;6941
-	defb 055h		;6942
-	defb 052h		;6943
-	defb 045h		;6944
-	defb 04ch		;6945
-	defb 04ch		;6946
-	defb 020h		;6947
-	defb 020h		;6948
-	defb 020h		;6949
-	defb 020h		;694a
-	defb 030h		;694b
-	defb 030h		;694c
-	defb 030h		;694d
-	defb 030h		;694e
-	defb 036h		;694f
-	defb 030h		;6950
-	defb 020h		;6951
-	defb 044h		;6952
-	defb 055h		;6953
-	defb 052h		;6954
-	defb 045h		;6955
-	defb 04ch		;6956
-	defb 04ch		;6957
-	defb 020h		;6958
-	defb 020h		;6959
-	defb 020h		;695a
-	defb 020h		;695b
-	defb 030h		;695c
-	defb 030h		;695d
-	defb 030h		;695e
-	defb 030h		;695f
-	defb 035h		;6960
-	defb 030h		;6961
-	defb 020h		;6962
-	defb 044h		;6963
-	defb 055h		;6964
-	defb 052h		;6965
-	defb 045h		;6966
-	defb 04ch		;6967
-	defb 04ch		;6968
-	defb 020h		;6969
-	defb 020h		;696a
-	defb 020h		;696b
-	defb 020h		;696c
-	defb 030h		;696d
-	defb 030h		;696e
-	defb 030h		;696f
-	defb 030h		;6970
-	defb 034h		;6971
-	defb 030h		;6972
-	defb 020h		;6973
-	defb 044h		;6974
-	defb 055h		;6975
-	defb 052h		;6976
-	defb 045h		;6977
-	defb 04ch		;6978
-	defb 04ch		;6979
-	defb 020h		;697a
-	defb 020h		;697b
-	defb 020h		;697c
-	defb 020h		;697d
-	defb 030h		;697e
-	defb 030h		;697f
-	defb 030h		;6980
-	defb 030h		;6981
-	defb 033h		;6982
-	defb 030h		;6983
-	defb 020h		;6984
-	defb 044h		;6985
-	defb 055h		;6986
-	defb 052h		;6987
-	defb 045h		;6988
-	defb 04ch		;6989
-	defb 04ch		;698a
-	defb 020h		;698b
-	defb 020h		;698c
-	defb 020h		;698d
-	defb 020h		;698e
-	defb 030h		;698f
-	defb 030h		;6990
-	defb 030h		;6991
-	defb 030h		;6992
-	defb 032h		;6993
-	defb 030h		;6994
-	defb 020h		;6995
-	defb 044h		;6996
-	defb 055h		;6997
-	defb 052h		;6998
-	defb 045h		;6999
-	defb 04ch		;699a
-	defb 04ch		;699b
-	defb 020h		;699c
-	defb 020h		;699d
-	defb 020h		;699e
-	defb 020h		;699f
-	defb 030h		;69a0
-	defb 030h		;69a1
-	defb 030h		;69a2
-	defb 030h		;69a3
-	defb 031h		;69a4
-	defb 030h		;69a5
-	defb 020h		;69a6
-	defb 044h		;69a7
-	defb 055h		;69a8
-	defb 052h		;69a9
-	defb 045h		;69aa
-	defb 04ch		;69ab
-	defb 04ch		;69ac
-	defb 020h		;69ad
-	defb 020h		;69ae
-	defb 020h		;69af
-	defb 020h		;69b0
+	defb 055h		;6931  'U'
+	defb 052h		;6932  'R'
+	defb 045h		;6933  'E'
+	defb 04ch		;6934  'L'
+	defb 04ch		;6935  'L'
+	defb 020h		;6936  ' '
+	defb 020h		;6937  ' '
+	defb 020h		;6938  ' '
+	defb 020h		;6939  ' '
+	defb 030h		;693a  '0'
+	defb 030h		;693b  '0'
+	defb 030h		;693c  '0'
+	defb 030h		;693d  '0'
+	defb 037h		;693e  '7'
+	defb 030h		;693f  '0'
+	defb 020h		;6940  ' '
+	defb 044h		;6941  'D'
+	defb 055h		;6942  'U'
+	defb 052h		;6943  'R'
+	defb 045h		;6944  'E'
+	defb 04ch		;6945  'L'
+	defb 04ch		;6946  'L'
+	defb 020h		;6947  ' '
+	defb 020h		;6948  ' '
+	defb 020h		;6949  ' '
+	defb 020h		;694a  ' '
+	defb 030h		;694b  '0'
+	defb 030h		;694c  '0'
+	defb 030h		;694d  '0'
+	defb 030h		;694e  '0'
+	defb 036h		;694f  '6'
+	defb 030h		;6950  '0'
+	defb 020h		;6951  ' '
+	defb 044h		;6952  'D'
+	defb 055h		;6953  'U'
+	defb 052h		;6954  'R'
+	defb 045h		;6955  'E'
+	defb 04ch		;6956  'L'
+	defb 04ch		;6957  'L'
+	defb 020h		;6958  ' '
+	defb 020h		;6959  ' '
+	defb 020h		;695a  ' '
+	defb 020h		;695b  ' '
+	defb 030h		;695c  '0'
+	defb 030h		;695d  '0'
+	defb 030h		;695e  '0'
+	defb 030h		;695f  '0'
+	defb 035h		;6960  '5'
+	defb 030h		;6961  '0'
+	defb 020h		;6962  ' '
+	defb 044h		;6963  'D'
+	defb 055h		;6964  'U'
+	defb 052h		;6965  'R'
+	defb 045h		;6966  'E'
+	defb 04ch		;6967  'L'
+	defb 04ch		;6968  'L'
+	defb 020h		;6969  ' '
+	defb 020h		;696a  ' '
+	defb 020h		;696b  ' '
+	defb 020h		;696c  ' '
+	defb 030h		;696d  '0'
+	defb 030h		;696e  '0'
+	defb 030h		;696f  '0'
+	defb 030h		;6970  '0'
+	defb 034h		;6971  '4'
+	defb 030h		;6972  '0'
+	defb 020h		;6973  ' '
+	defb 044h		;6974  'D'
+	defb 055h		;6975  'U'
+	defb 052h		;6976  'R'
+	defb 045h		;6977  'E'
+	defb 04ch		;6978  'L'
+	defb 04ch		;6979  'L'
+	defb 020h		;697a  ' '
+	defb 020h		;697b  ' '
+	defb 020h		;697c  ' '
+	defb 020h		;697d  ' '
+	defb 030h		;697e  '0'
+	defb 030h		;697f  '0'
+	defb 030h		;6980  '0'
+	defb 030h		;6981  '0'
+	defb 033h		;6982  '3'
+	defb 030h		;6983  '0'
+	defb 020h		;6984  ' '
+	defb 044h		;6985  'D'
+	defb 055h		;6986  'U'
+	defb 052h		;6987  'R'
+	defb 045h		;6988  'E'
+	defb 04ch		;6989  'L'
+	defb 04ch		;698a  'L'
+	defb 020h		;698b  ' '
+	defb 020h		;698c  ' '
+	defb 020h		;698d  ' '
+	defb 020h		;698e  ' '
+	defb 030h		;698f  '0'
+	defb 030h		;6990  '0'
+	defb 030h		;6991  '0'
+	defb 030h		;6992  '0'
+	defb 032h		;6993  '2'
+	defb 030h		;6994  '0'
+	defb 020h		;6995  ' '
+	defb 044h		;6996  'D'
+	defb 055h		;6997  'U'
+	defb 052h		;6998  'R'
+	defb 045h		;6999  'E'
+	defb 04ch		;699a  'L'
+	defb 04ch		;699b  'L'
+	defb 020h		;699c  ' '
+	defb 020h		;699d  ' '
+	defb 020h		;699e  ' '
+	defb 020h		;699f  ' '
+	defb 030h		;69a0  '0'
+	defb 030h		;69a1  '0'
+	defb 030h		;69a2  '0'
+	defb 030h		;69a3  '0'
+	defb 031h		;69a4  '1'
+	defb 030h		;69a5  '0'
+	defb 020h		;69a6  ' '
+	defb 044h		;69a7  'D'
+	defb 055h		;69a8  'U'
+	defb 052h		;69a9  'R'
+	defb 045h		;69aa  'E'
+	defb 04ch		;69ab  'L'
+	defb 04ch		;69ac  'L'
+	defb 020h		;69ad  ' '
+	defb 020h		;69ae  ' '
+	defb 020h		;69af  ' '
+	defb 020h		;69b0  ' '
 l69b1h:
-	defb 020h		;69b1
-	defb 020h		;69b2
-	defb 020h		;69b3
-	defb 020h		;69b4
-	defb 020h		;69b5
-	defb 020h		;69b6
-	defb 020h		;69b7
-	defb 020h		;69b8
-	defb 020h		;69b9
-	defb 020h		;69ba
-	defb 060h		;69bb
-	defb 031h		;69bc
-	defb 030h		;69bd
-	defb 030h		;69be
-	defb 020h		;69bf
-	defb 052h		;69c0
-	defb 045h		;69c1
-	defb 057h		;69c2
-	defb 041h		;69c3
-	defb 052h		;69c4
-	defb 044h		;69c5
-	defb 020h		;69c6
-	defb 020h		;69c7
-	defb 020h		;69c8
-	defb 020h		;69c9
-	defb 020h		;69ca
-	defb 020h		;69cb
-	defb 020h		;69cc
-	defb 020h		;69cd
-	defb 020h		;69ce
-	defb 020h		;69cf
-	defb 020h		;69d0
-	defb 020h		;69d1
-	defb 049h		;69d2
-	defb 066h		;69d3
-	defb 020h		;69d4
-	defb 079h		;69d5
-	defb 06fh		;69d6
-	defb 075h		;69d7
-	defb 072h		;69d8
-	defb 020h		;69d9
-	defb 063h		;69da
-	defb 06fh		;69db
-	defb 070h		;69dc
-	defb 079h		;69dd
-	defb 020h		;69de
-	defb 020h		;69df
-	defb 06fh		;69e0
-	defb 066h		;69e1
-	defb 020h		;69e2
-	defb 074h		;69e3
-	defb 068h		;69e4
-	defb 069h		;69e5
-	defb 073h		;69e6
-	defb 020h		;69e7
-	defb 067h		;69e8
-	defb 061h		;69e9
-	defb 06dh		;69ea
-	defb 065h		;69eb
-	defb 020h		;69ec
-	defb 064h		;69ed
-	defb 06fh		;69ee
-	defb 065h		;69ef
-	defb 073h		;69f0
-	defb 06eh		;69f1
-	defb 06fh		;69f2
-	defb 074h		;69f3
-	defb 020h		;69f4
-	defb 020h		;69f5
-	defb 068h		;69f6
-	defb 061h		;69f7
-	defb 076h		;69f8
-	defb 065h		;69f9
-	defb 020h		;69fa
-	defb 020h		;69fb
-	defb 061h		;69fc
-	defb 020h		;69fd
-	defb 062h		;69fe
-	defb 06ch		;69ff
-	defb 075h		;6a00
-	defb 065h		;6a01
-	defb 020h		;6a02
-	defb 020h		;6a03
-	defb 063h		;6a04
-	defb 061h		;6a05
-	defb 073h		;6a06
-	defb 073h		;6a07
-	defb 065h		;6a08
-	defb 074h		;6a09
-	defb 074h		;6a0a
-	defb 065h		;6a0b
-	defb 020h		;6a0c
-	defb 062h		;6a0d
-	defb 06fh		;6a0e
-	defb 064h		;6a0f
-	defb 079h		;6a10
-	defb 077h		;6a11
-	defb 069h		;6a12
-	defb 074h		;6a13
-	defb 068h		;6a14
-	defb 020h		;6a15
-	defb 044h		;6a16
-	defb 055h		;6a17
-	defb 052h		;6a18
-	defb 045h		;6a19
-	defb 04ch		;6a1a
-	defb 04ch		;6a1b
-	defb 020h		;6a1c
-	defb 020h		;6a1d
-	defb 065h		;6a1e
-	defb 06dh		;6a1f
-	defb 062h		;6a20
-	defb 06fh		;6a21
-	defb 073h		;6a22
-	defb 073h		;6a23
-	defb 065h		;6a24
-	defb 064h		;6a25
-	defb 020h		;6a26
-	defb 06fh		;6a27
-	defb 06eh		;6a28
-	defb 020h		;6a29
-	defb 069h		;6a2a
-	defb 074h		;6a2b
-	defb 02ch		;6a2c
-	defb 020h		;6a2d
-	defb 061h		;6a2e
-	defb 06eh		;6a2f
-	defb 064h		;6a30
-	defb 064h		;6a31
-	defb 06fh		;6a32
-	defb 065h		;6a33
-	defb 073h		;6a34
-	defb 020h		;6a35
-	defb 06eh		;6a36
-	defb 06fh		;6a37
-	defb 074h		;6a38
-	defb 020h		;6a39
-	defb 068h		;6a3a
-	defb 061h		;6a3b
-	defb 076h		;6a3c
-	defb 065h		;6a3d
-	defb 020h		;6a3e
-	defb 044h		;6a3f
-	defb 055h		;6a40
-	defb 052h		;6a41
-	defb 045h		;6a42
-	defb 04ch		;6a43
-	defb 04ch		;6a44
-	defb 020h		;6a45
-	defb 06fh		;6a46
-	defb 06eh		;6a47
-	defb 020h		;6a48
-	defb 074h		;6a49
-	defb 068h		;6a4a
-	defb 065h		;6a4b
+	defb 020h		;69b1  ' '
+	defb 020h		;69b2  ' '
+	defb 020h		;69b3  ' '
+	defb 020h		;69b4  ' '
+	defb 020h		;69b5  ' '
+	defb 020h		;69b6  ' '
+	defb 020h		;69b7  ' '
+	defb 020h		;69b8  ' '
+	defb 020h		;69b9  ' '
+	defb 020h		;69ba  ' '
+	defb 060h		;69bb  '`' (Spectrum: £)
+	defb 031h		;69bc  '1'
+	defb 030h		;69bd  '0'
+	defb 030h		;69be  '0'
+	defb 020h		;69bf  ' '
+	defb 052h		;69c0  'R'
+	defb 045h		;69c1  'E'
+	defb 057h		;69c2  'W'
+	defb 041h		;69c3  'A'
+	defb 052h		;69c4  'R'
+	defb 044h		;69c5  'D'
+	defb 020h		;69c6  ' '
+	defb 020h		;69c7  ' '
+	defb 020h		;69c8  ' '
+	defb 020h		;69c9  ' '
+	defb 020h		;69ca  ' '
+	defb 020h		;69cb  ' '
+	defb 020h		;69cc  ' '
+	defb 020h		;69cd  ' '
+	defb 020h		;69ce  ' '
+	defb 020h		;69cf  ' '
+	defb 020h		;69d0  ' '
+	defb 020h		;69d1  ' '
+	defb 049h		;69d2  'I'
+	defb 066h		;69d3  'f'
+	defb 020h		;69d4  ' '
+	defb 079h		;69d5  'y'
+	defb 06fh		;69d6  'o'
+	defb 075h		;69d7  'u'
+	defb 072h		;69d8  'r'
+	defb 020h		;69d9  ' '
+	defb 063h		;69da  'c'
+	defb 06fh		;69db  'o'
+	defb 070h		;69dc  'p'
+	defb 079h		;69dd  'y'
+	defb 020h		;69de  ' '
+	defb 020h		;69df  ' '
+	defb 06fh		;69e0  'o'
+	defb 066h		;69e1  'f'
+	defb 020h		;69e2  ' '
+	defb 074h		;69e3  't'
+	defb 068h		;69e4  'h'
+	defb 069h		;69e5  'i'
+	defb 073h		;69e6  's'
+	defb 020h		;69e7  ' '
+	defb 067h		;69e8  'g'
+	defb 061h		;69e9  'a'
+	defb 06dh		;69ea  'm'
+	defb 065h		;69eb  'e'
+	defb 020h		;69ec  ' '
+	defb 064h		;69ed  'd'
+	defb 06fh		;69ee  'o'
+	defb 065h		;69ef  'e'
+	defb 073h		;69f0  's'
+	defb 06eh		;69f1  'n'
+	defb 06fh		;69f2  'o'
+	defb 074h		;69f3  't'
+	defb 020h		;69f4  ' '
+	defb 020h		;69f5  ' '
+	defb 068h		;69f6  'h'
+	defb 061h		;69f7  'a'
+	defb 076h		;69f8  'v'
+	defb 065h		;69f9  'e'
+	defb 020h		;69fa  ' '
+	defb 020h		;69fb  ' '
+	defb 061h		;69fc  'a'
+	defb 020h		;69fd  ' '
+	defb 062h		;69fe  'b'
+	defb 06ch		;69ff  'l'
+	defb 075h		;6a00  'u'
+	defb 065h		;6a01  'e'
+	defb 020h		;6a02  ' '
+	defb 020h		;6a03  ' '
+	defb 063h		;6a04  'c'
+	defb 061h		;6a05  'a'
+	defb 073h		;6a06  's'
+	defb 073h		;6a07  's'
+	defb 065h		;6a08  'e'
+	defb 074h		;6a09  't'
+	defb 074h		;6a0a  't'
+	defb 065h		;6a0b  'e'
+	defb 020h		;6a0c  ' '
+	defb 062h		;6a0d  'b'
+	defb 06fh		;6a0e  'o'
+	defb 064h		;6a0f  'd'
+	defb 079h		;6a10  'y'
+	defb 077h		;6a11  'w'
+	defb 069h		;6a12  'i'
+	defb 074h		;6a13  't'
+	defb 068h		;6a14  'h'
+	defb 020h		;6a15  ' '
+	defb 044h		;6a16  'D'
+	defb 055h		;6a17  'U'
+	defb 052h		;6a18  'R'
+	defb 045h		;6a19  'E'
+	defb 04ch		;6a1a  'L'
+	defb 04ch		;6a1b  'L'
+	defb 020h		;6a1c  ' '
+	defb 020h		;6a1d  ' '
+	defb 065h		;6a1e  'e'
+	defb 06dh		;6a1f  'm'
+	defb 062h		;6a20  'b'
+	defb 06fh		;6a21  'o'
+	defb 073h		;6a22  's'
+	defb 073h		;6a23  's'
+	defb 065h		;6a24  'e'
+	defb 064h		;6a25  'd'
+	defb 020h		;6a26  ' '
+	defb 06fh		;6a27  'o'
+	defb 06eh		;6a28  'n'
+	defb 020h		;6a29  ' '
+	defb 069h		;6a2a  'i'
+	defb 074h		;6a2b  't'
+	defb 02ch		;6a2c  ','
+	defb 020h		;6a2d  ' '
+	defb 061h		;6a2e  'a'
+	defb 06eh		;6a2f  'n'
+	defb 064h		;6a30  'd'
+	defb 064h		;6a31  'd'
+	defb 06fh		;6a32  'o'
+	defb 065h		;6a33  'e'
+	defb 073h		;6a34  's'
+	defb 020h		;6a35  ' '
+	defb 06eh		;6a36  'n'
+	defb 06fh		;6a37  'o'
+	defb 074h		;6a38  't'
+	defb 020h		;6a39  ' '
+	defb 068h		;6a3a  'h'
+	defb 061h		;6a3b  'a'
+	defb 076h		;6a3c  'v'
+	defb 065h		;6a3d  'e'
+	defb 020h		;6a3e  ' '
+	defb 044h		;6a3f  'D'
+	defb 055h		;6a40  'U'
+	defb 052h		;6a41  'R'
+	defb 045h		;6a42  'E'
+	defb 04ch		;6a43  'L'
+	defb 04ch		;6a44  'L'
+	defb 020h		;6a45  ' '
+	defb 06fh		;6a46  'o'
+	defb 06eh		;6a47  'n'
+	defb 020h		;6a48  ' '
+	defb 074h		;6a49  't'
+	defb 068h		;6a4a  'h'
+	defb 065h		;6a4b  'e'
 l6a4ch:
-	defb 020h		;6a4c
-	defb 06ch		;6a4d
-	defb 065h		;6a4e
-	defb 061h		;6a4f
-	defb 064h		;6a50
-	defb 069h		;6a51
-	defb 06eh		;6a52
-	defb 020h		;6a53
-	defb 073h		;6a54
-	defb 074h		;6a55
-	defb 072h		;6a56
-	defb 069h		;6a57
-	defb 070h		;6a58
-	defb 020h		;6a59
-	defb 074h		;6a5a
-	defb 068h		;6a5b
-	defb 065h		;6a5c
-	defb 06eh		;6a5d
-	defb 020h		;6a5e
-	defb 069h		;6a5f
-	defb 074h		;6a60
-	defb 020h		;6a61
-	defb 069h		;6a62
-	defb 073h		;6a63
-	defb 020h		;6a64
-	defb 061h		;6a65
-	defb 020h		;6a66
-	defb 066h		;6a67
-	defb 06fh		;6a68
-	defb 072h		;6a69
-	defb 067h		;6a6a
-	defb 065h		;6a6b
-	defb 072h		;6a6c
-	defb 079h		;6a6d
-	defb 02eh		;6a6e
-	defb 020h		;6a6f
-	defb 020h		;6a70
-	defb 020h		;6a71
-	defb 050h		;6a72
-	defb 06ch		;6a73
-	defb 065h		;6a74
-	defb 061h		;6a75
-	defb 073h		;6a76
-	defb 065h		;6a77
-	defb 020h		;6a78
-	defb 073h		;6a79
-	defb 065h		;6a7a
-	defb 06eh		;6a7b
-	defb 064h		;6a7c
-	defb 020h		;6a7d
-	defb 061h		;6a7e
-	defb 06eh		;6a7f
-	defb 079h		;6a80
-	defb 020h		;6a81
-	defb 066h		;6a82
-	defb 06fh		;6a83
-	defb 072h		;6a84
-	defb 067h		;6a85
-	defb 065h		;6a86
-	defb 072h		;6a87
-	defb 069h		;6a88
-	defb 065h		;6a89
-	defb 073h		;6a8a
-	defb 020h		;6a8b
-	defb 074h		;6a8c
-	defb 06fh		;6a8d
-	defb 020h		;6a8e
-	defb 020h		;6a8f
-	defb 020h		;6a90
-	defb 020h		;6a91
-	defb 020h		;6a92
-	defb 020h		;6a93
-	defb 020h		;6a94
-	defb 020h		;6a95
-	defb 020h		;6a96
-	defb 020h		;6a97
-	defb 044h		;6a98
-	defb 055h		;6a99
-	defb 052h		;6a9a
-	defb 045h		;6a9b
-	defb 04ch		;6a9c
-	defb 04ch		;6a9d
-	defb 020h		;6a9e
-	defb 053h		;6a9f
-	defb 04fh		;6aa0
-	defb 046h		;6aa1
-	defb 054h		;6aa2
-	defb 057h		;6aa3
-	defb 041h		;6aa4
-	defb 052h		;6aa5
-	defb 045h		;6aa6
-	defb 020h		;6aa7
-	defb 04ch		;6aa8
-	defb 074h		;6aa9
-	defb 064h		;6aaa
-	defb 02eh		;6aab
-	defb 020h		;6aac
-	defb 020h		;6aad
-	defb 020h		;6aae
-	defb 020h		;6aaf
-	defb 020h		;6ab0
-	defb 020h		;6ab1
-	defb 020h		;6ab2
-	defb 020h		;6ab3
-	defb 020h		;6ab4
-	defb 020h		;6ab5
-	defb 020h		;6ab6
-	defb 020h		;6ab7
-	defb 020h		;6ab8
-	defb 043h		;6ab9
-	defb 061h		;6aba
-	defb 073h		;6abb
-	defb 074h		;6abc
-	defb 06ch		;6abd
-	defb 065h		;6abe
-	defb 020h		;6abf
-	defb 04ch		;6ac0
-	defb 06fh		;6ac1
-	defb 064h		;6ac2
-	defb 067h		;6ac3
-	defb 065h		;6ac4
-	defb 020h		;6ac5
-	defb 020h		;6ac6
-	defb 020h		;6ac7
-	defb 020h		;6ac8
-	defb 020h		;6ac9
-	defb 020h		;6aca
-	defb 020h		;6acb
-	defb 020h		;6acc
-	defb 020h		;6acd
-	defb 020h		;6ace
-	defb 020h		;6acf
-	defb 020h		;6ad0
-	defb 020h		;6ad1
-	defb 020h		;6ad2
-	defb 020h		;6ad3
-	defb 020h		;6ad4
-	defb 020h		;6ad5
-	defb 020h		;6ad6
-	defb 020h		;6ad7
-	defb 020h		;6ad8
-	defb 020h		;6ad9
-	defb 043h		;6ada
-	defb 061h		;6adb
-	defb 073h		;6adc
-	defb 074h		;6add
-	defb 06ch		;6ade
-	defb 065h		;6adf
-	defb 020h		;6ae0
-	defb 047h		;6ae1
-	defb 072h		;6ae2
-	defb 065h		;6ae3
-	defb 065h		;6ae4
-	defb 06eh		;6ae5
-	defb 020h		;6ae6
-	defb 020h		;6ae7
-	defb 020h		;6ae8
-	defb 020h		;6ae9
-	defb 020h		;6aea
-	defb 020h		;6aeb
-	defb 020h		;6aec
-	defb 020h		;6aed
-	defb 020h		;6aee
-	defb 020h		;6aef
-	defb 020h		;6af0
-	defb 020h		;6af1
-	defb 020h		;6af2
-	defb 020h		;6af3
-	defb 020h		;6af4
-	defb 020h		;6af5
-	defb 020h		;6af6
-	defb 020h		;6af7
-	defb 020h		;6af8
-	defb 020h		;6af9
-	defb 020h		;6afa
-	defb 054h		;6afb
-	defb 041h		;6afc
-	defb 055h		;6afd
-	defb 04eh		;6afe
-	defb 054h		;6aff
-	defb 04fh		;6b00
-	defb 04eh		;6b01
-	defb 020h		;6b02
-	defb 020h		;6b03
-	defb 020h		;6b04
-	defb 020h		;6b05
-	defb 020h		;6b06
-	defb 020h		;6b07
-	defb 020h		;6b08
-	defb 020h		;6b09
-	defb 020h		;6b0a
-	defb 020h		;6b0b
+	defb 020h		;6a4c  ' '
+	defb 06ch		;6a4d  'l'
+	defb 065h		;6a4e  'e'
+	defb 061h		;6a4f  'a'
+	defb 064h		;6a50  'd'
+	defb 069h		;6a51  'i'
+	defb 06eh		;6a52  'n'
+	defb 020h		;6a53  ' '
+	defb 073h		;6a54  's'
+	defb 074h		;6a55  't'
+	defb 072h		;6a56  'r'
+	defb 069h		;6a57  'i'
+	defb 070h		;6a58  'p'
+	defb 020h		;6a59  ' '
+	defb 074h		;6a5a  't'
+	defb 068h		;6a5b  'h'
+	defb 065h		;6a5c  'e'
+	defb 06eh		;6a5d  'n'
+	defb 020h		;6a5e  ' '
+	defb 069h		;6a5f  'i'
+	defb 074h		;6a60  't'
+	defb 020h		;6a61  ' '
+	defb 069h		;6a62  'i'
+	defb 073h		;6a63  's'
+	defb 020h		;6a64  ' '
+	defb 061h		;6a65  'a'
+	defb 020h		;6a66  ' '
+	defb 066h		;6a67  'f'
+	defb 06fh		;6a68  'o'
+	defb 072h		;6a69  'r'
+	defb 067h		;6a6a  'g'
+	defb 065h		;6a6b  'e'
+	defb 072h		;6a6c  'r'
+	defb 079h		;6a6d  'y'
+	defb 02eh		;6a6e  '.'
+	defb 020h		;6a6f  ' '
+	defb 020h		;6a70  ' '
+	defb 020h		;6a71  ' '
+	defb 050h		;6a72  'P'
+	defb 06ch		;6a73  'l'
+	defb 065h		;6a74  'e'
+	defb 061h		;6a75  'a'
+	defb 073h		;6a76  's'
+	defb 065h		;6a77  'e'
+	defb 020h		;6a78  ' '
+	defb 073h		;6a79  's'
+	defb 065h		;6a7a  'e'
+	defb 06eh		;6a7b  'n'
+	defb 064h		;6a7c  'd'
+	defb 020h		;6a7d  ' '
+	defb 061h		;6a7e  'a'
+	defb 06eh		;6a7f  'n'
+	defb 079h		;6a80  'y'
+	defb 020h		;6a81  ' '
+	defb 066h		;6a82  'f'
+	defb 06fh		;6a83  'o'
+	defb 072h		;6a84  'r'
+	defb 067h		;6a85  'g'
+	defb 065h		;6a86  'e'
+	defb 072h		;6a87  'r'
+	defb 069h		;6a88  'i'
+	defb 065h		;6a89  'e'
+	defb 073h		;6a8a  's'
+	defb 020h		;6a8b  ' '
+	defb 074h		;6a8c  't'
+	defb 06fh		;6a8d  'o'
+	defb 020h		;6a8e  ' '
+	defb 020h		;6a8f  ' '
+	defb 020h		;6a90  ' '
+	defb 020h		;6a91  ' '
+	defb 020h		;6a92  ' '
+	defb 020h		;6a93  ' '
+	defb 020h		;6a94  ' '
+	defb 020h		;6a95  ' '
+	defb 020h		;6a96  ' '
+	defb 020h		;6a97  ' '
+	defb 044h		;6a98  'D'
+	defb 055h		;6a99  'U'
+	defb 052h		;6a9a  'R'
+	defb 045h		;6a9b  'E'
+	defb 04ch		;6a9c  'L'
+	defb 04ch		;6a9d  'L'
+	defb 020h		;6a9e  ' '
+	defb 053h		;6a9f  'S'
+	defb 04fh		;6aa0  'O'
+	defb 046h		;6aa1  'F'
+	defb 054h		;6aa2  'T'
+	defb 057h		;6aa3  'W'
+	defb 041h		;6aa4  'A'
+	defb 052h		;6aa5  'R'
+	defb 045h		;6aa6  'E'
+	defb 020h		;6aa7  ' '
+	defb 04ch		;6aa8  'L'
+	defb 074h		;6aa9  't'
+	defb 064h		;6aaa  'd'
+	defb 02eh		;6aab  '.'
+	defb 020h		;6aac  ' '
+	defb 020h		;6aad  ' '
+	defb 020h		;6aae  ' '
+	defb 020h		;6aaf  ' '
+	defb 020h		;6ab0  ' '
+	defb 020h		;6ab1  ' '
+	defb 020h		;6ab2  ' '
+	defb 020h		;6ab3  ' '
+	defb 020h		;6ab4  ' '
+	defb 020h		;6ab5  ' '
+	defb 020h		;6ab6  ' '
+	defb 020h		;6ab7  ' '
+	defb 020h		;6ab8  ' '
+	defb 043h		;6ab9  'C'
+	defb 061h		;6aba  'a'
+	defb 073h		;6abb  's'
+	defb 074h		;6abc  't'
+	defb 06ch		;6abd  'l'
+	defb 065h		;6abe  'e'
+	defb 020h		;6abf  ' '
+	defb 04ch		;6ac0  'L'
+	defb 06fh		;6ac1  'o'
+	defb 064h		;6ac2  'd'
+	defb 067h		;6ac3  'g'
+	defb 065h		;6ac4  'e'
+	defb 020h		;6ac5  ' '
+	defb 020h		;6ac6  ' '
+	defb 020h		;6ac7  ' '
+	defb 020h		;6ac8  ' '
+	defb 020h		;6ac9  ' '
+	defb 020h		;6aca  ' '
+	defb 020h		;6acb  ' '
+	defb 020h		;6acc  ' '
+	defb 020h		;6acd  ' '
+	defb 020h		;6ace  ' '
+	defb 020h		;6acf  ' '
+	defb 020h		;6ad0  ' '
+	defb 020h		;6ad1  ' '
+	defb 020h		;6ad2  ' '
+	defb 020h		;6ad3  ' '
+	defb 020h		;6ad4  ' '
+	defb 020h		;6ad5  ' '
+	defb 020h		;6ad6  ' '
+	defb 020h		;6ad7  ' '
+	defb 020h		;6ad8  ' '
+	defb 020h		;6ad9  ' '
+	defb 043h		;6ada  'C'
+	defb 061h		;6adb  'a'
+	defb 073h		;6adc  's'
+	defb 074h		;6add  't'
+	defb 06ch		;6ade  'l'
+	defb 065h		;6adf  'e'
+	defb 020h		;6ae0  ' '
+	defb 047h		;6ae1  'G'
+	defb 072h		;6ae2  'r'
+	defb 065h		;6ae3  'e'
+	defb 065h		;6ae4  'e'
+	defb 06eh		;6ae5  'n'
+	defb 020h		;6ae6  ' '
+	defb 020h		;6ae7  ' '
+	defb 020h		;6ae8  ' '
+	defb 020h		;6ae9  ' '
+	defb 020h		;6aea  ' '
+	defb 020h		;6aeb  ' '
+	defb 020h		;6aec  ' '
+	defb 020h		;6aed  ' '
+	defb 020h		;6aee  ' '
+	defb 020h		;6aef  ' '
+	defb 020h		;6af0  ' '
+	defb 020h		;6af1  ' '
+	defb 020h		;6af2  ' '
+	defb 020h		;6af3  ' '
+	defb 020h		;6af4  ' '
+	defb 020h		;6af5  ' '
+	defb 020h		;6af6  ' '
+	defb 020h		;6af7  ' '
+	defb 020h		;6af8  ' '
+	defb 020h		;6af9  ' '
+	defb 020h		;6afa  ' '
+	defb 054h		;6afb  'T'
+	defb 041h		;6afc  'A'
+	defb 055h		;6afd  'U'
+	defb 04eh		;6afe  'N'
+	defb 054h		;6aff  'T'
+	defb 04fh		;6b00  'O'
+	defb 04eh		;6b01  'N'
+	defb 020h		;6b02  ' '
+	defb 020h		;6b03  ' '
+	defb 020h		;6b04  ' '
+	defb 020h		;6b05  ' '
+	defb 020h		;6b06  ' '
+	defb 020h		;6b07  ' '
+	defb 020h		;6b08  ' '
+	defb 020h		;6b09  ' '
+	defb 020h		;6b0a  ' '
+	defb 020h		;6b0b  ' '
 l6b0ch:
-	defb 020h		;6b0c
+	defb 020h		;6b0c  ' '
 l6b0dh:
-	defb 020h		;6b0d
-	defb 020h		;6b0e
-	defb 020h		;6b0f
-	defb 020h		;6b10
-	defb 020h		;6b11
-	defb 020h		;6b12
-	defb 020h		;6b13
-	defb 020h		;6b14
-	defb 020h		;6b15
-	defb 020h		;6b16
-	defb 020h		;6b17
-	defb 020h		;6b18
-	defb 020h		;6b19
-	defb 020h		;6b1a
-	defb 054h		;6b1b
-	defb 041h		;6b1c
-	defb 031h		;6b1d
-	defb 020h		;6b1e
-	defb 034h		;6b1f
-	defb 041h		;6b20
-	defb 042h		;6b21
-	defb 020h		;6b22
-	defb 020h		;6b23
-	defb 020h		;6b24
-	defb 020h		;6b25
-	defb 020h		;6b26
-	defb 020h		;6b27
-	defb 020h		;6b28
-	defb 020h		;6b29
-	defb 020h		;6b2a
-	defb 020h		;6b2b
+	defb 020h		;6b0d  ' '
+	defb 020h		;6b0e  ' '
+	defb 020h		;6b0f  ' '
+	defb 020h		;6b10  ' '
+	defb 020h		;6b11  ' '
+	defb 020h		;6b12  ' '
+	defb 020h		;6b13  ' '
+	defb 020h		;6b14  ' '
+	defb 020h		;6b15  ' '
+	defb 020h		;6b16  ' '
+	defb 020h		;6b17  ' '
+	defb 020h		;6b18  ' '
+	defb 020h		;6b19  ' '
+	defb 020h		;6b1a  ' '
+	defb 054h		;6b1b  'T'
+	defb 041h		;6b1c  'A'
+	defb 031h		;6b1d  '1'
+	defb 020h		;6b1e  ' '
+	defb 034h		;6b1f  '4'
+	defb 041h		;6b20  'A'
+	defb 042h		;6b21  'B'
+	defb 020h		;6b22  ' '
+	defb 020h		;6b23  ' '
+	defb 020h		;6b24  ' '
+	defb 020h		;6b25  ' '
+	defb 020h		;6b26  ' '
+	defb 020h		;6b27  ' '
+	defb 020h		;6b28  ' '
+	defb 020h		;6b29  ' '
+	defb 020h		;6b2a  ' '
+	defb 020h		;6b2b  ' '
 l6b2ch:
-	defb 020h		;6b2c
+	defb 020h		;6b2c  ' '
 l6b2dh:
-	defb 020h		;6b2d
-	defb 020h		;6b2e
-	defb 020h		;6b2f
+	defb 020h		;6b2d  ' '
+	defb 020h		;6b2e  ' '
+	defb 020h		;6b2f  ' '
 l6b30h:
-	defb 020h		;6b30
+	defb 020h		;6b30  ' '
 l6b31h:
-	defb 020h		;6b31
-	defb 020h		;6b32
-	defb 020h		;6b33
-	defb 020h		;6b34
-	defb 020h		;6b35
-	defb 020h		;6b36
-	defb 020h		;6b37
-	defb 020h		;6b38
-	defb 020h		;6b39
-	defb 020h		;6b3a
-	defb 053h		;6b3b
-	defb 06fh		;6b3c
-	defb 06dh		;6b3d
-	defb 065h		;6b3e
-	defb 072h		;6b3f
-	defb 073h		;6b40
-	defb 065h		;6b41
-	defb 074h		;6b42
-	defb 020h		;6b43
-	defb 020h		;6b44
-	defb 020h		;6b45
-	defb 020h		;6b46
-	defb 020h		;6b47
-	defb 020h		;6b48
-	defb 020h		;6b49
-	defb 020h		;6b4a
-	defb 020h		;6b4b
-	defb 020h		;6b4c
-	defb 020h		;6b4d
-	defb 020h		;6b4e
-	defb 020h		;6b4f
-	defb 020h		;6b50
-	defb 020h		;6b51
-	defb 020h		;6b52
-	defb 020h		;6b53
-	defb 020h		;6b54
-	defb 020h		;6b55
-	defb 020h		;6b56
-	defb 020h		;6b57
-	defb 020h		;6b58
-	defb 020h		;6b59
-	defb 020h		;6b5a
-	defb 045h		;6b5b
-	defb 04eh		;6b5c
-	defb 047h		;6b5d
-	defb 04ch		;6b5e
-	defb 041h		;6b5f
-	defb 04eh		;6b60
-	defb 044h		;6b61
-	defb 020h		;6b62
-	defb 020h		;6b63
-	defb 020h		;6b64
-	defb 020h		;6b65
-	defb 020h		;6b66
-	defb 020h		;6b67
-	defb 020h		;6b68
-	defb 020h		;6b69
-	defb 020h		;6b6a
+	defb 020h		;6b31  ' '
+	defb 020h		;6b32  ' '
+	defb 020h		;6b33  ' '
+	defb 020h		;6b34  ' '
+	defb 020h		;6b35  ' '
+	defb 020h		;6b36  ' '
+	defb 020h		;6b37  ' '
+	defb 020h		;6b38  ' '
+	defb 020h		;6b39  ' '
+	defb 020h		;6b3a  ' '
+	defb 053h		;6b3b  'S'
+	defb 06fh		;6b3c  'o'
+	defb 06dh		;6b3d  'm'
+	defb 065h		;6b3e  'e'
+	defb 072h		;6b3f  'r'
+	defb 073h		;6b40  's'
+	defb 065h		;6b41  'e'
+	defb 074h		;6b42  't'
+	defb 020h		;6b43  ' '
+	defb 020h		;6b44  ' '
+	defb 020h		;6b45  ' '
+	defb 020h		;6b46  ' '
+	defb 020h		;6b47  ' '
+	defb 020h		;6b48  ' '
+	defb 020h		;6b49  ' '
+	defb 020h		;6b4a  ' '
+	defb 020h		;6b4b  ' '
+	defb 020h		;6b4c  ' '
+	defb 020h		;6b4d  ' '
+	defb 020h		;6b4e  ' '
+	defb 020h		;6b4f  ' '
+	defb 020h		;6b50  ' '
+	defb 020h		;6b51  ' '
+	defb 020h		;6b52  ' '
+	defb 020h		;6b53  ' '
+	defb 020h		;6b54  ' '
+	defb 020h		;6b55  ' '
+	defb 020h		;6b56  ' '
+	defb 020h		;6b57  ' '
+	defb 020h		;6b58  ' '
+	defb 020h		;6b59  ' '
+	defb 020h		;6b5a  ' '
+	defb 045h		;6b5b  'E'
+	defb 04eh		;6b5c  'N'
+	defb 047h		;6b5d  'G'
+	defb 04ch		;6b5e  'L'
+	defb 041h		;6b5f  'A'
+	defb 04eh		;6b60  'N'
+	defb 044h		;6b61  'D'
+	defb 020h		;6b62  ' '
+	defb 020h		;6b63  ' '
+	defb 020h		;6b64  ' '
+	defb 020h		;6b65  ' '
+	defb 020h		;6b66  ' '
+	defb 020h		;6b67  ' '
+	defb 020h		;6b68  ' '
+	defb 020h		;6b69  ' '
+	defb 020h		;6b6a  ' '
 l6b6bh:
-	defb 020h		;6b6b
-	defb 020h		;6b6c
-	defb 020h		;6b6d
-	defb 020h		;6b6e
-	defb 020h		;6b6f
-	defb 020h		;6b70
-	defb 020h		;6b71
+	defb 020h		;6b6b  ' '
+	defb 020h		;6b6c  ' '
+	defb 020h		;6b6d  ' '
+	defb 020h		;6b6e  ' '
+	defb 020h		;6b6f  ' '
+	defb 020h		;6b70  ' '
+	defb 020h		;6b71  ' '
 l6b72h:
-	defb 020h		;6b72
-	defb 020h		;6b73
-	defb 020h		;6b74
-	defb 020h		;6b75
-	defb 077h		;6b76
-	defb 069h		;6b77
-	defb 074h		;6b78
-	defb 068h		;6b79
-	defb 020h		;6b7a
-	defb 079h		;6b7b
-	defb 06fh		;6b7c
-	defb 075h		;6b7d
-	defb 072h		;6b7e
-	defb 020h		;6b7f
-	defb 06eh		;6b80
-	defb 061h		;6b81
-	defb 06dh		;6b82
-	defb 065h		;6b83
-	defb 020h		;6b84
-	defb 061h		;6b85
-	defb 06eh		;6b86
-	defb 064h		;6b87
-	defb 020h		;6b88
-	defb 061h		;6b89
-	defb 064h		;6b8a
-	defb 064h		;6b8b
+	defb 020h		;6b72  ' '
+	defb 020h		;6b73  ' '
+	defb 020h		;6b74  ' '
+	defb 020h		;6b75  ' '
+	defb 077h		;6b76  'w'
+	defb 069h		;6b77  'i'
+	defb 074h		;6b78  't'
+	defb 068h		;6b79  'h'
+	defb 020h		;6b7a  ' '
+	defb 079h		;6b7b  'y'
+	defb 06fh		;6b7c  'o'
+	defb 075h		;6b7d  'u'
+	defb 072h		;6b7e  'r'
+	defb 020h		;6b7f  ' '
+	defb 06eh		;6b80  'n'
+	defb 061h		;6b81  'a'
+	defb 06dh		;6b82  'm'
+	defb 065h		;6b83  'e'
+	defb 020h		;6b84  ' '
+	defb 061h		;6b85  'a'
+	defb 06eh		;6b86  'n'
+	defb 064h		;6b87  'd'
+	defb 020h		;6b88  ' '
+	defb 061h		;6b89  'a'
+	defb 064h		;6b8a  'd'
+	defb 064h		;6b8b  'd'
 l6b8ch:
-	defb 072h		;6b8c
-	defb 065h		;6b8d
-	defb 073h		;6b8e
-	defb 073h		;6b8f
-	defb 02ch		;6b90
+	defb 072h		;6b8c  'r'
+	defb 065h		;6b8d  'e'
+	defb 073h		;6b8e  's'
+	defb 073h		;6b8f  's'
+	defb 02ch		;6b90  ','
 l6b91h:
-	defb 061h		;6b91
-	defb 06eh		;6b92
-	defb 064h		;6b93
-	defb 020h		;6b94
-	defb 074h		;6b95
-	defb 068h		;6b96
-	defb 065h		;6b97
-	defb 020h		;6b98
-	defb 06eh		;6b99
-	defb 061h		;6b9a
-	defb 06dh		;6b9b
-	defb 065h		;6b9c
-	defb 020h		;6b9d
-	defb 061h		;6b9e
-	defb 06eh		;6b9f
-	defb 064h		;6ba0
-	defb 020h		;6ba1
-	defb 061h		;6ba2
-	defb 064h		;6ba3
-	defb 064h		;6ba4
-	defb 072h		;6ba5
-	defb 065h		;6ba6
-	defb 073h		;6ba7
-	defb 073h		;6ba8
-	defb 020h		;6ba9
-	defb 020h		;6baa
-	defb 06fh		;6bab
-	defb 066h		;6bac
-	defb 020h		;6bad
-	defb 074h		;6bae
-	defb 068h		;6baf
-	defb 065h		;6bb0
-	defb 070h		;6bb1
-	defb 065h		;6bb2
-	defb 072h		;6bb3
-	defb 073h		;6bb4
-	defb 06fh		;6bb5
-	defb 06eh		;6bb6
-	defb 020h		;6bb7
-	defb 020h		;6bb8
-	defb 077h		;6bb9
-	defb 068h		;6bba
-	defb 06fh		;6bbb
-	defb 020h		;6bbc
-	defb 020h		;6bbd
-	defb 073h		;6bbe
-	defb 075h		;6bbf
-	defb 070h		;6bc0
-	defb 070h		;6bc1
-	defb 06ch		;6bc2
-	defb 069h		;6bc3
-	defb 065h		;6bc4
-	defb 064h		;6bc5
-	defb 020h		;6bc6
-	defb 020h		;6bc7
-	defb 079h		;6bc8
-	defb 06fh		;6bc9
-	defb 075h		;6bca
-	defb 020h		;6bcb
+	defb 061h		;6b91  'a'
+	defb 06eh		;6b92  'n'
+	defb 064h		;6b93  'd'
+	defb 020h		;6b94  ' '
+	defb 074h		;6b95  't'
+	defb 068h		;6b96  'h'
+	defb 065h		;6b97  'e'
+	defb 020h		;6b98  ' '
+	defb 06eh		;6b99  'n'
+	defb 061h		;6b9a  'a'
+	defb 06dh		;6b9b  'm'
+	defb 065h		;6b9c  'e'
+	defb 020h		;6b9d  ' '
+	defb 061h		;6b9e  'a'
+	defb 06eh		;6b9f  'n'
+	defb 064h		;6ba0  'd'
+	defb 020h		;6ba1  ' '
+	defb 061h		;6ba2  'a'
+	defb 064h		;6ba3  'd'
+	defb 064h		;6ba4  'd'
+	defb 072h		;6ba5  'r'
+	defb 065h		;6ba6  'e'
+	defb 073h		;6ba7  's'
+	defb 073h		;6ba8  's'
+	defb 020h		;6ba9  ' '
+	defb 020h		;6baa  ' '
+	defb 06fh		;6bab  'o'
+	defb 066h		;6bac  'f'
+	defb 020h		;6bad  ' '
+	defb 074h		;6bae  't'
+	defb 068h		;6baf  'h'
+	defb 065h		;6bb0  'e'
+	defb 070h		;6bb1  'p'
+	defb 065h		;6bb2  'e'
+	defb 072h		;6bb3  'r'
+	defb 073h		;6bb4  's'
+	defb 06fh		;6bb5  'o'
+	defb 06eh		;6bb6  'n'
+	defb 020h		;6bb7  ' '
+	defb 020h		;6bb8  ' '
+	defb 077h		;6bb9  'w'
+	defb 068h		;6bba  'h'
+	defb 06fh		;6bbb  'o'
+	defb 020h		;6bbc  ' '
+	defb 020h		;6bbd  ' '
+	defb 073h		;6bbe  's'
+	defb 075h		;6bbf  'u'
+	defb 070h		;6bc0  'p'
+	defb 070h		;6bc1  'p'
+	defb 06ch		;6bc2  'l'
+	defb 069h		;6bc3  'i'
+	defb 065h		;6bc4  'e'
+	defb 064h		;6bc5  'd'
+	defb 020h		;6bc6  ' '
+	defb 020h		;6bc7  ' '
+	defb 079h		;6bc8  'y'
+	defb 06fh		;6bc9  'o'
+	defb 075h		;6bca  'u'
+	defb 020h		;6bcb  ' '
 l6bcch:
-	defb 020h		;6bcc
-	defb 077h		;6bcd
-	defb 069h		;6bce
-	defb 074h		;6bcf
-	defb 068h		;6bd0
+	defb 020h		;6bcc  ' '
+	defb 077h		;6bcd  'w'
+	defb 069h		;6bce  'i'
+	defb 074h		;6bcf  't'
+	defb 068h		;6bd0  'h'
 l6bd1h:
-	defb 074h		;6bd1
-	defb 068h		;6bd2
-	defb 065h		;6bd3
-	defb 020h		;6bd4
-	defb 066h		;6bd5
-	defb 06fh		;6bd6
-	defb 072h		;6bd7
-	defb 067h		;6bd8
-	defb 065h		;6bd9
-	defb 072h		;6bda
-	defb 079h		;6bdb
-	defb 02eh		;6bdc
-	defb 020h		;6bdd
-	defb 020h		;6bde
-	defb 020h		;6bdf
-	defb 020h		;6be0
-	defb 020h		;6be1
-	defb 020h		;6be2
-	defb 020h		;6be3
-	defb 020h		;6be4
-	defb 020h		;6be5
-	defb 020h		;6be6
-	defb 020h		;6be7
-	defb 020h		;6be8
-	defb 020h		;6be9
-	defb 020h		;6bea
-	defb 020h		;6beb
-	defb 020h		;6bec
-	defb 020h		;6bed
-	defb 020h		;6bee
-	defb 020h		;6bef
-	defb 020h		;6bf0
-	defb 020h		;6bf1
-	defb 020h		;6bf2
-	defb 020h		;6bf3
-	defb 020h		;6bf4
-	defb 020h		;6bf5
-	defb 020h		;6bf6
-	defb 059h		;6bf7
-	defb 06fh		;6bf8
-	defb 075h		;6bf9
-	defb 020h		;6bfa
-	defb 077h		;6bfb
-	defb 069h		;6bfc
-	defb 06ch		;6bfd
-	defb 06ch		;6bfe
-	defb 020h		;6bff
-	defb 062h		;6c00
-	defb 065h		;6c01
-	defb 020h		;6c02
-	defb 073h		;6c03
-	defb 065h		;6c04
-	defb 06eh		;6c05
-	defb 074h		;6c06
-	defb 020h		;6c07
-	defb 061h		;6c08
-	defb 020h		;6c09
-	defb 067h		;6c0a
-	defb 065h		;6c0b
+	defb 074h		;6bd1  't'
+	defb 068h		;6bd2  'h'
+	defb 065h		;6bd3  'e'
+	defb 020h		;6bd4  ' '
+	defb 066h		;6bd5  'f'
+	defb 06fh		;6bd6  'o'
+	defb 072h		;6bd7  'r'
+	defb 067h		;6bd8  'g'
+	defb 065h		;6bd9  'e'
+	defb 072h		;6bda  'r'
+	defb 079h		;6bdb  'y'
+	defb 02eh		;6bdc  '.'
+	defb 020h		;6bdd  ' '
+	defb 020h		;6bde  ' '
+	defb 020h		;6bdf  ' '
+	defb 020h		;6be0  ' '
+	defb 020h		;6be1  ' '
+	defb 020h		;6be2  ' '
+	defb 020h		;6be3  ' '
+	defb 020h		;6be4  ' '
+	defb 020h		;6be5  ' '
+	defb 020h		;6be6  ' '
+	defb 020h		;6be7  ' '
+	defb 020h		;6be8  ' '
+	defb 020h		;6be9  ' '
+	defb 020h		;6bea  ' '
+	defb 020h		;6beb  ' '
+	defb 020h		;6bec  ' '
+	defb 020h		;6bed  ' '
+	defb 020h		;6bee  ' '
+	defb 020h		;6bef  ' '
+	defb 020h		;6bf0  ' '
+	defb 020h		;6bf1  ' '
+	defb 020h		;6bf2  ' '
+	defb 020h		;6bf3  ' '
+	defb 020h		;6bf4  ' '
+	defb 020h		;6bf5  ' '
+	defb 020h		;6bf6  ' '
+	defb 059h		;6bf7  'Y'
+	defb 06fh		;6bf8  'o'
+	defb 075h		;6bf9  'u'
+	defb 020h		;6bfa  ' '
+	defb 077h		;6bfb  'w'
+	defb 069h		;6bfc  'i'
+	defb 06ch		;6bfd  'l'
+	defb 06ch		;6bfe  'l'
+	defb 020h		;6bff  ' '
+	defb 062h		;6c00  'b'
+	defb 065h		;6c01  'e'
+	defb 020h		;6c02  ' '
+	defb 073h		;6c03  's'
+	defb 065h		;6c04  'e'
+	defb 06eh		;6c05  'n'
+	defb 074h		;6c06  't'
+	defb 020h		;6c07  ' '
+	defb 061h		;6c08  'a'
+	defb 020h		;6c09  ' '
+	defb 067h		;6c0a  'g'
+	defb 065h		;6c0b  'e'

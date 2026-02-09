@@ -17,171 +17,175 @@ b1_end:
 
 ; BLOCK 'b2' (start 0x6c0c end 0x6f0c)
 b2_start:
-	defb 06eh		;6c0c
-	defb 075h		;6c0d
-	defb 069h		;6c0e
-	defb 06eh		;6c0f
-	defb 065h		;6c10
-	defb 072h		;6c11
-	defb 065h		;6c12
-	defb 070h		;6c13
-	defb 06ch		;6c14
-	defb 061h		;6c15
-	defb 063h		;6c16
-	defb 065h		;6c17
-	defb 06dh		;6c18
-	defb 065h		;6c19
-	defb 06eh		;6c1a
-	defb 074h		;6c1b
-	defb 020h		;6c1c
-	defb 063h		;6c1d
-	defb 06fh		;6c1e
-	defb 070h		;6c1f
-	defb 079h		;6c20
-	defb 020h		;6c21
-	defb 061h		;6c22
-	defb 06eh		;6c23
-	defb 064h		;6c24
-	defb 020h		;6c25
-	defb 061h		;6c26
-	defb 020h		;6c27
-	defb 072h		;6c28
-	defb 065h		;6c29
-	defb 077h		;6c2a
-	defb 061h		;6c2b
-	defb 072h		;6c2c
-	defb 064h		;6c2d
-	defb 020h		;6c2e
-	defb 06fh		;6c2f
-	defb 066h		;6c30
-	defb 060h		;6c31
-	defb 031h		;6c32
-	defb 030h		;6c33
-	defb 030h		;6c34
-	defb 020h		;6c35
-	defb 020h		;6c36
-	defb 069h		;6c37
-	defb 066h		;6c38
-	defb 020h		;6c39
-	defb 079h		;6c3a
-	defb 06fh		;6c3b
-	defb 075h		;6c3c
-	defb 072h		;6c3d
-	defb 020h		;6c3e
-	defb 069h		;6c3f
-	defb 06eh		;6c40
-	defb 066h		;6c41
-	defb 06fh		;6c42
-	defb 072h		;6c43
-	defb 06dh		;6c44
-	defb 061h		;6c45
-	defb 074h		;6c46
-	defb 069h		;6c47
-	defb 06fh		;6c48
-	defb 06eh		;6c49
-	defb 020h		;6c4a
-	defb 020h		;6c4b
-	defb 06ch		;6c4c
-	defb 065h		;6c4d
-	defb 061h		;6c4e
-	defb 064h		;6c4f
-	defb 073h		;6c50
-	defb 020h		;6c51
-	defb 020h		;6c52
-	defb 020h		;6c53
-	defb 020h		;6c54
-	defb 074h		;6c55
-	defb 06fh		;6c56
-	defb 020h		;6c57
-	defb 061h		;6c58
-	defb 020h		;6c59
-	defb 073h		;6c5a
-	defb 075h		;6c5b
-	defb 063h		;6c5c
-	defb 063h		;6c5d
-	defb 065h		;6c5e
-	defb 073h		;6c5f
-	defb 073h		;6c60
-	defb 066h		;6c61
-	defb 075h		;6c62
-	defb 06ch		;6c63
-	defb 020h		;6c64
-	defb 070h		;6c65
-	defb 072h		;6c66
-	defb 06fh		;6c67
-	defb 073h		;6c68
-	defb 065h		;6c69
-	defb 063h		;6c6a
-	defb 075h		;6c6b
-	defb 074h		;6c6c
-	defb 069h		;6c6d
-	defb 06fh		;6c6e
-	defb 06eh		;6c6f
-	defb 02eh		;6c70
-	defb 020h		;6c71
-	defb 020h		;6c72
-	defb 020h		;6c73
-	defb 020h		;6c74
-	defb 020h		;6c75
-	defb 020h		;6c76
-	defb 020h		;6c77
-	defb 020h		;6c78
-	defb 020h		;6c79
-	defb 020h		;6c7a
-	defb 020h		;6c7b
-	defb 020h		;6c7c
-	defb 020h		;6c7d
-	defb 020h		;6c7e
-	defb 020h		;6c7f
-	defb 020h		;6c80
-	defb 020h		;6c81
-	defb 020h		;6c82
-	defb 020h		;6c83
-	defb 020h		;6c84
-	defb 020h		;6c85
-	defb 020h		;6c86
-	defb 020h		;6c87
-	defb 020h		;6c88
-	defb 020h		;6c89
-	defb 020h		;6c8a
-	defb 020h		;6c8b
-	defb 020h		;6c8c
-	defb 020h		;6c8d
-	defb 020h		;6c8e
-	defb 020h		;6c8f
-	defb 020h		;6c90
-	defb 020h		;6c91
-	defb 020h		;6c92
-	defb 020h		;6c93
-	defb 050h		;6c94
-	defb 052h		;6c95
-	defb 045h		;6c96
-	defb 053h		;6c97
-	defb 053h		;6c98
-	defb 020h		;6c99
-	defb 041h		;6c9a
-	defb 04eh		;6c9b
-	defb 059h		;6c9c
-	defb 020h		;6c9d
-	defb 04bh		;6c9e
-	defb 045h		;6c9f
-	defb 059h		;6ca0
-	defb 020h		;6ca1
-	defb 054h		;6ca2
-	defb 04fh		;6ca3
-	defb 020h		;6ca4
-	defb 043h		;6ca5
-	defb 04fh		;6ca6
-	defb 04eh		;6ca7
-	defb 054h		;6ca8
-	defb 049h		;6ca9
-	defb 04eh		;6caa
-	defb 055h		;6cab
-	defb 045h		;6cac
-	defb 020h		;6cad
-	defb 020h		;6cae
-	defb 020h		;6caf
-	defb 020h		;6cb0
+; "nuinereplacement copy and a reward of`100  if your information  "
+; "leads    to a successful prosecution.                           "
+; ... (165 chars total)
+	defb 06eh		;6c0c  'n'
+	defb 075h		;6c0d  'u'
+	defb 069h		;6c0e  'i'
+	defb 06eh		;6c0f  'n'
+	defb 065h		;6c10  'e'
+	defb 072h		;6c11  'r'
+	defb 065h		;6c12  'e'
+	defb 070h		;6c13  'p'
+	defb 06ch		;6c14  'l'
+	defb 061h		;6c15  'a'
+	defb 063h		;6c16  'c'
+	defb 065h		;6c17  'e'
+	defb 06dh		;6c18  'm'
+	defb 065h		;6c19  'e'
+	defb 06eh		;6c1a  'n'
+	defb 074h		;6c1b  't'
+	defb 020h		;6c1c  ' '
+	defb 063h		;6c1d  'c'
+	defb 06fh		;6c1e  'o'
+	defb 070h		;6c1f  'p'
+	defb 079h		;6c20  'y'
+	defb 020h		;6c21  ' '
+	defb 061h		;6c22  'a'
+	defb 06eh		;6c23  'n'
+	defb 064h		;6c24  'd'
+	defb 020h		;6c25  ' '
+	defb 061h		;6c26  'a'
+	defb 020h		;6c27  ' '
+	defb 072h		;6c28  'r'
+	defb 065h		;6c29  'e'
+	defb 077h		;6c2a  'w'
+	defb 061h		;6c2b  'a'
+	defb 072h		;6c2c  'r'
+	defb 064h		;6c2d  'd'
+	defb 020h		;6c2e  ' '
+	defb 06fh		;6c2f  'o'
+	defb 066h		;6c30  'f'
+	defb 060h		;6c31  '`' (Spectrum: £)
+	defb 031h		;6c32  '1'
+	defb 030h		;6c33  '0'
+	defb 030h		;6c34  '0'
+	defb 020h		;6c35  ' '
+	defb 020h		;6c36  ' '
+	defb 069h		;6c37  'i'
+	defb 066h		;6c38  'f'
+	defb 020h		;6c39  ' '
+	defb 079h		;6c3a  'y'
+	defb 06fh		;6c3b  'o'
+	defb 075h		;6c3c  'u'
+	defb 072h		;6c3d  'r'
+	defb 020h		;6c3e  ' '
+	defb 069h		;6c3f  'i'
+	defb 06eh		;6c40  'n'
+	defb 066h		;6c41  'f'
+	defb 06fh		;6c42  'o'
+	defb 072h		;6c43  'r'
+	defb 06dh		;6c44  'm'
+	defb 061h		;6c45  'a'
+	defb 074h		;6c46  't'
+	defb 069h		;6c47  'i'
+	defb 06fh		;6c48  'o'
+	defb 06eh		;6c49  'n'
+	defb 020h		;6c4a  ' '
+	defb 020h		;6c4b  ' '
+	defb 06ch		;6c4c  'l'
+	defb 065h		;6c4d  'e'
+	defb 061h		;6c4e  'a'
+	defb 064h		;6c4f  'd'
+	defb 073h		;6c50  's'
+	defb 020h		;6c51  ' '
+	defb 020h		;6c52  ' '
+	defb 020h		;6c53  ' '
+	defb 020h		;6c54  ' '
+	defb 074h		;6c55  't'
+	defb 06fh		;6c56  'o'
+	defb 020h		;6c57  ' '
+	defb 061h		;6c58  'a'
+	defb 020h		;6c59  ' '
+	defb 073h		;6c5a  's'
+	defb 075h		;6c5b  'u'
+	defb 063h		;6c5c  'c'
+	defb 063h		;6c5d  'c'
+	defb 065h		;6c5e  'e'
+	defb 073h		;6c5f  's'
+	defb 073h		;6c60  's'
+	defb 066h		;6c61  'f'
+	defb 075h		;6c62  'u'
+	defb 06ch		;6c63  'l'
+	defb 020h		;6c64  ' '
+	defb 070h		;6c65  'p'
+	defb 072h		;6c66  'r'
+	defb 06fh		;6c67  'o'
+	defb 073h		;6c68  's'
+	defb 065h		;6c69  'e'
+	defb 063h		;6c6a  'c'
+	defb 075h		;6c6b  'u'
+	defb 074h		;6c6c  't'
+	defb 069h		;6c6d  'i'
+	defb 06fh		;6c6e  'o'
+	defb 06eh		;6c6f  'n'
+	defb 02eh		;6c70  '.'
+	defb 020h		;6c71  ' '
+	defb 020h		;6c72  ' '
+	defb 020h		;6c73  ' '
+	defb 020h		;6c74  ' '
+	defb 020h		;6c75  ' '
+	defb 020h		;6c76  ' '
+	defb 020h		;6c77  ' '
+	defb 020h		;6c78  ' '
+	defb 020h		;6c79  ' '
+	defb 020h		;6c7a  ' '
+	defb 020h		;6c7b  ' '
+	defb 020h		;6c7c  ' '
+	defb 020h		;6c7d  ' '
+	defb 020h		;6c7e  ' '
+	defb 020h		;6c7f  ' '
+	defb 020h		;6c80  ' '
+	defb 020h		;6c81  ' '
+	defb 020h		;6c82  ' '
+	defb 020h		;6c83  ' '
+	defb 020h		;6c84  ' '
+	defb 020h		;6c85  ' '
+	defb 020h		;6c86  ' '
+	defb 020h		;6c87  ' '
+	defb 020h		;6c88  ' '
+	defb 020h		;6c89  ' '
+	defb 020h		;6c8a  ' '
+	defb 020h		;6c8b  ' '
+	defb 020h		;6c8c  ' '
+	defb 020h		;6c8d  ' '
+	defb 020h		;6c8e  ' '
+	defb 020h		;6c8f  ' '
+	defb 020h		;6c90  ' '
+	defb 020h		;6c91  ' '
+	defb 020h		;6c92  ' '
+	defb 020h		;6c93  ' '
+	defb 050h		;6c94  'P'
+	defb 052h		;6c95  'R'
+	defb 045h		;6c96  'E'
+	defb 053h		;6c97  'S'
+	defb 053h		;6c98  'S'
+	defb 020h		;6c99  ' '
+	defb 041h		;6c9a  'A'
+	defb 04eh		;6c9b  'N'
+	defb 059h		;6c9c  'Y'
+	defb 020h		;6c9d  ' '
+	defb 04bh		;6c9e  'K'
+	defb 045h		;6c9f  'E'
+	defb 059h		;6ca0  'Y'
+	defb 020h		;6ca1  ' '
+	defb 054h		;6ca2  'T'
+	defb 04fh		;6ca3  'O'
+	defb 020h		;6ca4  ' '
+	defb 043h		;6ca5  'C'
+	defb 04fh		;6ca6  'O'
+	defb 04eh		;6ca7  'N'
+	defb 054h		;6ca8  'T'
+	defb 049h		;6ca9  'I'
+	defb 04eh		;6caa  'N'
+	defb 055h		;6cab  'U'
+	defb 045h		;6cac  'E'
+	defb 020h		;6cad  ' '
+	defb 020h		;6cae  ' '
+	defb 020h		;6caf  ' '
+	defb 020h		;6cb0  ' '
+; --- 155 zero bytes ---
 	defb 000h		;6cb1
 	defb 000h		;6cb2
 	defb 000h		;6cb3
@@ -338,6 +342,7 @@ b2_start:
 	defb 000h		;6d4a
 	defb 000h		;6d4b
 l6d4ch:
+; --- 29 zero bytes ---
 	defb 000h		;6d4c
 	defb 000h		;6d4d
 	defb 000h		;6d4e
@@ -368,6 +373,7 @@ l6d4ch:
 	defb 000h		;6d67
 	defb 000h		;6d68
 l6d69h:
+; --- 419 zero bytes ---
 	defb 000h		;6d69
 	defb 000h		;6d6a
 	defb 000h		;6d6b
