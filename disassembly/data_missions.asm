@@ -2,15 +2,36 @@
 ; data_missions.asm
 ; ======================================================================
 ;
-; Mission Definitions & Briefing Text
+; Mission Definitions, Configuration & Briefing Text
 ;
 ; Address range: 6F0Ch - 730Bh (1024 bytes)
 ; Source binary: block7_main.bin (loaded at 620Ch)
 ;
-; 9 mission definitions (RIN through ZEN) with briefing text.
-; Each mission has: 3-letter code, belt rank number, name,
-; description text, and configuration bytes.
-; Includes mixed code fragments for mission display logic.
+; 9 missions based on the kuji-in (nine hand seals of Shugendo):
+;   0: RIN  999  STRENGTH OF MIND AND BODY      (0 items)
+;   1: KYO  901  DIRECTION OF ENERGY             (0 items)
+;   2: TOH  801  HARMONY WITH THE UNIVERSE        (2 items)
+;   3: SHA  751  HEALING OF SELF AND OTHERS       (5 items)
+;   4: KAI  701  PREMONITION OF DANGER            (7 items)
+;   5: JIN  651  KNOWING THE THOUGHTS OF OTHERS   (9 items)
+;   6: RETSU 601 MASTERY OF TIME AND SPACE       (11 items)
+;   7: ZAI  551  CONTROL OF NATURES ELEMENTS     (14 items)
+;   8: ZEN  999  ENLIGHTENMENT                   (14 items)
+;
+; Structure:
+;   6F0C-6F8B  128 bytes  Runtime scratch buffer (zeroed)
+;   6F8C-6F9B   16 bytes  Timer/display template (4 groups x 4 difficulties)
+;   6F9C-708B  240 bytes  Mission config tables (15 rows x 16 bytes)
+;   708C-70AA   31 bytes  TITLE_SCREEN/TITLE_LOOP code (bank switching)
+;   70AB-70C3   25 bytes  "PRESS ANY KEY TO CONTINUE" (data as code)
+;   70C4-724F  396 bytes  9 mission text entries (44 bytes each: 40 text + 4 config)
+;   7250-7261   18 bytes  Pointer table (9 x 2-byte address to each entry)
+;   7262-730B  170 bytes  Briefing display template strings
+;
+; NOTE: Block b4 (700C-710B) was marked as CODE for z80dasm, so it
+; shows instruction mnemonics. Most of it is actually DATA (config
+; tables and ASCII text). The raw byte values are what matter, not
+; the disassembled instructions.
 ;
 ; ======================================================================
 
@@ -18,7 +39,8 @@ b2_end:
 
 ; BLOCK 'b3' (start 0x6f0c end 0x700c)
 b3_start:
-; --- 128 zero bytes ---
+; --- 128 zero bytes (runtime scratch buffer) ---
+; Written during gameplay to track mission progress, objectives, timer state.
 	defb 000h		;6f0c
 	defb 000h		;6f0d
 	defb 000h		;6f0e
@@ -147,7 +169,9 @@ b3_start:
 	defb 000h		;6f89
 	defb 000h		;6f8a
 	defb 000h		;6f8b
-; "?<881000#   !   "
+; --- Timer/display template (16 bytes) ---
+; 4 groups of 4 bytes. Each group = values for 4 difficulty levels.
+; Values: 3F 3C 38 38 | 31 30 30 30 | 23 20 20 20 | 21 20 20 20
 	defb 03fh		;6f8c  '?'
 	defb 03ch		;6f8d  '<'
 	defb 038h		;6f8e  '8'
@@ -164,6 +188,10 @@ b3_start:
 	defb 020h		;6f99  ' '
 	defb 020h		;6f9a  ' '
 	defb 020h		;6f9b  ' '
+; --- Mission config tables (15 rows x 16 bytes) ---
+; Each row: 4 groups of 4 bytes. Each group = 4 difficulty levels.
+; Continues into block b4 (0x700C-0x708B) where z80dasm shows instructions.
+; Row 1: 07 04 00 00 | 01 00 00 00 | 03 00 00 00 | 01 00 00 00
 	defb 007h		;6f9c
 	defb 004h		;6f9d
 	defb 000h		;6f9e
@@ -279,7 +307,13 @@ b3_start:
 b3_end:
 
 ; BLOCK 'b4' (start 0x700c end 0x710c)
+; NOTE: This entire block is DATA, not executable code. z80dasm interpreted
+; the raw bytes as Z80 instructions because the block was typed as 'code'.
+; The instruction mnemonics below are MEANINGLESS - only the raw byte values
+; (visible as opcode hex) matter.
 b4_start:
+; --- Config tables continued (rows 8-15, 128 bytes) ---
+; Row 8: FF FC F8 F8 | F1 F0 F0 F0 | E3 E0 E0 E0 | E1 E0 E0 E0
 	rst 38h			;700c
 	call m,sub_f8f8h		;700d
 	pop af			;7010
@@ -386,46 +420,57 @@ l7068h:
 	nop			;7087
 	ld bc,00000h		;7088
 	nop			;708b
+; --- Actual executable code (0x708C-0x70AA) ---
 TITLE_SCREEN:
-	call MISSION_BRIEFING		;708c
-	jp lecddh		;708f
+	call MISSION_BRIEFING		;708c	; Display mission briefing screen
+	jp lecddh		;708f	; Jump to mission select menu
 TITLE_LOOP:
-	ld bc,l7ffdh		;7092
-	ld a,011h		;7095
+	ld bc,l7ffdh		;7092	; BC = 128K bank switch port
+	ld a,011h		;7095	; Page in bank 1 (sound engine)
 	out (c),a		;7097
 	jr z,l70a0h		;7099
-	call SOUND_INIT		;709b
+	call SOUND_INIT		;709b	; Initialize sound engine
 	jr l70a3h		;709e
 l70a0h:
 	call sub_f61eh		;70a0
 l70a3h:
-	ld bc,l7ffdh		;70a3
-	ld a,010h		;70a6
+	ld bc,l7ffdh		;70a3	; BC = 128K bank switch port
+	ld a,010h		;70a6	; Restore bank 0 (main game)
 	out (c),a		;70a8
 	ret			;70aa
+; --- ASCII text data (0x70AB-0x710B) - DATA, not code ---
+; The bytes below are ASCII text, NOT executable instructions.
+; z80dasm shows them as instructions but they are string data.
+;
+; 0x70AB: "PRESS ANY KEY TO CONTINUE"
+; 0x70C4: Mission 0 "RIN  999  STRENGTH OF MIND AND BODY   00" config: 00 00 FF FF
+; 0x70F0: Mission 1 "KYO  901     DIRECTION OF ENERGY      00" config: 00 00 FF FE
+;         (KYO entry continues into block b5 at 710C)
 l70abh:
-	ld d,b			;70ab
-	ld d,d			;70ac
-	ld b,l			;70ad
-	ld d,e			;70ae
-	ld d,e			;70af
-	jr nz,l70f3h		;70b0
-	ld c,(hl)			;70b2
-	ld e,c			;70b3
-	jr nz,l7101h		;70b4
-	ld b,l			;70b6
-	ld e,c			;70b7
-	jr nz,l710eh		;70b8
-	ld c,a			;70ba
-	jr nz,l7100h		;70bb
-	ld c,a			;70bd
-	ld c,(hl)			;70be
-	ld d,h			;70bf
-	ld c,c			;70c0
-	ld c,(hl)			;70c1
-	ld d,l			;70c2
-	ld b,l			;70c3
-	ld d,d			;70c4
+	ld d,b			;70ab	; 0x50 = 'P' ──┐
+	ld d,d			;70ac	; 0x52 = 'R'   │
+	ld b,l			;70ad	; 0x45 = 'E'   │
+	ld d,e			;70ae	; 0x53 = 'S'   │
+	ld d,e			;70af	; 0x53 = 'S'   │
+	jr nz,l70f3h		;70b0	; 0x20 = ' '   │
+	ld c,(hl)			;70b2	; 0x4E = 'N'   │ "PRESS ANY KEY
+	ld e,c			;70b3	; 0x59 = 'Y'   │  TO CONTINUE"
+	jr nz,l7101h		;70b4	; 0x20 = ' '   │
+	ld b,l			;70b6	; 0x45 = 'E'   │
+	ld e,c			;70b7	; 0x59 = 'Y'   │
+	jr nz,l710eh		;70b8	; 0x20 = ' '   │
+	ld c,a			;70ba	; 0x4F = 'O'   │
+	jr nz,l7100h		;70bb	; 0x20 = ' '   │
+	ld c,a			;70bd	; 0x4F = 'O'   │
+	ld c,(hl)			;70be	; 0x4E = 'N'   │
+	ld d,h			;70bf	; 0x54 = 'T'   │
+	ld c,c			;70c0	; 0x49 = 'I'   │
+	ld c,(hl)			;70c1	; 0x4E = 'N'   │
+	ld d,l			;70c2	; 0x55 = 'U'   │
+	ld b,l			;70c3	; 0x45 = 'E' ──┘
+; --- Mission 0: RIN (0x70C4-0x70EF, 44 bytes) ---
+; "RIN  999  STRENGTH OF MIND AND BODY   00" | config: 00 00 FF FF
+	ld d,d			;70c4	; 0x52 = 'R'
 	ld c,c			;70c5
 	ld c,(hl)			;70c6
 	jr nz,l70e9h		;70c7
@@ -459,11 +504,14 @@ l70e9h:
 	jr nz,l711bh		;70e9
 	jr nc,l70edh		;70eb
 l70edh:
-	nop			;70ed
+	nop			;70ed	; config byte 1: 0x00
 l70eeh:
-	rst 38h			;70ee
-	rst 38h			;70ef
-	ld c,e			;70f0
+	rst 38h			;70ee	; config byte 2: 0xFF
+	rst 38h			;70ef	; config byte 3: 0xFF
+; --- Mission 1: KYO (0x70F0-0x711B, 44 bytes) ---
+; "KYO  901     DIRECTION OF ENERGY      00" | config: 00 00 FF FE
+; (entry spans block boundary - continues in block b5 at 0x710C)
+	ld c,e			;70f0	; 0x4B = 'K'
 	ld e,c			;70f1
 	ld c,a			;70f2
 l70f3h:
@@ -492,7 +540,8 @@ b4_end:
 
 ; BLOCK 'b5' (start 0x710c end 0x730c)
 b5_start:
-; "ERGY      00"
+; --- KYO entry continued (last 12 bytes of text + 4 config) ---
+; "...ERGY      00" | config: 00 00 FF FE
 	defb 045h		;710c  'E'
 	defb 052h		;710d  'R'
 l710eh:
@@ -507,14 +556,15 @@ l7115h:
 	defb 020h		;7115  ' '
 	defb 030h		;7116  '0'
 	defb 030h		;7117  '0'
-	defb 000h		;7118
-	defb 000h		;7119
+	defb 000h		;7118	; config byte 0: 0x00 (0 items)
+	defb 000h		;7119	; config byte 1: 0x00
 l711ah:
-	defb 0ffh		;711a
+	defb 0ffh		;711a	; config byte 2: 0xFF
 l711bh:
-	defb 0feh		;711b
+	defb 0feh		;711b	; config byte 3: 0xFE
+; --- Mission 2: TOH (0x711C-0x7147, 44 bytes) ---
+; "TOH  801   HARMONY WITH THE UNIVERSE  02" | config: 02 00 FF FF
 l711ch:
-; "TOH  801   HARMONY WITH THE UNIVERSE  02"
 	defb 054h		;711c  'T'
 	defb 04fh		;711d  'O'
 	defb 048h		;711e  'H'
@@ -561,11 +611,12 @@ l7129h:
 l7142h:
 	defb 030h		;7142  '0'
 	defb 032h		;7143  '2'
-	defb 002h		;7144
-	defb 000h		;7145
-	defb 0ffh		;7146
-	defb 0ffh		;7147
-; "SHA  751  HEALING OF SELF AND OTHERS  05"
+	defb 002h		;7144	; config byte 0: 0x02 (2 items)
+	defb 000h		;7145	; config byte 1: 0x00
+	defb 0ffh		;7146	; config byte 2: 0xFF
+	defb 0ffh		;7147	; config byte 3: 0xFF
+; --- Mission 3: SHA (0x7148-0x7173, 44 bytes) ---
+; "SHA  751  HEALING OF SELF AND OTHERS  05" | config: 05 00 EE FF
 	defb 053h		;7148  'S'
 	defb 048h		;7149  'H'
 	defb 041h		;714a  'A'
@@ -608,11 +659,12 @@ l7157h:
 	defb 020h		;716d  ' '
 	defb 030h		;716e  '0'
 	defb 035h		;716f  '5'
-	defb 005h		;7170
-	defb 000h		;7171
-	defb 0eeh		;7172
-	defb 0ffh		;7173
-; "KAI  701    PREMONITION OF DANGER     07"
+	defb 005h		;7170	; config byte 0: 0x05 (5 items)
+	defb 000h		;7171	; config byte 1: 0x00
+	defb 0eeh		;7172	; config byte 2: 0xEE
+	defb 0ffh		;7173	; config byte 3: 0xFF
+; --- Mission 4: KAI (0x7174-0x719F, 44 bytes) ---
+; "KAI  701    PREMONITION OF DANGER     07" | config: 07 00 EE FF
 	defb 04bh		;7174  'K'
 	defb 041h		;7175  'A'
 	defb 049h		;7176  'I'
@@ -653,11 +705,12 @@ l7157h:
 	defb 020h		;7199  ' '
 	defb 030h		;719a  '0'
 	defb 037h		;719b  '7'
-	defb 007h		;719c
-	defb 000h		;719d
-	defb 0eeh		;719e
-	defb 0ffh		;719f
-; "JIN  651KNOWING THE THOUGHTS OF OTHERS09"
+	defb 007h		;719c	; config byte 0: 0x07 (7 items)
+	defb 000h		;719d	; config byte 1: 0x00
+	defb 0eeh		;719e	; config byte 2: 0xEE
+	defb 0ffh		;719f	; config byte 3: 0xFF
+; --- Mission 5: JIN (0x71A0-0x71CB, 44 bytes) ---
+; "JIN  651KNOWING THE THOUGHTS OF OTHERS09" | config: 09 01 EE FF
 	defb 04ah		;71a0  'J'
 	defb 049h		;71a1  'I'
 	defb 04eh		;71a2  'N'
@@ -698,11 +751,12 @@ l7157h:
 	defb 053h		;71c5  'S'
 	defb 030h		;71c6  '0'
 	defb 039h		;71c7  '9'
-	defb 009h		;71c8
-	defb 001h		;71c9
-	defb 0eeh		;71ca
-	defb 0ffh		;71cb
-; "RETSU601  MASTERY OF TIME AND SPACE   11"
+	defb 009h		;71c8	; config byte 0: 0x09 (9 items)
+	defb 001h		;71c9	; config byte 1: 0x01
+	defb 0eeh		;71ca	; config byte 2: 0xEE
+	defb 0ffh		;71cb	; config byte 3: 0xFF
+; --- Mission 6: RETSU (0x71CC-0x71F7, 44 bytes) ---
+; "RETSU601  MASTERY OF TIME AND SPACE   11" | config: 0B 01 FF FE
 	defb 052h		;71cc  'R'
 	defb 045h		;71cd  'E'
 	defb 054h		;71ce  'T'
@@ -743,11 +797,12 @@ l7157h:
 	defb 020h		;71f1  ' '
 	defb 031h		;71f2  '1'
 	defb 031h		;71f3  '1'
-	defb 00bh		;71f4
-	defb 001h		;71f5
-	defb 0ffh		;71f6
-	defb 0feh		;71f7
-; "ZAI  551 CONTROL OF NATURES ELEMENTS  14"
+	defb 00bh		;71f4	; config byte 0: 0x0B (11 items)
+	defb 001h		;71f5	; config byte 1: 0x01
+	defb 0ffh		;71f6	; config byte 2: 0xFF
+	defb 0feh		;71f7	; config byte 3: 0xFE
+; --- Mission 7: ZAI (0x71F8-0x7223, 44 bytes) ---
+; "ZAI  551 CONTROL OF NATURES ELEMENTS  14" | config: 0E 01 FF FF
 	defb 05ah		;71f8  'Z'
 	defb 041h		;71f9  'A'
 	defb 049h		;71fa  'I'
@@ -788,11 +843,12 @@ l7157h:
 	defb 020h		;721d  ' '
 	defb 031h		;721e  '1'
 	defb 034h		;721f  '4'
-	defb 00eh		;7220
-	defb 001h		;7221
-	defb 0ffh		;7222
-	defb 0ffh		;7223
-; "ZEN  999        ENLIGHTENMENT         14"
+	defb 00eh		;7220	; config byte 0: 0x0E (14 items)
+	defb 001h		;7221	; config byte 1: 0x01
+	defb 0ffh		;7222	; config byte 2: 0xFF
+	defb 0ffh		;7223	; config byte 3: 0xFF
+; --- Mission 8: ZEN (0x7224-0x724F, 44 bytes) ---
+; "ZEN  999        ENLIGHTENMENT         14" | config: 0E 01 EE FF
 	defb 05ah		;7224  'Z'
 	defb 045h		;7225  'E'
 	defb 04eh		;7226  'N'
@@ -833,32 +889,44 @@ l7157h:
 	defb 020h		;7249  ' '
 	defb 031h		;724a  '1'
 	defb 034h		;724b  '4'
-	defb 00eh		;724c
-	defb 001h		;724d
-	defb 0eeh		;724e
-	defb 0ffh		;724f
-	defb 0c4h		;7250
-	defb 070h		;7251  'p'
-	defb 0f0h		;7252
-	defb 070h		;7253  'p'
-	defb 01ch		;7254
-; "qHqtq"
-	defb 071h		;7255  'q'
-	defb 048h		;7256  'H'
-	defb 071h		;7257  'q'
-	defb 074h		;7258  't'
-	defb 071h		;7259  'q'
-	defb 0a0h		;725a
-	defb 071h		;725b  'q'
-	defb 0cch		;725c
-	defb 071h		;725d  'q'
-	defb 0f8h		;725e
-; "q$rMISSION   BRIEFINGLEVEL 0KILL ENEMY GUARDSESCAPE FROM BUILDIN"
-; "G VIA TUNNELS"#GOOD LUCK ON YOUR MISSIONPREPARE TO BEGINMISSION "
-; ... (173 chars total)
-	defb 071h		;725f  'q'
-	defb 024h		;7260  '$'
-	defb 072h		;7261  'r'
+	defb 00eh		;724c	; config byte 0: 0x0E (14 items)
+	defb 001h		;724d	; config byte 1: 0x01
+	defb 0eeh		;724e	; config byte 2: 0xEE
+	defb 0ffh		;724f	; config byte 3: 0xFF
+; --- Mission text pointer table (9 x 2-byte addresses) ---
+; Index into mission text entries above. Used by briefing display code.
+;   [0] 70C4 = RIN    [3] 7148 = SHA    [6] 71CC = RETSU
+;   [1] 70F0 = KYO    [4] 7174 = KAI    [7] 71F8 = ZAI
+;   [2] 711C = TOH    [5] 71A0 = JIN    [8] 7224 = ZEN
+	defb 0c4h		;7250	; ptr[0] lo: 0x70C4 (RIN)
+	defb 070h		;7251	; ptr[0] hi
+	defb 0f0h		;7252	; ptr[1] lo: 0x70F0 (KYO)
+	defb 070h		;7253	; ptr[1] hi
+	defb 01ch		;7254	; ptr[2] lo: 0x711C (TOH)
+	defb 071h		;7255	; ptr[2] hi
+	defb 048h		;7256	; ptr[3] lo: 0x7148 (SHA)
+	defb 071h		;7257	; ptr[3] hi
+	defb 074h		;7258	; ptr[4] lo: 0x7174 (KAI)
+	defb 071h		;7259	; ptr[4] hi
+	defb 0a0h		;725a	; ptr[5] lo: 0x71A0 (JIN)
+	defb 071h		;725b	; ptr[5] hi
+	defb 0cch		;725c	; ptr[6] lo: 0x71CC (RETSU)
+	defb 071h		;725d	; ptr[6] hi
+	defb 0f8h		;725e	; ptr[7] lo: 0x71F8 (ZAI)
+	defb 071h		;725f	; ptr[7] hi
+	defb 024h		;7260	; ptr[8] lo: 0x7224 (ZEN)
+	defb 072h		;7261	; ptr[8] hi
+; --- Briefing display template strings (0x7262-0x730B, 170 bytes) ---
+; Template text used to build the mission briefing screen.
+; "MISSION   BRIEFING"
+; "LEVEL 0"
+; "KILL ENEMY GUARDS"
+; "ESCAPE FROM BUILDING VIA TUNNELS"
+; "GOOD LUCK ON YOUR MISSION"
+; "PREPARE TO BEGIN"
+; "MISSION NAME ' "
+; "COLLECT XX PIECES OF PAPER "
+; "TAPEINSERT "
 	defb 04dh		;7262  'M'
 	defb 049h		;7263  'I'
 	defb 053h		;7264  'S'
