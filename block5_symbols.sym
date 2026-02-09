@@ -1,0 +1,97 @@
+; Saboteur II - Block 5 (Preloader + Sound Engine) Symbol Definitions
+; For use with z80dasm -S flag
+;
+; Note: Sound engine is loaded at source address 0x9C40 but runs at
+; runtime address 0xF618 in 128K bank 1. The code uses runtime addresses
+; internally (JP 0xF628, etc.) so these labels are for the source-address
+; disassembly only.
+
+; ==========================================================================
+; PRELOADER (0x9C22-0x9C3F)
+; ==========================================================================
+; (No additional labels needed — entry point handled by section header)
+
+; ==========================================================================
+; SOUND ENGINE ENTRY POINTS (0x9C40+)
+; ==========================================================================
+; These are the JP vectors at the start of the sound engine code.
+; At runtime, they appear at 0xF618, 0xF61B, 0xF61E, etc.
+
+SOUND_ENGINE_START: equ 0x9C40
+SOUND_INIT_LOOP:    equ 0x9C6B
+SOUND_AY_DISPATCH:  equ 0x9E8A
+SOUND_AY_WRITE:     equ 0x9E9C
+SOUND_NOTE_CALC:    equ 0x9EC0
+SOUND_ENVELOPE:     equ 0x9ECD
+SOUND_VOLUME_SET:   equ 0x9EDA
+SOUND_MIXER_SET:    equ 0x9F03
+SOUND_NOISE_SET:    equ 0x9F0A
+SOUND_TONE_SET:     equ 0x9F11
+SOUND_DURATION:     equ 0x9F26
+SOUND_LOOP_CHECK:   equ 0x9F46
+SOUND_NEXT_NOTE:    equ 0x9F5C
+SOUND_PATTERN:      equ 0x9F61
+SOUND_REST:         equ 0x9F66
+SOUND_LOOP_END:     equ 0x9F6F
+SOUND_CHANNEL_ADV:  equ 0x9F79
+SOUND_UPDATE:       equ 0x9F91
+SOUND_TICK:         equ 0x9FBC
+SOUND_FRAME:        equ 0x9FCC
+SOUND_FRAME_END:    equ 0x9FD7
+SOUND_SILENT:       equ 0x9FDA
+SOUND_CHECK_PLAY:   equ 0x9FE5
+SOUND_IS_PLAYING:   equ 0x9FE9
+SOUND_STOP:         equ 0x9FF1
+SOUND_STOP_ALL:     equ 0x9FF3
+SOUND_AY_REG_W:     equ 0xA00A
+SOUND_AY_LOOP:      equ 0xA01B
+SOUND_AY_DONE:      equ 0xA01E
+SOUND_DATA_PTR:     equ 0xA031
+SOUND_TABLE_BASE:   equ 0xA042
+MUSIC_PLAY:         equ 0xA075
+MUSIC_HANDLER:      equ 0xA0A4
+MUSIC_NOTE_TBL:     equ 0xA0F2
+MUSIC_DURATION_TBL: equ 0xA11C
+MUSIC_INIT:         equ 0xA130
+MUSIC_TICK_CHECK:   equ 0xA14F
+MUSIC_MAIN:         equ 0xA202
+MUSIC_CH_A:         equ 0xA25B
+MUSIC_CH_B:         equ 0xA29C
+MUSIC_CH_C:         equ 0xA2B5
+MUSIC_CH_ADVANCE:   equ 0xA2C3
+MUSIC_CH_LOOP:      equ 0xA2FD
+MUSIC_PATTERN_TBL:  equ 0xA302
+MUSIC_SEQ_END:      equ 0xA31F
+MUSIC_SEQ_NEXT:     equ 0xA326
+MUSIC_SEQ_LOOP:     equ 0xA336
+MUSIC_SEQ_RESTART:  equ 0xA341
+MUSIC_TRANSPOSE:    equ 0xA352
+MUSIC_VOL_ENV:      equ 0xA3A9
+MUSIC_ENV_STEP:     equ 0xA3B3
+MUSIC_ENV_TABLE:    equ 0xA3D1
+MUSIC_ENV_SHAPE:    equ 0xA3F3
+MUSIC_ENV_PERIOD:   equ 0xA3F9
+MUSIC_ENV_RESET:    equ 0xA406
+MUSIC_ENV_DONE:     equ 0xA409
+MUSIC_SFX_START:    equ 0xA42A
+MUSIC_SFX_CH_A:     equ 0xA45C
+MUSIC_SFX_CH_B:     equ 0xA469
+MUSIC_SFX_CH_C:     equ 0xA477
+MUSIC_SFX_LOOP:     equ 0xA49A
+MUSIC_SFX_ITER:     equ 0xA4A0
+MUSIC_SFX_STEP:     equ 0xA4A5
+MUSIC_SFX_DONE:     equ 0xA4AA
+MUSIC_SFX_VOL:      equ 0xA4B3
+MUSIC_SFX_TONE:     equ 0xA4B8
+MUSIC_SFX_MIX:      equ 0xA4BE
+MUSIC_SFX_WRITE:    equ 0xA4E8
+MUSIC_SFX_NEXT:     equ 0xA510
+MUSIC_SFX_REG:      equ 0xA517
+MUSIC_SFX_REG2:     equ 0xA51E
+MUSIC_DATA_START:   equ 0xA550
+MUSIC_DATA_ALT:     equ 0xA55B
+MUSIC_PLAYER_ISR:   equ 0xA57E
+MUSIC_ISR_TICK:     equ 0xA5B0
+MUSIC_ISR_DONE:     equ 0xA5C2
+MUSIC_ISR_UPDATE:   equ 0xA5CE
+MUSIC_ISR_FRAME:    equ 0xA5D8

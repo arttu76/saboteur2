@@ -1,0 +1,4 @@
+.venv/
+.claude/
+*.reassembled
+__pycache__/

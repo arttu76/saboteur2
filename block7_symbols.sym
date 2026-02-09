@@ -1,0 +1,204 @@
+; Saboteur II - Block 7 (Main Game) Symbol Definitions
+; For use with z80dasm -S flag
+; Format: LABEL_NAME: equ 0xADDR
+;
+; Naming conventions:
+;   UPPER_CASE  = subroutines and major labels
+;   _var suffix = memory variables / storage
+;   _tbl suffix = lookup/jump tables
+;   _data suffix = data blocks
+
+; ==========================================================================
+; ENTRY POINT & INITIALIZATION (0x620C-0x62B7)
+; ==========================================================================
+GAME_ENTRY:         equ 0x620C
+FILL_ATTRS:         equ 0x62B1
+
+; ==========================================================================
+; GAME STATE MACHINE (0x770C-0x800C)
+; ==========================================================================
+TITLE_SCREEN:       equ 0x708C
+TITLE_LOOP:         equ 0x7092
+STATE_JUMP_TBL:     equ 0x7774
+DRAW_ROOM:          equ 0x7A93
+LOAD_ROOM_GFX:      equ 0x7AD9
+DRAW_ROOM_TILES:    equ 0x7B15
+STATE_JUMP_TBL_2:   equ 0x7C96
+ROOM_OBJECT_TBL:    equ 0x7D09
+LIFT_STATE_CTR:     equ 0x7DA6
+
+; ==========================================================================
+; SCREEN & DISPLAY (0x760C-0x770C)
+; ==========================================================================
+
+; ==========================================================================
+; MAIN GAME ENGINE & LOOP (0x890C-0x940C)
+; ==========================================================================
+COPY_SPRITE_DATA:   equ 0x8A4B
+SPRITE_DEST_PTR:    equ 0x8A62
+MAIN_LOOP:          equ 0x8B13
+ENTITY_FLIP_ANIM:   equ 0x8CFE
+ENTITY_RNG_SEED:    equ 0x8D40
+ENTITY_BEHAV_ADDR:  equ 0x8D43
+ENEMY_AI_RANDOM:    equ 0x8E1F
+ANIM_CHECK:         equ 0x8E50
+GET_RANDOM:         equ 0x8EA4
+SETUP_ANIM_PTR:     equ 0x8F8B
+
+; ==========================================================================
+; TILE DEFINITIONS (0x940C-0x960C)
+; ==========================================================================
+ENTITY_ARRAY:       equ 0x9434
+ENTITY_ARRAY_LEN:   equ 0x9435
+
+; ==========================================================================
+; MISCELLANEOUS CODE 1 (0x960C-0x980C)
+; ==========================================================================
+LOAD_GUARD_ANIM:    equ 0x91E4
+OBJECT_RENDER_CTR:  equ 0x9213
+
+; ==========================================================================
+; ENTITY BEHAVIOR & GAME OBJECTS (0x980C-0x9E01)
+; ==========================================================================
+SAVE_SPRITE_DIR:    equ 0x98F4
+SAVE_ALT_DIR:       equ 0x9900
+UPDATE_FACING:      equ 0x990C
+DRAW_ENTITY:        equ 0x991B
+PLAYER_Y:           equ 0x993E
+PLAYER_POS:         equ 0x993F
+PLAYER_POS_PTR:     equ 0x9940
+DRAW_OBJECT:        equ 0x9945
+PLAYER_DIR:         equ 0x995F
+DRAW_ENTITY_ALT:    equ 0x9960
+MOVE_ENTITY:        equ 0x997A
+ENTITY_STEP:        equ 0x9991
+MOVE_LEFT:          equ 0x93AB
+MOVE_RIGHT:         equ 0x93CE
+MOVE_UP:            equ 0x93DD
+MOVE_DOWN:          equ 0x93EB
+CHECK_TIMEOUT:      equ 0x9ADD
+CHECK_COMPLETION:   equ 0x9AF5
+MISSION_CHECK:      equ 0x9AFC
+TRANSITION_CTR:     equ 0x9BAE
+MISSION_STATE:      equ 0x9B68
+RENDER_TEXT_BLK:    equ 0x9CB7
+RENDER_MSG_AREA:    equ 0x9CDA
+ROOM_TRANS_LEFT:    equ 0x9D5E
+PLAY_BEEP:          equ 0x9D7B
+SCREEN_FLIP_FLAG:   equ 0x9DC7
+READ_INPUT:         equ 0x9DCA
+
+; ==========================================================================
+; CORE PRINT/DRAW ROUTINE (0x9E01-0xA10C)
+; ==========================================================================
+PRINT_TILE:         equ 0x9E01
+SCAN_KEY:           equ 0x9E30
+SWAP_SCREEN_BUFS:   equ 0x9E3E
+COPY_DATA_BLK:      equ 0xA07B
+APPLY_ATTR_MASK:    equ 0xA08F
+SCREEN_LINE_TBL:    equ 0xA0AF
+SCREEN_LINE_HI:     equ 0xA0B7
+
+; ==========================================================================
+; LOOKUP TABLES & DATA (0xA10C-0xAA0C)
+; ==========================================================================
+
+; ==========================================================================
+; MISCELLANEOUS CODE 2 (0xAA0C-0xAE0C)
+; ==========================================================================
+PROCESS_INPUT:      equ 0xAA35
+INPUT_DISPATCH:     equ 0xAA40
+ANIM_SEQ_TBL:       equ 0xACAC
+RENDER_SPRITE_RAW:  equ 0xAD7E
+
+; ==========================================================================
+; STASH & ITEM INTERACTION (0xAE0C-0xB10C)
+; ==========================================================================
+ITEM_INTERACT_TBL:  equ 0xAE19
+PICKUP_ITEM:        equ 0xAE51
+STASH_SEARCH_IDX:   equ 0xAF8D
+STASH_ITEM_TYPE:    equ 0xAF8E
+CHECK_INVENTORY:    equ 0xAEDA
+INTERACT_OBJECT:    equ 0xB060
+INIT_OBJECT:        equ 0xB102
+
+; ==========================================================================
+; STATUS MESSAGES, LIFTS & FENCES (0xB40C-0xBA0C)
+; ==========================================================================
+DISPLAY_STATUS:     equ 0xB652
+CHECK_INTERACT:     equ 0xB735
+HANDLE_LIFT:        equ 0xB7C7
+STATUS_DISPATCH:    equ 0xB988
+STATUS_DISPATCH_2:  equ 0xB98C
+END_MISSION:        equ 0xB992
+STASH_SEARCH:       equ 0xBA53
+LIFT_HANDLER:       equ 0xB6F6
+
+; ==========================================================================
+; ROOM MAP DATA (0xBA0C-0xCF0C) — data labels
+; ==========================================================================
+ROOM_ENEMY_CFG:     equ 0xC02A
+ROOM_OBJ_PLACE:     equ 0xC061
+
+; ==========================================================================
+; MISCELLANEOUS CODE 3-4 (0xCF0C-0xD60C)
+; ==========================================================================
+
+; ==========================================================================
+; ANIMATION SEQUENCES (0xE70C-0xEB0C)
+; ==========================================================================
+ANIM_LOOKUP:        equ 0xE72C
+ANIM_FRAME_TBL:     equ 0xE6F0
+ANIM_SEQ_DATA:      equ 0xE706
+ANIM_SEQ_ENTRY:     equ 0xE70E
+ANIM_SEQ_SETUP:     equ 0xE721
+
+; ==========================================================================
+; MISSION SELECT UI (0xEB0C-0xEE0C)
+; ==========================================================================
+MISSION_BRIEFING:   equ 0xEBC3
+
+; ==========================================================================
+; MENU & INPUT HANDLING (0xEE0C-0xF10C)
+; ==========================================================================
+CLEAR_KEY_BUFFER:   equ 0xEFA4
+READ_KEY_INPUT:     equ 0xEFAB
+MENU_INPUT:         equ 0xEF3D
+MENU_HANDLER:       equ 0xF023
+
+; ==========================================================================
+; SCORE FORMATTING (0xF10C-0xF30C)
+; ==========================================================================
+SCORE_TABLE:        equ 0xF141
+UPDATE_SCORE:       equ 0xF25E
+FORMAT_SCORE:       equ 0xF262
+SCORE_TO_DISPLAY:   equ 0xF32B
+
+; ==========================================================================
+; FONT & SOUND DATA (0xF40C-0xFFFF)
+; ==========================================================================
+FONT_DATA:          equ 0xF3BC
+FONT_LOOKUP:        equ 0xF415
+
+; ==========================================================================
+; HIGH-SCORE TABLE ADDRESSES
+; ==========================================================================
+HISCORE_TBL:        equ 0x644C
+
+; ==========================================================================
+; GRAPHICS LABELS
+; ==========================================================================
+SPRITE_BASE:        equ 0x88CB
+GFX_PATTERN_TBL:    equ 0x668C
+
+; ==========================================================================
+; SOUND ENGINE (Bank 1, called via bank switch)
+; ==========================================================================
+SOUND_INIT:         equ 0xF618
+
+; ==========================================================================
+; INTERRUPT SYSTEM
+; ==========================================================================
+IM2_VECTOR_TBL:     equ 0x8100
+IM2_JUMP_TARGET:    equ 0xFFFF
+IM2_HANDLER_AREA:   equ 0xFFE0
